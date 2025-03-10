@@ -13,7 +13,7 @@ const Hero = () => {
           With a focus on innovation, efficiency, and people-centric strategies,
           expert coaching fosters a <br /> culture of continuous improvement.
         </span>
-        <button className="bg-[#151583] text-white text-[1.4rem] leading-none  rounded-[50px] p-4 text-center cursor-pointer">
+        <button className="flex items-center gap-2 text-[1.4rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border  transition">
           Book A Session
         </button>
       </div>
