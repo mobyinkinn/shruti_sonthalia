@@ -1,4 +1,5 @@
 import React from "react";
+import ring from "../assets/about_ruhco/ring.gif";
 
 const About_ruhco = () => {
   return (
@@ -36,7 +37,15 @@ const About_ruhco = () => {
             </span>
           </div>
 
-          <div className="w-[35%]">{/**img */}</div>
+          <div className="w-[35%] -top-20 relative">
+            <div
+              className=" h-80 bg-cover"
+              style={{
+                backgroundImage: `url(${ring.src})`,
+                backgroundPosition: "top center",
+              }}
+            ></div>
+          </div>
         </div>
       </div>
     </div>
