@@ -77,11 +77,13 @@
 // };
 
 // export default InterestSection;
+
 "use client"
 
 import AnimatedButton from "@/app/utils/Butoon";
 import { useState } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { GoArrowUpRight } from "react-icons/go";
+
 import { FaHome, FaHandshake, FaKey } from "react-icons/fa";
 const InterestSection = () => {
   const [selected, setSelected] = useState(null);
@@ -110,9 +112,19 @@ const InterestSection = () => {
             Have questions? Ready to take your business to the next level? I’d
             love to hear from you!
           </p>
-          <button className="flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full hover:bg-white hover:text-black border  transition">
+          <AnimatedButton name={"Contact Us"}/>
+          {/* <button className="flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full hover:bg-white hover:text-black border  transition">
             Continue <FaExternalLinkAlt />
-          </button>
+          </button> */}
+          {/* <button className="relative flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full border transition-all duration-300 overflow-hidden group">
+            <span className="transition-transform duration-300 group-hover:translate-x-12 font-bold text-[#363B3F] text-[1.5rem]">
+              Contact Us
+            </span>
+
+            <span className="transition-transform duration-300 group-hover:-translate-x-36">
+              <GoArrowUpRight className="bg-[#151583] text-[#fff] rounded-[20px] size-10 p-1" />
+            </span>
+          </button> */}
           {/* <AnimatedButton /> */}
         </div>
       </div>

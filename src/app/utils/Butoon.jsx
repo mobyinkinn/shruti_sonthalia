@@ -1,29 +1,18 @@
 "use client";
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { motion } from "framer-motion";
+import { GoArrowRight } from "react-icons/go";
 
-export default function AnimatedButton() {
+export default function AnimatedButton({name}) {
   return (
-    <button className="relative flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full border transition duration-300 group overflow-hidden">
-      {/* Icon (Moves Right on Hover) */}
-      <motion.span
-        initial={{ x: 0 }}
-        whileHover={{ x: 10 }}
-        transition={{ duration: 0.3 }}
-        className="relative z-10 transition-transform duration-300 group-hover:translate-x-5"
-      >
-        <FaExternalLinkAlt />
-      </motion.span>
+    <button className="relative flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full border transition-all duration-300 overflow-hidden group delay-150 cursor-pointer">
+      {/* Text - Moves right on hover */}
+      <span className="transition-transform duration-600 group-hover:translate-x-10 font-bold text-[#363B3F] text-[1.5rem] delay-150">
+        {name}
+      </span>
 
-      {/* Text (Moves Left on Hover) */}
-      <motion.span
-        initial={{ x: 0 }}
-        whileHover={{ x: -10 }}
-        transition={{ duration: 0.3 }}
-        className="relative z-10 transition-transform duration-300 group-hover:-translate-x-5"
-      >
-        Continue
-      </motion.span>
+      {/* Icon - Moves left on hover */}
+      <span className="transition-transform duration-600 group-hover:-translate-x-36 delay-150">
+        <GoArrowRight className="bg-[#151583] text-[#fff] rounded-[20px] size-10 p-1" />
+      </span>
     </button>
   );
 }

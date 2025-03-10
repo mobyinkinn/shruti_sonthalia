@@ -1,3 +1,4 @@
+import AnimatedButton from "@/app/utils/Butoon";
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
@@ -18,9 +19,11 @@ const Contact_us = () => {
             for you and your organization.
           </p>
         </div>
-        <button className="flex items-center gap-2 px-6 py-4 text-[1.4rem] leading-none font-semibold bg-white text-black rounded-full hover:bg-white hover:text-black border transition">
+                  <AnimatedButton name={"Contact Us"}/>
+        
+        {/* <button className="flex items-center gap-2 px-6 py-4 text-[1.4rem] leading-none font-semibold bg-white text-black rounded-full hover:bg-white hover:text-black border transition">
           Contact Us <FaExternalLinkAlt />
-        </button>
+        </button> */}
       </div>
     </div>
   );
