@@ -103,7 +103,7 @@ const InterestSection = () => {
       <div className="w-[90%] bg-[#151583] rounded-2xl p-20 flex flex-col md:flex-row items-center justify-between gap-8">
         {/* Left Content */}
         <div className="text-white w-[100%] items-center flex flex-col gap-4">
-          <h2 className="text-[3.5rem] font-bold leading-tight">
+          <h2 className="text-[2.5rem] font-medium leading-tight uppercase">
             Get In Touch
           </h2>
           <p className="text-[1.8rem] text-center w-[80%]">

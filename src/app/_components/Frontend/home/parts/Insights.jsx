@@ -19,10 +19,10 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const Insightsews = () => {
   return (
     <>
-      <div className="flex justify-center pb-5 ">
+      <div className="flex justify-center py-5 ">
         <span className="text-black text-[2.5rem]">Insights & Research</span>
       </div>
-      <div className="w-[90%] h-[900px] mx-auto flex space-x-4 ">
+      <div className="w-[90%] h-[900px] mx-auto flex space-x-4 py-5 ">
         <div className="flex flex-col w-[33.33%] space-y-4 items-center gap-6">
           <div className="flex flex-col gap-7">
             <div className="h-[560px] w-full relative">

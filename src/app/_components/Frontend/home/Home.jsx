@@ -6,18 +6,19 @@ import News from "./parts/News";
 import Insightsews from "./parts/Insights";
 import Testimonials from "./parts/Testimonials";
 import HoverEffectText from "./parts/ImageDesign";
+import Hero from "./parts/Hero";
 
 const Home = () => {
   return (
     <>
-      <Carausal />
+    <Hero/>
       <HoverEffectText />
-
       <Info />
-      <Insightsews />
-      <InterestSection />
+      <Carausal />
       <News />
       <Testimonials />
+      <Insightsews />
+      <InterestSection />
     </>
   );
 };

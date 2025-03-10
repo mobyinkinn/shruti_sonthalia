@@ -54,10 +54,10 @@ const settingsRight = {
 export default function Carausal() {
   return (
     <div className="px-5 xl:px-12 py-5">
-      <div className="flex justify-center pb-2">
-          <span className="text-black text-[2rem]">Noteworthy Clients Working At</span>
+      <div className="flex justify-center py-5">
+          <span className="text-black text-[2.2rem]">Noteworthy Clients Working At</span>
       </div>
-      <div className="space-y-10">
+      <div className="space-y-10 py-5">
         <Slider {...settings}>
           {carausel.map((el) => (
             <Images key={el.id} el={el} />

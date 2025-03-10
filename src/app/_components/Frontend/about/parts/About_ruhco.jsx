@@ -1,5 +1,5 @@
 import React from "react";
-import ring from "../assets/about_ruhco/ring.gif";
+// import ring from "../assets/about_ruhco/ring.gif";
 
 const About_ruhco = () => {
   return (
@@ -37,14 +37,24 @@ const About_ruhco = () => {
             </span>
           </div>
 
-          <div className="w-[35%] -top-20 relative">
-            <div
+          <div className="w-[25%] -top-5 relative">
+            {/* <div
               className=" h-80 bg-cover"
               style={{
                 backgroundImage: `url(${ring.src})`,
                 backgroundPosition: "top center",
               }}
-            ></div>
+            ></div> */}
+            <video
+              width="100%"
+              autoPlay
+              loop
+              muted
+              controls={false}
+              style={{ objectFit: "cover" }}
+            >
+              <source src="/ring.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>

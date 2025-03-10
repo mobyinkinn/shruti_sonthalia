@@ -6,10 +6,10 @@ const Hero = () => {
     <div className="flex flex-col ">
       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6">
         <span className="text-[1.4rem] leading-none ">About Us</span>
-        <span className="text-[2.5rem] leading-none font-semibold tracking-[5%]  uppercase">
+        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
           Empowering businesses with <br /> expertise
         </span>
-        <span className=" text-[1.4rem] leading-none ">
+        <span className="text-[1.4rem] leading-6 tracking-wider">
           With a focus on innovation, efficiency, and people-centric strategies,
           expert coaching fosters a <br /> culture of continuous improvement.
         </span>

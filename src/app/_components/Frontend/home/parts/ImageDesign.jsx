@@ -95,24 +95,26 @@ const HoverEffectText = () => {
   ];
 
   return (
-    <div
-      className="relative w-full h-screen bg-cover bg-center flex justify-end items-start rounded-[20px]"
-      style={{ backgroundImage: `url('/tempBanner.png')` }}
-    >
-      {/* Text Content Section */}
-      <div className="bg-white bg-opacity-50 p-8 rounded-[20px]  w-[30%]">
-        {textItems.map((item, index) => (
-          <motion.p
-            key={index}
-            className={`text-black text-lg font-semibold transition-all duration-300 cursor-pointer mb-2 ${
-              hoveredIndex === index ? "text-yellow-400" : ""
-            }`}
-            onMouseEnter={() => setHoveredIndex(index)}
-            onMouseLeave={() => setHoveredIndex(null)}
-          >
-            {item}
-          </motion.p>
-        ))}
+    <div className="flex flex-col items-center justify-center pt-10">
+      <div
+        className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6  "
+        style={{ backgroundImage: `url('/tempBanner.png')` }}
+      >
+        {/* Text Content Section */}
+        <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-10">
+          {textItems.map((item, index) => (
+            <motion.p
+              key={index}
+              className={`text-black text-[1.5rem] font-semibold transition-all duration-300 cursor-pointer mb-2 ${
+                hoveredIndex === index ? "text-yellow-400" : ""
+              }`}
+              onMouseEnter={() => setHoveredIndex(index)}
+              onMouseLeave={() => setHoveredIndex(null)}
+            >
+              {item}
+            </motion.p>
+          ))}
+        </div>
       </div>
     </div>
   );
