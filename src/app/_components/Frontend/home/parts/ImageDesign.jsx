@@ -106,7 +106,7 @@ const HoverEffectText = () => {
             <motion.p
               key={index}
               className={`text-black text-[1.5rem] font-semibold transition-all duration-300 cursor-pointer mb-2 ${
-                hoveredIndex === index ? "text-yellow-400" : ""
+                hoveredIndex === index ? "text-[#D24324]" : ""
               }`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}

@@ -27,15 +27,13 @@ const News = () => {
                 <div className="bg-black rounded-s-2xl bg-opacity-30 opacity-20 absolute inset-0 transition-opacity duration-300  hover:opacity-0 rounded-[20px]"></div>
 
                 <div className="text-white text-[1.9rem] leading-[2.4rem] space-y-2 flex flex-col justify-center items-center">
-                  <span className="font-white">Serenity Mansions</span>
+                  <span className="font-white">Executive Coaching</span>
                 </div>
               </div>
             </div>
-            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center">
-              Welcome to the thriving world of Dubai investments, where
-              opportunities abound and financial success beckons. In this quick
-              guide, we’ll explore why investing in Dubai is a game-changer for
-              savvy investors like yourself.
+            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center h-[100px]">
+              Executive coaching helps leaders identify blind spots, break
+              limits, and step into their next phase with clarity and purpose.
             </span>
           </div>
           <div>
@@ -59,16 +57,15 @@ const News = () => {
                 <div className="bg-black rounded-s-2xl rounded-[20px] bg-opacity-30 opacity-20 absolute inset-0 transition-opacity duration-300  hover:opacity-0"></div>
 
                 <div className="text-white text-[1.9rem] leading-[2.4rem] space-y-2 flex flex-col justify-center items-center">
-                  <span className="font-white">Serenity Mansions</span>
+                  <span className="font-white">Organisational Development</span>
                 </div>
               </div>
             </div>
 
-            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center">
-              Welcome to the thriving world of Dubai investments, where
-              opportunities abound and financial success beckons. In this quick
-              guide, we’ll explore why investing in Dubai is a game-changer for
-              savvy investors like yourself.
+            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center h-[100px]">
+              A coach provides a safe space to explore discomfort, break
+              limiting patterns, and unlock intuition—guiding coachees to find
+              answers from within.
             </span>
           </div>
           <div>
@@ -92,16 +89,14 @@ const News = () => {
                 <div className="bg-black rounded-s-2xl rounded-[20px] bg-opacity-30 opacity-20 absolute inset-0 transition-opacity duration-300  hover:opacity-0"></div>
 
                 <div className="text-white text-[1.9rem] leading-[2.4rem] space-y-2 flex flex-col justify-center items-center">
-                  <span className="font-white">Serenity Mansions</span>
+                  <span className="font-white">Coaching Supervision</span>
                 </div>
               </div>
             </div>
 
-            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center">
-              Welcome to the thriving world of Dubai investments, where
-              opportunities abound and financial success beckons. In this quick
-              guide, we’ll explore why investing in Dubai is a game-changer for
-              savvy investors like yourself.
+            <span className="text-[1.3rem] font-light leading-[1.6rem] text-center h-[100px]">
+              A transformative, nine-phase strategy engaging your leadership
+              team to drive tailored organizational growth.
             </span>
           </div>
           <div>
