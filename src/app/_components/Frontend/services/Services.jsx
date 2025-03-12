@@ -12,11 +12,11 @@ const Services = () => {
     <div className="p-14">
       <Hero />
       <Coaching />
+      <Executive />
+      <WhoWeWorkWith />
       <Case_Study />
       <Testimonials />
       <Contact_us />
-      <Executive/>
-      <WhoWeWorkWith/>
     </div>
   );
 };
