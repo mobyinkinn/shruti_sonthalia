@@ -1,6 +1,7 @@
 import React from "react";
 import approach from "../assets/approach/approach.png";
 import circle from "../assets/approach/circle.gif";
+import service from "../assets/approach/service.gif";
 import img1 from "../assets/approach/img1.png";
 import img2 from "../assets/approach/img2.png";
 import img3 from "../assets/approach/img3.png";
@@ -47,14 +48,14 @@ const Approach = () => {
           </div>
 
           <div className="relative w-[600px] flex items-center justify-center">
-            <div
+            {/* <div
               className="absolute w-[580px] h-[600px] rounded-full bg-cover bg-center"
               style={{ backgroundImage: `url(${circle.src})` }}
-            ></div>
+            ></div> */}
 
             <div
-              className="relative z-10 w-[450px] min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[450px] rounded-[40px] bg-cover bg-center"
-              style={{ backgroundImage: `url(${approach.src})` }}
+              className=" w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[550px] rounded-[40px] bg-cover bg-center"
+              style={{ backgroundImage: `url(${service.src})` }}
             ></div>
           </div>
 
