@@ -13,9 +13,9 @@ const Coaching_supervision = () => {
       <Benifits />
       <Approach />
       <Contact_us
-        heading="Want to Take Your Coaching to the Next Level?"
-        line1="We are Here to Help You!"
-        line2="Get in touch today to explore how our coaching supervision can drive measurable impact for you."
+        heading="Ready to Transform Your Leadership?"
+        line1="Take the first step toward building a coaching culture in your organization. Join our Coaching Skills Program and become the leader who inspires, empowers, and drives meaningful change."
+        line2="Get in Touch Now to book a consultation and explore how this program can elevate your leadership."
       />
     </div>
   );
