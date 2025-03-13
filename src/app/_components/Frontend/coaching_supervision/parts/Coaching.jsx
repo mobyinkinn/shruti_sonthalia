@@ -28,11 +28,11 @@ const Coaching = () => {
         </span>
       </div>
 
-      <div className="w-[70%] mx-auto flex flex-wrap gap-8 justify-center items-center mt-8 ">
+      <div className="w-[80%] mx-auto flex flex-wrap gap-8 justify-center items-center mt-8 ">
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center"
+            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#151583] hover:text-[#fff]"
           >
             <div className="text-[1.4rem] font-medium leading-snug">
               {item.heading}
