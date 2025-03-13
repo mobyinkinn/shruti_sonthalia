@@ -89,6 +89,7 @@ export default function ExecutiveCoaching() {
           className="rounded-lg"
         />
       </div>
+      
       <div className="flex flex-col gap-5">
           <li>
             Our Approach: Multi-Touchpoint Learning for Sustainable Impact

@@ -55,7 +55,7 @@ const Approach = () => {
           </div>
 
           {/* Center Image */}
-          <div className="relative w-[600px] flex items-center justify-center">
+          {/* <div className="relative w-[600px] flex items-center justify-center">
             <div
               className="absolute w-[580px] h-[600px] rounded-full bg-cover bg-center"
               style={{ backgroundImage: `url(${circle.src})` }}
@@ -64,9 +64,21 @@ const Approach = () => {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={isInView ? { scale: 1, opacity: 1 } : {}}
               transition={{ duration: 1 }}
-              className="relative z-10 w-[450px] min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[450px] rounded-[40px] bg-cover bg-center"
+              className="relative z-10 w-[400px] min-h-[302px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[450px] rounded-[40px] bg-cover bg-center"
               style={{ backgroundImage: `url(${approach.src})` }}
             ></motion.div>
+          </div> */}
+
+          <div className="relative w-[600px] flex items-center justify-center">
+            {/* <div
+              className="absolute w-[580px] h-[600px] rounded-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${circle.src})` }}
+            ></div> */}
+
+            <div
+              className=" w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[550px] rounded-[40px] bg-cover bg-center"
+              style={{ backgroundImage: `url(${service.src})` }}
+            ></div>
           </div>
 
           {/* Right Section */}
