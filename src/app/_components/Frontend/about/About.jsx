@@ -14,7 +14,11 @@ const About = () => {
       <Info />
       <Principles />
       <About_ruhco />
-      <Contact_us />
+      <Contact_us
+        heading="Ready to Transform Your Leadership?"
+        line1="Join the growing community of leaders investing in their leadership journey."
+        line2="Get in touch today to explore coaching can drive measurable impact or you and your organization."
+      />
     </div>
   );
 };
