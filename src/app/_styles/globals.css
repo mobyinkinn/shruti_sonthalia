@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes floatAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes floatAnimationReverse {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(20px); }
+  100% { transform: translateY(0); }
+}
+
+.float-animation {
+  animation: floatAnimation 2s infinite ease-in-out;
+}
+
+.float-animation-reverse {
+  animation: floatAnimationReverse 2s infinite ease-in-out;
+}
