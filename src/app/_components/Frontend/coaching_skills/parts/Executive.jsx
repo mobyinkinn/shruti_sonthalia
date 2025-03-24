@@ -85,7 +85,7 @@ export default function ExecutiveCoaching() {
         />
       </div>
       <div className="flex flex-col gap-5">
-        <h2 className="text-3xl w-[80%] text-gray-900 tracking-wider font-medium uppercase">
+        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium uppercase">
           What You Will Get at the End of this Program
         </h2>
         <div className="mt-4 space-y-4">

@@ -85,7 +85,7 @@ export default function WhoWeWorkWith() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-12">
       {/* Left Text Section */}
       <div className="lg:w-1/2 space-y-6">
-        <h2 className="text-3xl font-bold">WHO WE WORK WITH?</h2>
+        <h2 className="text-3xl font-bold text-[#E22E1B]">WHO WE WORK WITH?</h2>
         <div className="space-y-4">
           {[
             {

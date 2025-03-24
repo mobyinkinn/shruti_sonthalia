@@ -4,11 +4,13 @@ import Coaching from "./parts/Coaching";
 import Benifits from "./parts/Benifits";
 import Approach from "./parts/Approach";
 import Contact_us from "../about/parts/Contact_us";
+import LeadershipProwess from "./parts/BannerwithImage";
 
 const Coaching_supervision = () => {
   return (
     <div className="p-14">
       <Hero />
+      <LeadershipProwess/>
       <Coaching />
       <Benifits />
       <Approach />

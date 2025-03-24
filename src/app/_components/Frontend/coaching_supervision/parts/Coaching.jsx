@@ -23,7 +23,7 @@ const Coaching = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
+        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase text-[#E22E1B]">
           WHY COACHING Supervison MATTERS?
         </span>
       </div>
@@ -32,7 +32,7 @@ const Coaching = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#151583] hover:text-[#fff]"
+            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]"
           >
             <div className="text-[1.4rem] font-medium leading-snug">
               {item.heading}

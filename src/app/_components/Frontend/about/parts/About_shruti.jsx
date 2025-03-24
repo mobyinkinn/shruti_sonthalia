@@ -4,7 +4,7 @@ import shruti_ring from "../assets/about_shruti/shruti_ring.png";
 
 const About_shruti = () => {
   return (
-    <div className="flex flex-col mt-12">
+    <div className="flex flex-col mt-12 gap-4">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col w-[48%] space-y-8">
           <span className="text-[2.5rem] leading-none font-semibold">

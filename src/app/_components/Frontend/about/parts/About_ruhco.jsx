@@ -1,64 +1,60 @@
 import React from "react";
 // import ring from "../assets/about_ruhco/ring.gif";
+import about2 from "../assets/4.png";
+import Image from "next/image";
 
 const About_ruhco = () => {
   return (
-    <div className="flex flex-col mt-12 space-y-6">
-      <div className="flex flex-col  justify-center items-center space-y-6">
-        <span className="text-[1.4rem] leading-none">About Ruhco</span>
-        <span className="text-[2.5rem] leading-none font-semibold uppercase">
-          connecting the Ruh - Soul and Co
-        </span>
+    <>
+      <div className="text-center">
+        <h2 className="text-3xl font-medium">
+          ABOUT <span className="text-indigo-700 font-bold">RUHCO</span>
+        </h2>
       </div>
-      <div className="flex flex-col space-y-6">
-        <span className="text-[1.4rem] leading-none">
-          Ruh expresses spirit, essence, source. Honouring the life force that
-          is abundant and wise.
-        </span>
-        <span className="text-[1.4rem] leading-none">
-          Co. invokes a company, yours and ours. The material container in which
-          we create and act. It speaks of connection and cocreation, the
-          relational fabric of our existence.
-        </span>
-        <div className="flex">
-          <div className="w-[65%] flex flex-col space-y-6">
-            <span className="text-[1.4rem] leading-none">
-              RuhCo. encapsulates the core of our mission. The alignment of
-              infinite source and grounded action in a powerful, purposeful
-              force for good.
-            </span>
-            <span className="text-[1.4rem] leading-none">
-              Ruk<b>ō </b> [Hindi]: ‘halt’
-            </span>
-            <span className="text-[1.4rem] leading-none">
+      <section className="py-8 px-4 md:px-12 bg-white">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+          {/* Left Text Column */}
+          <div className="space-y-6 text-gray-800 text-lg leading-relaxed ">
+            <p>
+              <span className="text-red-600 font-semibold">Ruh</span> expresses
+              spirit, essence, source. Honouring the life force that is abundant
+              and wise.
+            </p>
+            <p>
+              <span className="text-red-600 font-semibold">Co.</span> invokes a
+              company, yours and ours. The material container in which we create
+              and act. It speaks of connection and cocreation, the relational
+              fabric of our existence.
+            </p>
+            <p>
+              <span className="text-red-600 font-semibold">RuhCo.</span>{" "}
+              encapsulates the core of our mission. The alignment of infinite
+              source and grounded action in a powerful, purposeful force for
+              good.
+            </p>
+            <p>
+              <span className="text-red-600 font-semibold">Rukō</span>{" "}
+              <span className="text-sm text-gray-600">[Hindi]: ‘halt’</span>
+              <br />
               The sacred pause is the seed of all transformation. When we stop
               and rest unapologetically into being, a quantum shift is possible
               – opening the door to new paradigms in leadership.
-            </span>
+            </p>
           </div>
 
-          <div className="w-[25%] -top-5 relative">
-            {/* <div
-              className=" h-80 bg-cover"
-              style={{
-                backgroundImage: `url(${ring.src})`,
-                backgroundPosition: "top center",
-              }}
-            ></div> */}
-            <video
-              width="100%"
-              autoPlay
-              loop
-              muted
-              controls={false}
-              style={{ objectFit: "cover" }}
-            >
-              <source src="/ring.mp4" type="video/mp4" />
-            </video>
+          {/* Right Image Column */}
+          <div className="flex justify-center">
+            <Image
+              src={about2}
+              alt="RuhCo Flower Illustration"
+              width={600}
+              height={600}
+              className="object-contain"
+            />
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 };
 

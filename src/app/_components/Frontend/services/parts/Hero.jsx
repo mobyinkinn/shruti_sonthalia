@@ -1,58 +1,84 @@
-import React from "react";
-import group from "../assets/hero/group.png";
+// import React from "react";
+// import hero from "../assets/hero/hero.png";
 
+// const Hero = () => {
+//   return (
+//     <div className="flex flex-col ">
+//       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6">
+//         <span className="text-[1.4rem] leading-none ">Services</span>
+//         <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
+//           Master Transformational
+//           <br /> Leadership
+//         </span>
+//         <span className="text-[1.4rem] leading-6 tracking-wider">
+//           Develop essential coaching techniques, enhance leadership abilities,
+//           and drive meaningful
+//           <br /> transformation in businesses and teams
+//         </span>
+//         <button className="flex items-center gap-2 text-[1.4rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border transition cursor-pointer">
+//           Book A Session
+//         </button>
+//       </div>
+
+//       <div className="mt-12">
+//         <div className="flex flex-row justify-between">
+//           <div className="flex flex-col w-[58%] space-y-8 justify-center">
+//             <span className="text-[2.5rem] leading-none font-semibold uppercase">
+//               Lead with Influence, Not Authority
+//             </span>
+//             <span className="text-[1.2rem] leading-7 tracking-widest">
+//               In today’s fast-changing business landscape, leaders who embrace
+//               coaching skills unlock deeper team engagement, higher performance,
+//               and sustainable success. Our Coaching Skills Program isn’t just
+//               another leadership course—it is a results-driven program designed
+//               to enhance how leaders communicate, inspire, and empower their
+//               teams, with measurable improvements in engagement, performance,
+//               and collaboration.
+//             </span>
+//           </div>
+//           <div className=" w-[38%]">
+//             <div
+//               className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[400px] rounded-[40px] bg-cover bg-center"
+//               style={{ backgroundImage: `url(${hero.src})` }}
+//             ></div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+
+// export default Hero;
+
+
+import Image from "next/image";
+import mask3 from "../assets/Banner.png"
 const Hero = () => {
   return (
-    <div className="flex flex-col ">
-      <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6">
-        <span className="text-[1.4rem] leading-none ">Services</span>
-        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
-          Executive Coaching for <br /> Senior Leaders
-        </span>
-        <span className="text-[1.4rem] leading-6 tracking-wider">
+    <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
+      <Image
+        src={mask3}
+        alt="Transformational Leadership"
+        layout="fill"
+        objectFit="cover"
+        className="z-0"
+        priority
+      />
+      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
+      <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
+        <h1 className="text-white text-2xl md:text-5xl font-semibold mb-4 tracking-wider">
+          Executive Coaching for Senior Leaders
+        </h1>
+        <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
           Gain the knowledge, strategies, and confidence to elevate your
           business with expert guidance.
-          <br /> Unlock new opportunities and achieve success with proven
-          coaching methods.
-        </span>
+          Unlock new opportunities and achieve success with proven
+          coaching methods.'
+        </p>
         <button className="flex items-center gap-2 text-[1.4rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border transition cursor-pointer">
           Book A Session
         </button>
-      </div>
-
-      <div className="mt-12">
-        <div className="flex flex-row justify-between">
-          <div className="flex flex-col w-[58%] space-y-8">
-            <span className="text-[2.5rem] leading-none font-semibold uppercase">
-              Unlock Your Leadership Prowress
-            </span>
-            <span className="text-[1.2rem] leading-7 tracking-widest">
-              In today’s volatile and rapidly evolving business environment,
-              senior leaders face unprecedented challenges. The need for
-              adaptive, high-performing leadership has never been greater. Yet,
-              only 18% of leaders feel “very capable” of navigating this
-              environment effectively*.
-            </span>
-            <span className="text-[1.2rem] leading-7 tracking-widest">
-              Our executive coaching programs provide a structured, data-backed,
-              and results-driven approach to leadership development. These
-              programs help executives navigate complexity, enhance
-              decision-making, and drive organizational success by equipping
-              leaders with the self-awareness, resilience, and strategic insight
-              required to drive meaningful transformation within their
-              organizations.
-            </span>
-            <span className="text-[1.2rem] leading-7 tracking-widest">
-              Development Dimensions International and The Conference Board
-            </span>
-          </div>
-          <div className=" w-[38%]">
-            <div
-              className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[480px] rounded-[40px] bg-cover bg-center"
-              style={{ backgroundImage: `url(${group.src})` }}
-            ></div>
-          </div>
-        </div>
       </div>
     </div>
   );

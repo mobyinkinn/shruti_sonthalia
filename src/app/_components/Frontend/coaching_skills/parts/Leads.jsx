@@ -4,9 +4,9 @@ import hero from "../assets/hero/hero.png";
 const Leads = () => {
   return (
     <div className="mt-12">
-      <div className="flex flex-row justify-between">
-        <div className="flex flex-col w-[45%] space-y-8 justify-start">
-          <span className="text-[2.5rem] font-medium uppercase leading-12">
+      <div className="flex flex-row justify-evenly">
+        <div className="flex flex-col w-[45%] space-y-8 justify-center">
+          <span className="text-[2rem] font-medium uppercase leading-12 text-[#E22E1B] text-center">
             Why Choose Our Coaching Skills Program?
           </span>
         </div>

@@ -9,7 +9,7 @@ export default function Benifits() {
         <div className="relative w-full max-w-lg">
           <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
           <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div>
-          
+
           <div className="relative z-10 flex space-x-4">
             <div className="w-1/2 float-animation">
               <Image
@@ -30,12 +30,11 @@ export default function Benifits() {
               />
             </div>
           </div>
-         
         </div>
       </div>
 
       {/* Left Text Section */}
-      <div className="lg:w-1/2 space-y-6">
+      <div className="lg:w-1/2 space-y-6 text-[#E22E1B]">
         <h2 className="text-3xl font-medium uppercase tracking-wider">
           Who Benefits from <br /> Coaching Supervision?
         </h2>
@@ -61,7 +60,7 @@ export default function Benifits() {
             <div key={index} className="flex items-start gap-3">
               <div className="w-3 h-3 bg-[#151583] rounded-full mt-2"></div>
               <div>
-                <h3 className="text-[1.3rem] ">{item.title}</h3>
+                <h3 className="text-[1.3rem] text-black ">{item.title}</h3>
                 <p className="text-[#363B3F]">{item.description}</p>
               </div>
             </div>

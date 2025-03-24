@@ -8,8 +8,10 @@ const Contact_us = ({ heading, line1, line2 }) => {
         <h2 className="text-[2.5rem] leading-none font-medium uppercase">
           {heading}
         </h2>
-        <div className="items-center flex flex-col space-y-6">
-          <p className="text-[1.4rem] leading-none text-center">{line1}</p>
+        <div className="items-center flex flex-col space-y-6 leading-12">
+          <p className="text-[1.4rem] text-center leading-8">
+            {line1}
+          </p>
           <p className="text-[1.4rem] leading-none text-center ">{line2}</p>
         </div>
         <AnimatedButton name={"Contact Us"} />

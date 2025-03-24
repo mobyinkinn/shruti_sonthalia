@@ -1,16 +1,18 @@
 import React from "react";
-import Hero from "./parts/Hero.jsx";
 import Coaching from "./parts/Coaching.jsx";
 import Case_Study from "./parts/Case_Study.jsx";
 import Contact_us from "../about/parts/Contact_us.jsx";
-import Testimonials from "../home/parts/Testimonials.jsx";
 import Executive from "./parts/Executive.jsx";
 import WhoWeWorkWith from "./parts/WhoWorkWith.jsx";
+import Hero from "./parts/Hero.jsx";
+import LeadershipProwess from "./parts/BannerwithImage.jsx";
+import Testimonials from "./parts/Testimonials.jsx";
 
 const Services = () => {
   return (
-    <div className="p-14">
+    <div className="p-14 bg-[#FCFCFF]">
       <Hero />
+      <LeadershipProwess />
       <Coaching />
       <Executive />
       <WhoWeWorkWith />

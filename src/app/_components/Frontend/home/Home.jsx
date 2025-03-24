@@ -8,24 +8,30 @@ import Testimonials from "./parts/Testimonials";
 import HoverEffectText from "./parts/ImageDesign";
 import Hero from "./parts/Hero";
 import Contact_us from "../about/parts/Contact_us";
+import Empowering from "./parts/Empowering";
+import ContactForm from "./parts/Contact";
+import InsightsSlider from "./parts/SliderInsights";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <HoverEffectText />
-      <Info />
       <Carausal />
-      <News />
+      <Empowering/>
       <Testimonials />
-      <Insightsews />
+      <InsightsSlider/>
+      <HoverEffectText />
+      <ContactForm/>
+      {/* <Info /> */}
+      {/* <News /> */}
+      {/* <Insightsews /> */}
       {/* <InterestSection /> */}
-      <div className="mx-14">
+      {/* <div className="mx-14">
         <Contact_us
           heading="Get In Touch"
           line1="Have questions? Ready to take your business to the next level? I’d love to hear from you!"
         />
-      </div>
+      </div> */}
     </>
   );
 };

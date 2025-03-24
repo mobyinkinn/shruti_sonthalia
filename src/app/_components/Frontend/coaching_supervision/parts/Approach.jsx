@@ -15,7 +15,21 @@ const Approach = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   return (
     <>
-      <div className="flex flex-col mt-12">
+      <div className="flex items-center flex-col gap-4 pt-16">
+        <h5 className="font-medium uppercase tracking-wider text-[#151583]">
+          Our Approach
+        </h5>
+        <h2 className="text-3xl font-medium uppercase tracking-wider text-[#E22E1B]">
+          What You Can Expect?
+        </h2>
+        <span className="text-[1.5rem] text-center leading-8 tracking-wider font-normal text-[#181818]">
+          We offer individual and group supervision tailored to your needs. Our
+          experienced supervisors create a non-judgmental, supportive
+          environment where you can explore real client cases, receive
+          constructive feedback, and develop advanced coaching techniques.
+        </span>
+      </div>
+      <div className="flex flex-col mt-5 overflow-hidden">
         <div
           ref={ref}
           className="relative flex flex-row justify-between items-center h-screen mt-12"
@@ -118,7 +132,7 @@ const Approach = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6 mt-14">
-        <span className="text-[2.5rem] leading-none tracking-wide font-semibold  uppercase">
+        <span className="text-[2rem] leading-none tracking-wide font-semibold text-[#151583]">
           Coaching supervision is not just a professional requirement it’s an
           opportunity to expand your potential. Investing in supervision
           enhances your effectiveness, deepens your impact, and strengthens your

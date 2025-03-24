@@ -22,7 +22,7 @@ const Coaching = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
+        <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
           WHY COACHING MATTERS?
         </span>
       </div>
@@ -31,9 +31,9 @@ const Coaching = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-[20px] p-6 w-[400px] text-center"
+            className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#F3834C] hover:text-[#fff] h-[150px]"
           >
-            <span className="text-[1.4rem] leading-snug">{item.item}</span>
+            <span className="text-[1.2rem] leading-snug">{item.item}</span>
           </div>
         ))}
       </div>

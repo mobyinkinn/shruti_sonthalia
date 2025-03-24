@@ -80,12 +80,50 @@
 // export default HoverEffectText;
 
 
-import { useState } from "react";
-import { motion } from "framer-motion";
+// import { useState } from "react";
+// import { motion } from "framer-motion";
+
+// const HoverEffectText = () => {
+//   const [hoveredIndex, setHoveredIndex] = useState(null);
+
+//   const textItems = [
+//     "Prioritising Your Time",
+//     "Building Self-Confidence",
+//     "Overcoming Procrastination",
+//     "Overcoming the Fear of Failure",
+//     "Maintaining Focus, Direction & Motivation",
+//   ];
+
+//   return (
+//     <div className="flex flex-col items-center justify-center pt-10">
+//       <div
+//         className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6  "
+//         style={{ backgroundImage: `url('/tempBanner.png')` }}
+//       >
+//         {/* Text Content Section */}
+//         <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-10">
+//           {textItems.map((item, index) => (
+//             <motion.p
+//               key={index}
+//               className={`text-black text-[1.5rem] font-semibold transition-all duration-300 cursor-pointer mb-2 ${
+//                 hoveredIndex === index ? "text-[#D24324]" : ""
+//               }`}
+//               onMouseEnter={() => setHoveredIndex(index)}
+//               onMouseLeave={() => setHoveredIndex(null)}
+//             >
+//               {item}
+//             </motion.p>
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HoverEffectText;
+
 
 const HoverEffectText = () => {
-  const [hoveredIndex, setHoveredIndex] = useState(null);
-
   const textItems = [
     "Prioritising Your Time",
     "Building Self-Confidence",
@@ -97,22 +135,18 @@ const HoverEffectText = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-10">
       <div
-        className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6  "
+        className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6"
         style={{ backgroundImage: `url('/tempBanner.png')` }}
       >
         {/* Text Content Section */}
         <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-10">
           {textItems.map((item, index) => (
-            <motion.p
+            <p
               key={index}
-              className={`text-black text-[1.5rem] font-semibold transition-all duration-300 cursor-pointer mb-2 ${
-                hoveredIndex === index ? "text-[#D24324]" : ""
-              }`}
-              onMouseEnter={() => setHoveredIndex(index)}
-              onMouseLeave={() => setHoveredIndex(null)}
+              className="text-black text-[1.5rem] font-semibold transition-colors duration-300 cursor-pointer hover:text-[#D24324]"
             >
               {item}
-            </motion.p>
+            </p>
           ))}
         </div>
       </div>

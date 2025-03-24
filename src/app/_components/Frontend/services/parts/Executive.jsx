@@ -89,12 +89,10 @@ export default function ExecutiveCoaching() {
           className="rounded-lg"
         />
       </div>
-      
+
       <div className="flex flex-col gap-5">
-          <li>
-            Our Approach: Multi-Touchpoint Learning for Sustainable Impact
-          </li>
-        <h2 className="text-3xl w-[80%] text-gray-900 tracking-wider font-medium ">
+        <li>Our Approach: Multi-Touchpoint Learning for Sustainable Impact</li>
+        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-widest font-medium ">
           OUR EXECUTIVE COACHING INTEGRATES:
         </h2>
         <div className="mt-4 space-y-4">

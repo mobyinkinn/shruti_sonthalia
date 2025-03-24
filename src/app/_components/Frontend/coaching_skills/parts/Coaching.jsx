@@ -23,7 +23,7 @@ const Coaching = () => {
   return (
     <div className="flex flex-col  mt-12 items-center">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
+        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase text-[#E22E1B]">
           WHY COACHING Supervison MATTERS?
         </span>
 
@@ -40,7 +40,7 @@ const Coaching = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#151583] hover:text-[#fff]"
+            className="bg-white border border-[lightgrey] rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]"
           >
             <div className="text-[1.4rem] font-medium leading-snug py-2">
               {item.heading}
@@ -49,7 +49,7 @@ const Coaching = () => {
           </div>
         ))}
       </div>
-      <div className="bg-white flex mt-10 shadow-lg rounded-[20px] p-6 w-[68%] min-h-[8rem] text-center hover:bg-[#151583] hover:text-[#fff]">
+      <div className="bg-white flex mt-10 rounded-[20px] p-6 w-[68%] min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]">
         <div className="text-[1rem] font-medium leading-snug py-2">
           Our 2-day coach skills program transforms the leadership styles of
           organisations. It helps them in fostering a coaching mindset. It also
@@ -60,7 +60,7 @@ const Coaching = () => {
           inside out.
         </div>
       </div>
-      <span className="text-[2.5rem] w-[85%] mt-10 leading-none tracking-wider font-medium uppercase text-center">
+      <span className="text-[2.5rem] w-[90%] mt-10 leading-12 tracking-wider font-medium capitalize text-center text-[#151583]">
         We don’t just teach coaching skills, we help you embody a coaching
         mindset.
       </span>
