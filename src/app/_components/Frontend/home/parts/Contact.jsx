@@ -69,7 +69,7 @@ import AnimatedButton from "@/app/utils/Butoon";
 const ContactSection = () => {
   return (
     <section className="py-12 px-4 md:px-12">
-      <div className="max-w-7xl mx-auto rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-2 bg-[#100C7C] shadow-lg">
+      <div className="max-w-9xl mx-auto rounded-3xl overflow-hidden grid grid-cols-1 md:grid-cols-2 bg-[#100C7C] shadow-lg">
         {/* Left Image */}
         <div className="relative h-[500px] md:h-auto">
           <Image

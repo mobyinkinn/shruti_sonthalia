@@ -154,17 +154,17 @@ const sliderRef = useRef(null);
             </div>
           ))}
         </Slider>
-        <div >
+        <div>
           <button
             onClick={() => sliderRef.current.slickPrev()}
-            className="absolute right-162 bottom-0 transform -translate-y-1/2 bg-[transparent] border border-black text-black px-3 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
+            className="absolute cursor-pointer right-162 bottom-0 transform -translate-y-1/2 bg-[transparent] border border-black text-black px-3 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
           >
             <IoIosArrowRoundBack className="w-6 h-6" />
           </button>
 
           <button
             onClick={() => sliderRef.current.slickNext()}
-            className="absolute right-142 bottom-0 transform -translate-y-1/2 bg-[black] border border-black text-white px-3 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
+            className="absolute cursor-pointer right-142 bottom-0 transform -translate-y-1/2 bg-[black] border border-black text-white px-3 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
           >
             <IoIosArrowRoundForward className="w-6 h-6" />
           </button>

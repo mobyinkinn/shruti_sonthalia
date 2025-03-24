@@ -334,7 +334,9 @@ const Testimonials = () => {
         </div>
         {/* Testimonial Slider */}
         <div className="w-full sm:w-2/3">
-          <h2 className="text-3xl font-medium text-black mb-6">WHAT THEY SAY</h2>
+          <h2 className="text-3xl font-medium text-black mb-6">
+            WHAT THEY SAY
+          </h2>
 
           <Slider ref={sliderRef} {...settings}>
             {testimonials.map((testimonial, index) => (
@@ -362,14 +364,14 @@ const Testimonials = () => {
       {/* Navigation Arrows */}
       <button
         onClick={() => sliderRef.current.slickPrev()}
-        className="absolute right-32 bottom-0 transform -translate-y-1/2 bg-[#151583] text-white p-3 rounded-full shadow-md hover:bg-[white] hover:text-[#151583] transition"
+        className="absolute cursor-pointer right-32 bottom-0 transform -translate-y-1/2 bg-[#151583] text-white p-3 rounded-full shadow-md hover:bg-[white] hover:text-[#151583] transition"
       >
         <IoIosArrowBack className="w-6 h-6" />
       </button>
 
       <button
         onClick={() => sliderRef.current.slickNext()}
-        className="absolute right-12 bottom-0 transform -translate-y-1/2 bg-[#151583] text-white p-3 rounded-full shadow-md hover:bg-[white] hover:text-[#151583] transition"
+        className="absolute cursor-pointer right-12 bottom-0 transform -translate-y-1/2 bg-[#151583] text-white p-3 rounded-full shadow-md hover:bg-[white] hover:text-[#151583] transition"
       >
         <IoIosArrowForward className="w-6 h-6" />
       </button>

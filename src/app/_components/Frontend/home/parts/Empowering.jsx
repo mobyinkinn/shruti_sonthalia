@@ -54,7 +54,7 @@ export default function Empowering() {
             <button
               key={index}
               onClick={() => setSelectedOption(index)}
-              className={`text-lg font-semibold py-10 px-6 rounded-lg shadow-md transition-colors duration-300 tracking-wider
+              className={`text-lg font-semibold py-10 px-6 cursor-pointer rounded-lg shadow-md transition-colors duration-300 tracking-wider
               ${
                 selectedOption === index
                   ? "bg-[#F3834C] text-white"
