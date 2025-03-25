@@ -47,7 +47,7 @@ export default function Footer() {
       <div className=" items-start flex flex-col justify-around space-y-4">
         <div>
           <a href={"/"}>
-            <Image src="/Footer.png" alt="Logo" width={311} height={46} />
+            <Image src="/logo_2.png" alt="Logo" width={311} height={46} />
           </a>
         </div>
         <div className="flex flex-col">

@@ -1,7 +1,7 @@
 import AnimatedButton from "@/app/utils/Butoon";
 import React from "react";
 
-const Contact_us = ({ heading, line1, line2 }) => {
+const Contact_us = ({ heading, line1, line2, button_Name }) => {
   return (
     <div className=" bg-[#151583] rounded-[35px] p-16 flex flex-col items-center justify-between mt-12 ">
       <div className="text-white items-center flex flex-col space-y-8">
@@ -9,12 +9,10 @@ const Contact_us = ({ heading, line1, line2 }) => {
           {heading}
         </h2>
         <div className="items-center flex flex-col space-y-6 leading-12">
-          <p className="text-[1.4rem] text-center leading-8">
-            {line1}
-          </p>
+          <p className="text-[1.4rem] text-center leading-8">{line1}</p>
           <p className="text-[1.4rem] leading-none text-center ">{line2}</p>
         </div>
-        <AnimatedButton name={"Contact Us"} />
+        <AnimatedButton name={button_Name ? button_Name : "Contact Us"} />
       </div>
     </div>
   );
