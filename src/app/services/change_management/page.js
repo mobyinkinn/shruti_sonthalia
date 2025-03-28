@@ -1,4 +1,4 @@
-import Change from "../_components/Frontend/change_management/Change-management.jsx";
+import Change from "../../_components/Frontend/change_management/Change-management.jsx";
 
 export default function change_management() {
   return (

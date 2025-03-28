@@ -26,10 +26,10 @@ const Case_Study = () => {
             ></div>
           </div>
           <div className="flex flex-col w-[68%] space-y-8 justify-center">
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem] leading-none font-normal">
               Client Challenge
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal  tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal  tracking-wider">
               The President of a third-generation family-run business faced the
               complex task of leading a successful legacy company. Balancing the
               need to assert his leadership authority while earning the respect
@@ -38,10 +38,10 @@ const Case_Study = () => {
               organisation.
             </span>
 
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem]  leading-none font-normal ">
               Coaching Outcome
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal tracking-wider">
               After six months of coaching, the client reported a deep
               connection with his leadership stance. The coaching process
               enhanced his ability to navigate ambiguities in both life and
@@ -66,20 +66,20 @@ const Case_Study = () => {
       <div className="mt-12">
         <div className="flex flex-row justify-between">
           <div className="flex flex-col w-[68%] space-y-8 justify-center">
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem]  leading-none font-normal ">
               Client Challenge
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal  tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal  tracking-wider">
               An international business development head faced feedback on his
               people management skills, particularly collaboration issues with
               peers. His high-achieving role required effective collaboration,
               but occasional email conflicts impacted team culture.
             </span>
 
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem]  leading-none font-normal ">
               Coaching Outcome
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal tracking-wider">
               The coaching process revealed the cost of lacking social and
               emotional intelligence for the client. Through sessions exploring
               nonviolent communication, he experienced a significant shift. The
@@ -118,20 +118,20 @@ const Case_Study = () => {
             ></div>
           </div>
           <div className="flex flex-col w-[68%] space-y-8 justify-center">
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem] leading-none font-normal ">
               Client Challenge
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal  tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal  tracking-wider">
               The Deputy Head of Leadership and Talent Development faced major
               life changes, exploring options, creativity, and grappling with
               self-esteem and boundary issues. Health challenges were
               intertwined with these personal and professional challenges.
             </span>
 
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem]  leading-none font-normal ">
               Coaching Outcome
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal tracking-wider">
               Over four months, the client took responsibility for publishing a
               book, quit her full-time job, and addressed discomfort in saying
               no and setting boundaries. The coaching journey, marked by
@@ -155,10 +155,10 @@ const Case_Study = () => {
       <div className="mt-12">
         <div className="flex flex-row justify-between">
           <div className="flex flex-col w-[68%] space-y-8 justify-center">
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem]  leading-none font-normal ">
               Client Challenge
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal  tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal  tracking-wider">
               An Associate Director at an international education non-profit
               struggled with burnout while meeting strategic leadership
               expectations. The client sought to balance assertiveness with
@@ -166,10 +166,10 @@ const Case_Study = () => {
               loneliness of leadership.
             </span>
 
-            <span className="text-[1.2rem] leading-none font-normal uppercase">
+            <span className="text-[1.3rem] leading-none font-normal ">
               Coaching Outcome
             </span>
-            <span className="text-[1.2rem] leading-7 font-normal tracking-widest">
+            <span className="text-[1.2rem] leading-7 font-normal tracking-wider">
               Over seven months, the coaching process shifted the client from
               daily burnout to enhanced vitality. The client developed
               assertiveness, clarity, and a focus on the “important but not

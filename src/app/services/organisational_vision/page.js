@@ -1,4 +1,4 @@
-import Organisational_vision from "../_components/Frontend/organisational_vision/Organisational_vision.jsx";
+import Organisational_vision from "../../_components/Frontend/organisational_vision/Organisational_vision.jsx";
 
 export default function organisational_vision() {
   return (

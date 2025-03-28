@@ -124,7 +124,9 @@ export default function ExecutiveCoaching() {
           {coachingSections.map((section, index) => (
             <div key={index} className="border-b border-gray-300 pb-2">
               <button
-                className="flex justify-between items-center w-full text-left text-lg font-medium text-gray-800 p-2 hover:bg-gray-100 rounded"
+                className={`flex justify-between items-center w-full text-left text-lg font-medium p-2 hover:bg-gray-100 rounded ${
+                  openIndex === index ? "text-[#151583]" : "text-gray-800"
+                }`}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 {section.title}

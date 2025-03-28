@@ -1,4 +1,4 @@
-import Coaching_skills from "../_components/Frontend/coaching_skills/Coaching_skills.jsx";
+import Coaching_skills from "../../_components/Frontend/coaching_skills/Coaching_skills.jsx";
 
 export default function coaching_skills() {
   return (

@@ -35,13 +35,19 @@ const LessonsSection = () => {
         <div className="flex flex-col items-center justify-center text-center">
           <div className="relative">
             <Image
-              src={ruhco}
-              alt="Lessons I Live By"
-              width={200}
-              height={200}
+              src="/Animation.gif" // Replace with the path to your GIF
+              alt="Main Circle GIF"
+              width={484} // Adjust to fit your size
+              height={484}
+              className="object-cover"
             />
-            <h3 className="font-semibold text-[#fff] text-2xl mb-2 absolute bottom-15 left-3 z-10 w-[92%]">Lessons I Live By</h3>
+            <div className="absolute flex flex-col items-center text-white font-semibold z-10 bottom-40 w-[10%] left-45 ">
+              <p className="text-2xl md:text-2xl text-center px-4 max-w-xs uppercase">
+                Lessons I Live By
+              </p>
+            </div>
           </div>
+
           <div className="mt-10">
             <h3 className="font-semibold text-lg mb-2">
               Pragmatic Transformation
@@ -84,7 +90,6 @@ const LessonsSection = () => {
           />
         </div>
       </div>
-
     </section>
   );
 };

@@ -9,7 +9,7 @@ const Workshop = () => {
         <p className="text-[#151583] font-medium text-base">
           ō Discover Your Vision:
         </p>
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 underline-offset-4">
+        <h2 className="text-[2.5rem] font-semibold text-[#E22E1B] mb-4 underline-offset-4 uppercase">
           A Workshop to Redefine Success
         </h2>
         <p className="text-gray-800 text-base leading-relaxed mb-4">

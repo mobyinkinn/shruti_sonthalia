@@ -1,4 +1,4 @@
-import Services from "../_components/Frontend/services/Services.jsx";
+import Services from "../../_components/Frontend/services/Services.jsx";
 
 export default function services() {
   return (

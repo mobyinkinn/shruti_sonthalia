@@ -1,4 +1,4 @@
-import Coaching_supervision from "../_components/Frontend/coaching_supervision/Coaching_supervision.jsx";
+import Coaching_supervision from "../../_components/Frontend/coaching_supervision/Coaching_supervision.jsx";
 
 export default function coaching_supervision() {
   return (

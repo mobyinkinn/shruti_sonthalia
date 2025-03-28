@@ -121,14 +121,18 @@ export default function WhoWeWorkWith() {
             },
             {
               title: "HR And L&D Professionals",
-              description:
-                "ō  Start-up Founders And Small Business Owners",
+              description: "ō  Start-up Founders And Small Business Owners",
             },
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">
-              <div className="w-3 h-3 bg-[#151583] rounded-full mt-2"></div>
               <div>
-                <h3 className="text-lg font-semibold">{item.title}</h3>
+                <h3 className="text-lg font-semibold">
+                  {" "}
+                  <span className="text-[#151583] text-[1.3rem] pr-2">
+                    ō
+                  </span>{" "}
+                  {item.title}
+                </h3>
               </div>
             </div>
           ))}
