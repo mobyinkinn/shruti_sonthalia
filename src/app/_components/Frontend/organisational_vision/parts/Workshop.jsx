@@ -2,7 +2,7 @@ import Image from "next/image";
 import workshop from "../assets/workshop/workshop.png";
 const Workshop = () => {
   return (
-    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 px-4 md:px-16 py-12">
+    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 py-12">
       {/* Text Section */}
 
       <div className="flex-1">

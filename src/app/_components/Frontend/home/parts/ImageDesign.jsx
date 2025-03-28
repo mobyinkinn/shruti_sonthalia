@@ -133,7 +133,10 @@ const HoverEffectText = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center pt-10">
+    <div className="flex flex-col items-center justify-center pt-10 relative">
+      <h2 className="text-center text-4xl font-normal py-12 uppercase">
+        Meet The Business Coach Shruti Sonthalia
+      </h2>
       <div
         className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6"
         style={{ backgroundImage: `url('/tempBanner.png')` }}
@@ -150,6 +153,15 @@ const HoverEffectText = () => {
           ))}
         </div>
       </div>
+      <p className="absolute w-[89%] pb-4 text-white text-[1.4rem] bottom-0 text-center">
+        Shruti Sonthalia, a highly accomplished Master Certified Coach
+        recognized by the International Coaching Federation (ICF), conveys a
+        profound depth and breadth of experience, a fervent passion for
+        coaching, and exceptional coaching expertise. Her extensive journey
+        encompasses the C-Suite and senior leadership in diverse sectors,
+        ranging from multinational corporations and technology leaders to family
+        businesses, as well as mentoring fellow coaches.
+      </p>
     </div>
   );
 };

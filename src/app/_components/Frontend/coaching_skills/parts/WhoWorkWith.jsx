@@ -95,31 +95,34 @@ export default function WhoWeWorkWith() {
         <div className="space-y-4 mt-5">
           {[
             {
-              title: "Senior Executives & C-Suite Leaders",
+              title: "C-Suite Executives",
               description:
                 "Facing high-stakes decision-making and organizational challenges.",
             },
             {
-              title: "Leadership Teams",
+              title: "Managers And Team Leaders",
               description:
                 "Looking to enhance strategic alignment and communication.",
             },
             {
-              title: "Business Owners & Multi-Generational Enterprise Leaders",
+              title: "Aspiring Coaches",
               description:
                 "Seeking to balance legacy with innovation and ensure long-term stability.",
             },
             {
-              title:
-                "Visionary Leaders Driving Large Scale Growth and Investment",
+              title: "Leaders Transitioning To New Roles",
               description:
                 "Aiming to expand their influence, innovate, and create a lasting impact in their industries.",
             },
             {
-              title:
-                "Visionary Leaders Driving Large Scale Growth and Investment",
+              title: "HR And L&D Professionals",
               description:
                 "Aiming to expand their influence, innovate, and create a lasting impact in their industries.",
+            },
+            {
+              title: "HR And L&D Professionals",
+              description:
+                "ō  Start-up Founders And Small Business Owners",
             },
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">

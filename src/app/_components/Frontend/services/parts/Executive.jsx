@@ -63,16 +63,41 @@ const coachingSections = [
     content:
       "Psychometric assessments, such as Hogan and 360-degree feedback, provide valuable insights for deeper self-awareness. These tools help individuals understand their strengths, areas for growth, and behavioral impact on others.",
   },
-  { title: "Tripartite Alignment Sessions", content: "" },
-  { title: "Individual Development Plan", content: "" },
-  { title: "Personalized One-on-One Coaching Sessions", content: "" },
-  { title: "Consistent Tracking and Monitoring", content: "" },
-  { title: "Ongoing Organizational Integration", content: "" },
+  {
+    title: "Tripartite Alignment Sessions",
+    content:
+      "Tripartite Alignment Sessions foster seamless collaboration between employees, managers, and organizational goals. These sessions enhance communication, align expectations, and ensure mutual growth by addressing strengths, development areas, and strategic objectives, ultimately driving performance, engagement, and workplace harmony.",
+  },
+  {
+    title: "Individual Development Plan",
+    content:
+      "Individual Development Plan (IDP) is a personalized roadmap for growth, helping individuals identify strengths, areas for improvement, and career aspirations. It sets clear goals, aligns with organizational needs, and fosters continuous learning, ensuring professional development and long-term success.",
+  },
+  {
+    title: "Personalized One-on-One Coaching Sessions",
+    content:
+      "Personalized One-on-One Coaching Sessions provide tailored guidance to enhance individual growth, skills, and performance. These sessions focus on specific goals, strengths, and challenges, offering actionable insights and support to maximize potential, boost confidence, and drive professional success.",
+  },
+  {
+    title: "Consistent Tracking and Monitoring",
+    content:
+      "Consistent Tracking and Monitoring ensures continuous progress by evaluating performance, identifying improvement areas, and aligning efforts with goals. Regular check-ins and data-driven insights help individuals stay on track, make informed decisions, and achieve long-term success effectively.",
+  },
+  {
+    title: "Ongoing Organizational Integration",
+    content:
+      "⁠Ongoing Organizational Integration ensures seamless alignment of employees with company culture, values, and goals. Through continuous engagement, support, and adaptation, it fosters collaboration, enhances productivity, and strengthens long-term organizational success while promoting a cohesive work environment.",
+  },
   {
     title: "Culturally Relevant Coaching for Indian Organizations",
-    content: "",
+    content:
+      " ⁠Culturally Relevant Coaching for Indian Organizations tailors leadership and development strategies to India's unique work culture, values, and business dynamics. It integrates traditional wisdom with modern methodologies, fostering effective communication, employee engagement, and leadership growth while aligning with organizational goals.",
   },
-  { title: "World-Class Coaches", content: "" },
+  {
+    title: "World-Class Coaches",
+    content:
+      "World-Class Coaches bring extensive expertise, proven methodologies, and personalized strategies to drive individual and organizational growth. They provide valuable insights, mentorship, and guidance, empowering professionals to enhance leadership skills, overcome challenges, and achieve excellence in their careers.",
+  },
 ];
 
 export default function ExecutiveCoaching() {

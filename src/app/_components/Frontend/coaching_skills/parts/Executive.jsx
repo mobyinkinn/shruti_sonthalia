@@ -59,15 +59,32 @@ import Image from "next/image";
 import upimage from "../assets/upimage.png"
 const coachingSections = [
   {
-    title: "Psychometric Assessments (360-Degree Feedback)",
-    content:
-      "Psychometric assessments, such as Hogan and 360-degree feedback, provide valuable insights for deeper self-awareness. These tools help individuals understand their strengths, areas for growth, and behavioral impact on others.",
+    title: "The Power-With Method",
+    content: `Shift from "power-over" to "power-with" leadership. Our experiential approach ensures coaching is seamlessly integrated into daily interactions—not just structured sessions.`,
   },
-  { title: "Tripartite Alignment Sessions", content: "" },
-  { title: "Individual Development Plan", content: "" },
-  { title: "Personalized One-on-One Coaching Sessions", content: "" },
-  { title: "Consistent Tracking and Monitoring", content: "" },
-  
+  {
+    title: "Context-Driven Coaching",
+    content:
+      "No one-size-fits-all solutions. We tailor coaching to your unique organizational culture, leadership challenges, and power structures for real-world impact.",
+  },
+  {
+    title: "The Leadership Reflex Model",
+    content:
+      "Develop coaching reflexes that turn everyday conversations—whether in boardrooms or check-ins—into opportunities for growth and empowerment.",
+  },
+  {
+    title: "Holistic, Human-Centered Coaching",
+    content:
+      "Integrating emotional intelligence, psychological safety, and well-being, we help leaders cultivate self-awareness, trust, and resilience for long-term success.",
+  },
+  {
+    title: "Build a psychologically safe workplace",
+    content: "increase trust, engagement, and retention.",
+  },
+  {
+    title: "Enhance listening & questioning skills",
+    content: "move from problem-solving to empowerment.",
+  },
 ];
 
 export default function ExecutiveCoaching() {

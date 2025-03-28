@@ -111,9 +111,10 @@ export default function WhoWeWorkWith() {
             },
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">
-              <div className="w-3 h-3 bg-indigo-600 rounded-full mt-2"></div>
               <div>
-                <h3 className="text-lg font-semibold">{item.title}</h3>
+                <h3 className="text-lg font-semibold">
+                  <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>  {item.title}
+                </h3>
                 <p className="text-gray-600">{item.description}</p>
               </div>
             </div>

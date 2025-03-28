@@ -24,18 +24,18 @@ const coachingData = [
 
 const Vision = () => {
   return (
-    <div className="flex flex-col mt-12 px-4">
+    <div className="flex flex-col mt-12">
       <div className="flex flex-col justify-center items-center text-center">
         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
           WHY ORGANISATIONAL VISION MATTERS?
         </span>
       </div>
 
-      <div className="flex flex-wrap gap-6 justify-center items-center mt-8 p-8 rounded-[20px]">
+      <div className="flex flex-wrap gap-6 justify-center items-center mt-8 rounded-[20px]">
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="relative text-white rounded-[20px] p-6 w-[400px] text-center"
+            className="relative text-white rounded-[20px] p-6 w-[436px] text-center"
             style={{
               backgroundImage: `url(${gradient.src})`,
               backgroundSize: "cover",
@@ -46,10 +46,14 @@ const Vision = () => {
               maskSize: "cover",
             }}
           >
-            <span className="text-[1.2rem] leading-snug">{item.item}</span>
+            <span className="text-[1.3rem] leading-snug">{item.item}</span>
           </div>
         ))}
       </div>
+      <span className="text-[2rem] mt-10 leading-12 tracking-wider font-medium capitalize text-center text-[#151583]">
+        A vision that’s aligned with the actions and aspirations of the
+        employees and stakeholders can create wonders. Here’s why:
+      </span>
     </div>
   );
 };

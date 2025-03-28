@@ -43,7 +43,7 @@ const quickLinks = [
 
 export default function Footer() {
   return (
-    <div className="w-full p-7 flex justify-between bg-white text-[#363B3F]">
+    <div className="w-full px-23 flex justify-between bg-white text-[#363B3F]">
       <div className=" items-start flex flex-col justify-around space-y-4">
         <div>
           <a href={"/"}>
