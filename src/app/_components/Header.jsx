@@ -125,10 +125,22 @@ const navLinks = [
     name: "Services",
     link: "#",
     dropdown: [
-      { id: 1, name: "Executive Coaching", link: "/services/executive_coaching" },
-      { id: 2, name: "Coaching Supervision", link: "/services/coaching_supervision" },
+      {
+        id: 1,
+        name: "Executive Coaching",
+        link: "/services/executive_coaching",
+      },
+      {
+        id: 2,
+        name: "Coaching Supervision",
+        link: "/services/coaching_supervision",
+      },
       { id: 3, name: "Coaching Skills", link: "/services/coaching_skills" },
-      { id: 4, name: "Organisational Vision", link: "/services/organisational_vision" },
+      {
+        id: 4,
+        name: "Organisational Vision",
+        link: "/services/organisational_vision",
+      },
       { id: 5, name: "Change Management", link: "/services/change_management" },
     ],
   },
@@ -136,7 +148,7 @@ const navLinks = [
   {
     id: 5,
     name: "Pioneering Innovative Solutions",
-    link: "/",
+    link: "/pioneering-innovative-solution",
   },
 ];
 

@@ -113,29 +113,29 @@ const Publication = () => {
       {publicationData.map((publication) => (
         <section
           key={publication.id}
-          className="flex flex-col md:flex-row items-start gap-8 md:gap-8 xl:gap-8 mt-12"
+          className="flex flex-col md:flex-row items-center gap-22 md:gap-8 xl:gap-8 mt-12"
         >
           {/* Image Section */}
-          <div className="rounded-2xl overflow-hidden ">
+          <div className="rounded-2xl overflow-hidden w-[40%]">
             <Image
               src={publication.img}
               alt="Leadership Team Discussion"
               width={600}
-              height={400}
-              className="rounded-2xl w-full lg:w-[400px] h-auto object-cover"
+              height={300}
+              className="rounded-2xl w-full h-auto object-cover"
             />
           </div>
 
           {/* Text Section */}
 
           <div className="flex-1 space-y-4 xl:mt-6">
-            <h2 className="text-2xl lg:text-2xl xl:text-3xl font-semibold text-[#000000] underline-offset-4">
+            <h2 className="text-[2.4rem] font-semibold text-[#000000] underline-offset-4">
               {publication.title}
             </h2>
             <p className="text-[#000000] text-base leading-relaxed">
               {publication.publicationDate}
             </p>
-            <p className="text-[#000000] text-base leading-relaxed">
+            <p className="text-[#000000] text-[1.2rem] leading-relaxed">
               {publication.shortDescription}
             </p>
             <button className="flex items-center gap-2 text-[1rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black transition cursor-pointer">

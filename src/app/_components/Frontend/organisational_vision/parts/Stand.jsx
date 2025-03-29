@@ -114,25 +114,25 @@ const WhyWeStandApart = () => {
 
 const FeatureCard = ({ feature }) => {
   return (
-    <div className="relative group rounded-xl overflow-hidden shadow-lg h-64">
-      <div className="relative w-full h-full transition-all duration-500 grayscale group-hover:grayscale-0">
+    <div className="relative group rounded-[2rem] overflow-hidden shadow-lg h-64">
+      <div className="relative w-full h-full group flex items-end justify-center">
         <Image
           src={feature.image}
           alt={feature.title}
           fill
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
         />
+        <div className="absolute inset-0 bg-black opacity-40 transition-all duration-500 group-hover:opacity-0"></div>
+        <h3 className="text-xl font-bold mb-2 relative z-111 text-white transition-opacity duration-500 group-hover:opacity-0">
+          {feature.title}
+        </h3>
       </div>
 
       {/* Hover Overlay */}
       <div className="absolute inset-0 bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-5 text-center">
-        <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-        <p className="text-sm">{feature.description}</p>
-      </div>
-
-      {/* Default Title (when not hovered) */}
-      <div className="absolute bottom-4 left-4 text-white text-lg font-semibold z-10 group-hover:opacity-0 transition-opacity duration-300">
-        {feature.title}
+        <div className="absolute inset-0 bg-black opacity-20 transition-all duration-500"></div>
+        <h3 className="text-xl font-bold mb-2 relative z-111">{feature.title}</h3>
+        <p className="text-sm relative z-111">{feature.description}</p>
       </div>
     </div>
   );

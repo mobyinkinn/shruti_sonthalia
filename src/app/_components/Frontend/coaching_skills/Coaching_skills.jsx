@@ -8,7 +8,7 @@ import ExecutiveCoaching from "./parts/Executive";
 import Leads from "./parts/Leads";
 import LeadershipProwess from "./parts/BannerwithImage";
 
-const Coaching_supervision = () => {
+const Coaching_skills = () => {
   return (
     <div className="p-14 bg-[#FCFCFF]">
       <Hero />
@@ -26,4 +26,4 @@ const Coaching_supervision = () => {
   );
 };
 
-export default Coaching_supervision;
+export default Coaching_skills;

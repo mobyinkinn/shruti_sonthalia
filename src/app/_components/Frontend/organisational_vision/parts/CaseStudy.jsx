@@ -13,7 +13,7 @@ const CaseStudy = () => {
       </div>
 
       {/* Challenge Section */}
-      <div className="md:flex md:items-center mb-12 justify-around">
+      <div className="md:flex md:items-center mb-12 justify-evenly">
         {/* Left Column - Text */}
         <div className="mt-6 md:mt-0">
           <Image
@@ -24,7 +24,7 @@ const CaseStudy = () => {
             className="object-cover rounded-lg shadow-lg"
           />
         </div>
-        <div className="md:w-1/2 md:pr-10">
+        <div className="md:w-[55%] md:pr-10">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">
             Challenge
           </h3>

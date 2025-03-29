@@ -7,8 +7,10 @@ export default function Benifit() {
       {/* Right Image Section */}
       <div className="lg:w-1/2 flex items-center justify-center mt-10 lg:mt-0 relative">
         <div className="relative w-full max-w-lg">
-          <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
-          <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div>
+          {/* <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
+          <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div> */}
+          {/* <div className="absolute bg-[#151583] opacity-40 rounded-full w-56 h-56 top-8 left-0 z-111 animate-pulse"></div> */}
+          <div className="absolute bg-[#151583] opacity-40 rounded-full w-60 h-60 bottom-8 right-30 z-111 animate-pulse"></div>
 
           <div className="relative z-10 flex space-x-4">
             <div className="w-1/2 float-animation">

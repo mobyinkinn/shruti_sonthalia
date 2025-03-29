@@ -113,7 +113,8 @@ export default function WhoWeWorkWith() {
             <div key={index} className="flex items-start gap-3">
               <div>
                 <h3 className="text-lg font-semibold">
-                  <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>  {item.title}
+                  <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>{" "}
+                  {item.title}
                 </h3>
                 <p className="text-gray-600">{item.description}</p>
               </div>
@@ -125,8 +126,11 @@ export default function WhoWeWorkWith() {
       {/* Right Image Section */}
       <div className="lg:w-1/2 flex items-center justify-center mt-10 lg:mt-0 relative">
         <div className="relative w-full max-w-lg">
-          <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
-          <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div>
+          {/* <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
+          <div className="absolute bg-[#151583] opacity-40 rounded-full w-60 h-60 bottom-8 right-30 z-111 animate-pulse"></div>
+          <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div> */}
+          <div className="absolute bg-[#151583] opacity-40 rounded-full w-60 h-60 bottom-8 right-30 z-111 animate-pulse"></div>
+
           <div className="relative z-10 flex space-x-4">
             {/* Image 1 with floating animation */}
             <div className="w-1/2 float-animation-reverse">

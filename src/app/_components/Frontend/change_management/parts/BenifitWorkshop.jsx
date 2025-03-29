@@ -24,22 +24,25 @@ const WorkshopBenefits = () => {
         <p className="text-lg text-gray-700 mb-6">Our program is ideal for:</p>
         <span className="pst-disc pl-5 text-lg text-gray-700">
           <p>
-            ō C-suite executives, managers, and team leaders driving
-            transformation
+            <span className="text-[#151583] text-[1.3rem] pr-2">ō</span> C-suite
+            executives, managers, and team leaders driving transformation
           </p>
           <p>
-            ō HR & Change Managers implementing cultural and operational shifts
+            <span className="text-[#151583] text-[1.3rem] pr-2">ō</span> HR &
+            Change Managers implementing cultural and operational shifts
           </p>
           <p>
-            ō Technology & Digital Transformation Teams ensuring smooth tech
+            <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>{" "}
+            Technology & Digital Transformation Teams ensuring smooth tech
             adoption
           </p>
           <p>
-            ō Project & Strategy Teams responsible for executing large-scale
-            changes
+            <span className="text-[#151583] text-[1.3rem] pr-2">ō</span> Project
+            & Strategy Teams responsible for executing large-scale changes
           </p>
           <p>
-            ō Organizations undergoing M&As, Restructuring, or Regulatory
+            <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>{" "}
+            Organizations undergoing M&As, Restructuring, or Regulatory
             Adjustments
           </p>
           <p>Start-up founders and small business owners</p>

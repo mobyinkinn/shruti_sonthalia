@@ -1,24 +1,29 @@
 import React from "react";
-import gradient from "../assets/vision/gradient.png";
 
 const coachingData = [
   {
     item: "70% of strategies fail due to poor alignment between vision and execution (Bain, 2023). A unified vision ensures that every team works toward the same goals, eliminating inefficiencies and conflicting priorities.",
+    bgClass: "bg-gradient-to-r from-[#2d2f7a] to-[#393775]",
   },
   {
     item: "Leadership Alignment: 60% of leadership teams are misaligned on their company’s vision, resulting in slow decision-making and strategic drift (Korn Ferry, 2023). Our programs ensure leaders are united around a shared purpose.",
+    bgClass: "bg-gradient-to-r from-[#463f73] to-[#9e474e]",
   },
   {
     item: "Market Adaptation: In industries facing disruption, 75% of companies prioritize vision alignment to stay competitive. A forward-looking vision helps organizations navigate change and seize new opportunities.",
+    bgClass: "bg-gradient-to-r from-[#b04541] to-[#ba3e32]",
   },
   {
     item: "70% of large-scale transformations fail due to misalignment in vision and execution (McKinsey & Company). Our program bridges the gap between vision and execution, ensuring alignment across all levels.",
+    bgClass: "bg-gradient-to-r from-[#2d2f7a] to-[#393775]",
   },
   {
     item: "Organizations with a clearly articulated vision are 30% more likely to outperform competitors in revenue growth (BCG). We help craft a compelling vision that drives focus, innovation, and market differentiation.",
+    bgClass: "bg-gradient-to-r from-[#463f73] to-[#9e474e]",
   },
   {
     item: "60% of employees state that their company’s vision has little to no impact on their daily work. Our engagement programs ensure employees understand their role in achieving the vision, boosting motivation and productivity.",
+    bgClass: "bg-gradient-to-r from-[#b04541] to-[#ba3e32]",
   },
 ];
 
@@ -35,18 +40,18 @@ const Vision = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="relative text-white rounded-[20px] p-6 w-[436px] text-center"
-            style={{
-              backgroundImage: `url(${gradient.src})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              WebkitMaskImage: `url(${gradient.src})`,
-              maskImage: `url(${gradient.src})`,
-              WebkitMaskSize: "cover",
-              maskSize: "cover",
-            }}
+            className={`relative text-white rounded-[20px] ${item.bgClass} p-6 w-[436px] text-center`}
+            // style={{
+            //   backgroundImage: `url(${gradient.src})`,
+            //   backgroundSize: "cover",
+            //   backgroundPosition: "center",
+            //   WebkitMaskImage: `url(${gradient.src})`,
+            //   maskImage: `url(${gradient.src})`,
+            //   WebkitMaskSize: "cover",
+            //   maskSize: "cover",
+            // }}
           >
-            <span className="text-[1.3rem] leading-snug">{item.item}</span>
+            <span className="text-[1.2rem] leading-snug font-semibold">{item.item}</span>
           </div>
         ))}
       </div>

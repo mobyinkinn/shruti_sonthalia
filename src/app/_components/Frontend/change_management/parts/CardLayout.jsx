@@ -12,7 +12,7 @@ const WhyStandApart = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     arrows: false
   };
 
@@ -21,37 +21,37 @@ const WhyStandApart = () => {
       title: "Data-Driven",
       description:
         "We use behavioral analytics and tracking to measure progress and drive accountability.",
-      bgClass: "bg-gradient-to-r from-red-500 to-pink-500",
+      bgClass: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
     },
     {
       title: "Tailored to Your Organization’s Needs",
       description:
         "Our solutions are not one-size-fits-all. We create customized strategies based on your industry, company culture, and transformation objectives.",
-      bgClass: "bg-gradient-to-r from-yellow-500 to-orange-500",
+      bgClass: "bg-gradient-to-r from-[#8d2e69] to-[#3D2B66]",
     },
     {
       title: "Proven Track Record",
       description:
         "We’ve helped over x number of organizations across industries successfully navigate change, with a x% success rate in achieving desired outcomes.",
-      bgClass: "bg-gradient-to-r from-blue-500 to-purple-600",
+      bgClass: "bg-gradient-to-r from-[#3D2B66] to-[#191982]",
     },
     {
       title: "Proven Track Record",
       description:
         "We’ve helped over x number of organizations across industries successfully navigate change, with a x% success rate in achieving desired outcomes.",
-      bgClass: "bg-gradient-to-r from-blue-500 to-purple-600",
+      bgClass: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
     },
     {
       title: "Data-Driven",
       description:
         "We use behavioral analytics and tracking to measure progress and drive accountability.",
-      bgClass: "bg-gradient-to-r from-red-500 to-pink-500",
+      bgClass: "bg-gradient-to-r from-[#8d2e69] to-[#3D2B66]",
     },
     {
       title: "Tailored to Your Organization’s Needs",
       description:
         "Our solutions are not one-size-fits-all. We create customized strategies based on your industry, company culture, and transformation objectives.",
-      bgClass: "bg-gradient-to-r from-yellow-500 to-orange-500",
+      bgClass: "bg-gradient-to-r from-[#3D2B66] to-[#191982]",
     },
   ];
 
@@ -67,14 +67,15 @@ const WhyStandApart = () => {
       <div>
         <Slider ref={TwosliderRef} {...settings}>
           {cardContent.map((card, index) => (
+            <div key={index} className="px-4">
             <div
-              key={index}
               className={`p-8 h-80 rounded-xl shadow-lg ${card.bgClass} text-white`}
             >
               <div className="flex flex-col h-[100%] justify-center">
                 <h4 className="text-xl font-bold mb-4">{card.title}</h4>
                 <p className="text-md">{card.description}</p>
               </div>
+            </div>
             </div>
           ))}
         </Slider>

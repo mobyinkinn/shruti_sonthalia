@@ -63,9 +63,9 @@ const Sliders = () => {
                 {cardContent.map((card, index) => (
                   <div
                     key={index}
-                    className={`p-8 rounded-xl shadow-lg text-white h-[100%]`}
+                    className={`p-5 rounded-xl shadow-lg text-white h-[100%]`}
                   >
-                    <div className="h-[100%] flex flex-row justify-around">
+                    <div className="h-[100%] flex flex-row justify-between">
                       <div className="w-[50%] flex flex-col justify-center">
                         <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4">
                           {card.title}
