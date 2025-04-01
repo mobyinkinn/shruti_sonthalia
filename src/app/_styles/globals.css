@@ -23,3 +23,25 @@
 .float-animation-reverse {
   animation: floatAnimationReverse 2s infinite ease-in-out;
 }
+
+
+
+
+.fancy-button-text-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.fancy-button-text-container span {
+  display: inline-block;
+  white-space: pre;
+  transition: transform 0.5s ease;
+}
+
+.fancy-button-text-container span:last-child {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+}

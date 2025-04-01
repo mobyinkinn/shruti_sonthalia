@@ -6,8 +6,9 @@ import WhyStandApart from './parts/CardLayout';
 import WorkshopOutcome from './parts/Outcome';
 import ExecutiveCoaching from './parts/Executive';
 import Sliders from './parts/Slider';
+import Contact_us from '../about/parts/Contact_us';
 
-const Change = () => {
+const Change = () => {c
   return (
     <div className="p-14 bg-[#FCFCFF]">
       <Hero />
