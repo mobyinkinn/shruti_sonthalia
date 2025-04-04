@@ -43,14 +43,17 @@ const About_ruhco = () => {
           </div>
 
           {/* Right Image Column */}
-          <div className="flex justify-center">
-            <Image
-              src={about2}
-              alt="RuhCo Flower Illustration"
-              width={600}
-              height={600}
-              className="object-contain"
-            />
+          <div className="w-135 h-93">
+            <video
+              width="100%"
+              autoPlay
+              loop
+              muted
+              controls={false}
+              style={{ objectFit: "cover" }}
+            >
+              <source src="/Flower.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </section>

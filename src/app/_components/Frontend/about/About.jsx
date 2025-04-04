@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="px-14">
       <Hero />
-      <About_shruti />
+      {/* <About_shruti /> */}
       {/* <Info /> */}
       <LessonsSection/>
       {/* <Principles /> */}

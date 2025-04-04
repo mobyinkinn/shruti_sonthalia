@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./parts/Hero.jsx";
 import Publication from "./parts/Publication.jsx";
 import Contact_us from "../about/parts/Contact_us";
+import RotatingImage from "@/app/utils/Rotating.jsx";
 
 const Publications = () => {
   return (
@@ -14,6 +15,7 @@ const Publications = () => {
         line2="Sign up for Our Change Management Programs Now"
         button_Name="Get In Touch"
       />
+      <RotatingImage/>
     </div>
   );
 };

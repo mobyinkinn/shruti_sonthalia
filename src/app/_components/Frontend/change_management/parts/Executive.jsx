@@ -7,14 +7,30 @@ import Image from "next/image";
 import upimage from "../assets/3.png"
 const coachingSections = [
   {
-    title: "Psychometric Assessments (360-Degree Feedback)",
+    title: "Change Readiness Assessment:",
     content:
-      "Psychometric assessments, such as Hogan and 360-degree feedback, provide valuable insights for deeper self-awareness. These tools help individuals understand their strengths, areas for growth, and behavioral impact on others.",
+      "A comprehensive evaluation of your organization’s readiness for change, identifying gaps and opportunities.",
   },
-  { title: "Tripartite Alignment Sessions", content: "" },
-  { title: "Individual Development Plan", content: "" },
-  { title: "Personalized One-on-One Coaching Sessions", content: "" },
-  
+  {
+    title: "Leadership Alignment Workshops",
+    content:
+      "Equip your leaders with the skills to champion change and inspire their teams.",
+  },
+  {
+    title: "Employee Engagement Strategies",
+    content:
+      "Proven techniques to build buy-in, reduce resistance, and foster a culture of collaboration.",
+  },
+  {
+    title: "Communication Frameworks",
+    content:
+      "Customized plans to ensure clear, consistent messaging throughout the change process.",
+  },
+  {
+    title: "Agile Implementation Support",
+    content:
+    "Hands-on guidance to execute change initiatives with speed and flexibility."
+  },
 ];
 
 export default function ExecutiveCoaching() {
@@ -33,7 +49,9 @@ export default function ExecutiveCoaching() {
           {coachingSections.map((section, index) => (
             <div key={index} className="border-b border-gray-300 pb-2">
               <button
-                className="flex justify-between items-center w-full text-left text-lg font-medium text-gray-800 p-2 hover:bg-gray-100 rounded"
+                className={`flex justify-between items-center w-full text-left text-lg font-medium p-2 hover:bg-gray-100 rounded ${
+                  openIndex === index ? "text-[#151583]" : "text-gray-800"
+                }`}
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 {section.title}

@@ -8,7 +8,7 @@ import ExecutiveCoaching from './parts/Executive';
 import Sliders from './parts/Slider';
 import Contact_us from '../about/parts/Contact_us';
 
-const Change = () => {c
+const Change = () => {
   return (
     <div className="p-14 bg-[#FCFCFF]">
       <Hero />

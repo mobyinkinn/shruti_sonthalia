@@ -24,6 +24,9 @@ const carausel = [
   { id: 3, img: img4 },
   { id: 4, img: img5 },
   { id: 5, img: img6 },
+];
+
+const carausel2 = [
   { id: 6, img: img7 },
   { id: 7, img: img8 },
   { id: 8, img: img9 },
@@ -37,6 +40,7 @@ const settings = {
   arrows: false,
   infinite: true,
   speed: 1000,
+  loop:true,
   slidesToShow: 7,
   slidesToScroll: 1,
   autoplay: true,
@@ -61,7 +65,9 @@ export default function Carausal() {
   return (
     <div className="px-5 xl:px-12 py-5">
       <div className="flex justify-center py-5">
-          <span className="text-black text-[2.2rem]">Noteworthy Clients Working At</span>
+        <span className="text-black text-[2.2rem]">
+          Noteworthy Clients Working At
+        </span>
       </div>
       <div className="space-y-10 py-5">
         <Slider {...settings}>
@@ -70,7 +76,7 @@ export default function Carausal() {
           ))}
         </Slider>
         <Slider {...settingsRight}>
-          {carausel.map((el) => (
+          {carausel2.map((el) => (
             <Images key={el.id} el={el} />
           ))}
         </Slider>

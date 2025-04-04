@@ -22,17 +22,12 @@ const HowWillThisHelp = () => {
             <p>Achieve clarity regarding business goals</p>
           </span>
         </div>
-        <div className="rounded-full overflow-hidden">
-          <Image
-            src="/Animation.gif" // Replace with the path to your GIF
-            alt="Main Circle GIF"
-            width={484} // Adjust to fit your size
-            height={484}
-            className="object-cover"
-          />
-        </div>
+        <img
+          src="/Animation.png"
+          alt="Rotating"
+          className="w-80 h-80 test-spin"
+        />
 
-        {/* Overlay Text */}
         <div className="absolute flex flex-col items-center text-white font-semibold z-10">
           <p className="text-xl md:text-xl text-center px-4 max-w-xs">
             Comprehend the shifts in processes, leadership and resource

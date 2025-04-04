@@ -142,7 +142,7 @@ const HoverEffectText = () => {
         style={{ backgroundImage: `url('/tempBanner.png')` }}
       >
         {/* Text Content Section */}
-        <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-10">
+        <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-14">
           {textItems.map((item, index) => (
             <p
               key={index}

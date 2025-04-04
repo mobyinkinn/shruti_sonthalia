@@ -6,7 +6,7 @@ const About_shruti = () => {
   return (
     <div className="flex flex-col mt-12 gap-4">
       <div className="flex flex-row justify-between">
-        <div className="flex flex-col w-[48%] space-y-8">
+        <div className="flex flex-col w-[45%] space-y-8">
           <span className="text-[2.5rem] leading-none font-semibold">
             ABOUT SHRUTI SONTHALIA
           </span>
@@ -33,12 +33,13 @@ const About_shruti = () => {
             leading industry professional.
           </span>
         </div>
-        <div className=" w-[48%]">
+        <div className=" w-[51%]">
           {" "}
           <div
-            className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[650px] rounded-[40px] bg-cover bg-center"
+            className="hidden md:flex w-full min-h-[312px] md:min-h-[312px] lg:min-h-[340px] xl:min-h-[640px] rounded-[40px] bg-cover bg-center"
             style={{ backgroundImage: `url(${shruti_ring.src})` }}
           ></div>
+          
         </div>
       </div>
       <div className="flex flex-row justify-between mt-12 items-center">

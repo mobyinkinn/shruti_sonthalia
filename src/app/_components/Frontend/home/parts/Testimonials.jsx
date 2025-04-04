@@ -302,7 +302,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="relative flex justify-center items-center py-16 px-6 w-[90%] mx-auto">
+    <div className="relative flex justify-center items-center py-16 w-[90%] mx-auto">
       {/* Left Circular Design */}
       {/* <div className="absolute left-0 top-1/2 transform -translate-y-1/2 w-62 h-62">
         <video
@@ -318,9 +318,9 @@ const Testimonials = () => {
       </div> */}
 
       {/* Testimonial Content */}
-      <div className="w-full flex flex-col sm:flex-row items-center justify-between">
+      <div className="w-full flex flex-col sm:flex-row items-center justify-evenly">
         {/* Left Empty Space for Design Element */}
-        <div className="w-84 h-84">
+        <div className="w-135 h-133">
           <video
             width="100%"
             autoPlay
@@ -333,7 +333,7 @@ const Testimonials = () => {
           </video>
         </div>
         {/* Testimonial Slider */}
-        <div className="w-full sm:w-2/3">
+        <div className="w-full sm:w-[52%]">
           <h2 className="text-3xl font-medium text-black mb-6">
             WHAT THEY SAY
           </h2>

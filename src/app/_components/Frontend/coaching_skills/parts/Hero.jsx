@@ -50,11 +50,18 @@
 
 
 // export default Hero;
-
+"use client";
 
 import Image from "next/image";
 import mask3 from "../assets/Mask3.png"
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 const Hero = () => {
+   const [isHovered, setIsHovered] = useState(false);
+     const router = useRouter();
+      const getTrasformStyles = (isHovered) => ({
+        transform: `translateY(${isHovered ? "-100%" : "0"})`,
+      });
   return (
     <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
       <Image
@@ -74,8 +81,30 @@ const Hero = () => {
           Develop essential coaching techniques, enhance leadership abilities,
           and drive meaningful transformation in businesses and teams
         </p>
-        <button className="flex items-center gap-2 text-[1.4rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border transition cursor-pointer">
-         Book A Consult
+        <button
+          style={{
+            marginTop: "20px",
+            color: "white",
+            backgroundColor: "#151583",
+            padding: "10px 25px",
+            borderRadius: "20px",
+            fontWeight: "bold",
+            cursor: "pointer",
+            outline: "none",
+            border: "none",
+          }}
+          onClick={() => router.push("/contact-us")}
+          onMouseEnter={() => {
+            setIsHovered(true);
+          }}
+          onMouseLeave={() => {
+            setIsHovered(false);
+          }}
+        >
+          <span className="fancy-button-text-container">
+            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
+            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
+          </span>
         </button>
       </div>
     </div>

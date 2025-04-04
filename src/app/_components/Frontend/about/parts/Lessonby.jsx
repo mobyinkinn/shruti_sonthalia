@@ -34,14 +34,12 @@ const LessonsSection = () => {
         {/* Middle Column */}
         <div className="flex flex-col items-center justify-center text-center">
           <div className="relative">
-            <Image
-              src="/Animation.gif" // Replace with the path to your GIF
-              alt="Main Circle GIF"
-              width={484} // Adjust to fit your size
-              height={484}
-              className="object-cover"
+            <img
+              src="/Animation.png"
+              alt="Rotating"
+              className="w-80 h-80 test-spin"
             />
-            <div className="absolute flex flex-col items-center text-white font-semibold z-10 bottom-40 w-[10%] left-45 ">
+            <div className="absolute flex flex-col items-center text-white font-semibold z-10 bottom-30 w-[10%] left-37 ">
               <p className="text-2xl md:text-2xl text-center px-4 max-w-xs uppercase">
                 Lessons I Live By
               </p>
