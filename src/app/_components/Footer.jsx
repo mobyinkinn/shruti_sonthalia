@@ -1,8 +1,8 @@
+"use client";
 import Image from "next/image";
-import { FaInstagram } from "react-icons/fa6";
+import { usePathname } from "next/navigation";
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import { RiFacebookFill } from "react-icons/ri";
-import { FaLinkedinIn } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa6";
 
 const socialMediaLinks = [
   {
@@ -42,9 +42,16 @@ const quickLinks = [
 ];
 
 export default function Footer() {
+  const pathname = usePathname();
+  const isPinkBackground = pathname === "/publication-and-media";
+
   return (
-    <div className="w-full px-23 flex justify-between text-[#363B3F]">
-      <div className=" items-start flex flex-col justify-around space-y-4">
+    <div
+      className={`w-full px-23 flex justify-between text-[#363B3F] py-8 ${
+        isPinkBackground ? "bg-[#f5c9c6]" : "bg-white"
+      }`}
+    >
+      <div className="items-start flex flex-col justify-around space-y-4">
         <div>
           <a href={"/"}>
             <Image src="/logo_2.png" alt="Logo" width={311} height={46} />
@@ -74,9 +81,10 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="  flex flex-col relative pt-3 gap-4 ">
+
+      <div className="flex flex-col relative pt-3 gap-4">
         <span className="font-bold text-[1.4rem] leading-6 mb-1">Services</span>
-        <ul className="flex flex-col space-y-4   ">
+        <ul className="flex flex-col space-y-4">
           {services.map((service) => (
             <li key={service.id} className="text-[1rem] leading-6 font-medium">
               <a
@@ -89,8 +97,9 @@ export default function Footer() {
           ))}
         </ul>
       </div>
-      <div className="flex flex-col  relative pt-3 gap-4">
-        <span className="font-bold text-[1.4rem] leading-6 mb-1 ">
+
+      <div className="flex flex-col relative pt-3 gap-4">
+        <span className="font-bold text-[1.4rem] leading-6 mb-1">
           Quick Links
         </span>
         <ul className="flex flex-col space-y-4">

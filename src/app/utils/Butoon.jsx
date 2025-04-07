@@ -2,11 +2,11 @@
 import { useRouter } from "next/navigation";
 import { GoArrowRight } from "react-icons/go";
 
-export default function AnimatedButton({name}) {
-  const router = useRouter()
+export default function AnimatedButton({ name }) {
+  const router = useRouter();
   return (
     <button
-      className="relative flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full border transition-all duration-300 overflow-hidden group delay-150 cursor-pointer"
+      className="relative flex items-center gap-2 px-6 py-2 bg-white text-black rounded-full  transition-all duration-300 overflow-hidden group delay-150 cursor-pointer"
       onClick={() => router.push("/contact-us")}
     >
       {/* Text - Moves right on hover */}

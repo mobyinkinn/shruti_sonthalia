@@ -1,9 +1,15 @@
 import AnimatedButton from "@/app/utils/Butoon";
 import React from "react";
 
-const Contact_us = ({ heading, line1, line2, button_Name }) => {
+const Contact_us = ({ heading, line1, line2, button_Name, bg_image }) => {
   return (
-    <div className=" bg-[#151583] rounded-[35px] p-16 flex flex-col items-center justify-between mt-12 ">
+    <div
+      className="rounded-[35px] p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${bg_image?.src})`,
+        backgroundColor: "#151583",
+      }}
+    >
       <div className="text-white items-center flex flex-col space-y-8">
         <h2 className="text-[2.5rem] text-center leading-none font-medium uppercase">
           {heading}
