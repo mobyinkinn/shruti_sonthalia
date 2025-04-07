@@ -166,7 +166,7 @@ export default function Header() {
           <div key={nav.id} className="relative group">
             <a
               href={nav.link}
-              className="no-underline flex items-center text-[#363B3F] font-semibold text-[1rem] hover:text-black transition-colors"
+              className="no-underline flex items-center text-[white] font-semibold text-[1rem] transition-colors"
             >
               {nav.name}
             </a>

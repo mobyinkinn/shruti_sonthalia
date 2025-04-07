@@ -6,7 +6,7 @@ import RotatingImage from "@/app/utils/Rotating.jsx";
 
 const Publications = () => {
   return (
-    <div className="p-14 bg-[#FCFCFF]">
+    <div className="bg-[#FCFCFF]">
       <Hero />
       <Publication />
       <Contact_us

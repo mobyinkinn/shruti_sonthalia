@@ -20,7 +20,7 @@ const Hero = () => {
 
       <div>
         <div
-          className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[434px] xl:min-h-[600px] bg-cover bg-center rounded-[60px]"
+          className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[434px] xl:min-h-[600px] bg-cover bg-center"
           style={{ backgroundImage: `url(${hero_banner.src})`, backgroundSize:"contain", backgroundRepeat:"no-repeat" }}
         ></div>
       </div>
