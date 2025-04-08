@@ -154,13 +154,11 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <div className="w-full h-24 flex items-center justify-between px-10 bg-transparent z-40">
-      {/* Left logo */}
+    <div className="absolute w-full h-24 flex items-center justify-between px-10 bg-transparent z-40">
       <a href="/" className="flex items-center">
         <Image src="/logo_1.png" alt="Ruhco." width={142} height={51} />
       </a>
 
-      {/* Navigation Links */}
       <div className="space-x-8 flex items-center">
         {navLinks.map((nav) => (
           <div key={nav.id} className="relative group">

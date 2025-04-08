@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import ten from "../assets/Mask10.png";
 import eleven from "../assets/Mask11.png";
@@ -5,28 +7,100 @@ import twelve from "../assets/Mask12.png";
 import thirteen from "../assets/Mask13.png";
 import forteen from "../assets/Mask14.png";
 import fifteen from "../assets/Mask15.png";
-
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import Image from 'next/image';
+import cert from "../assets/cert1.png";
+import cert2 from "../assets/cert1.png";
+import meet2 from "../assets/2.png";
+import meet from "../assets/2.png";
+
+
+
+const certImages = [cert, cert2];
+const meetImages = [meet, meet2];
+
 const Rightside = () => {
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  customPaging: (i) => (
+    <div
+      style={{
+        width: "12px",
+        height: "12px",
+        borderRadius: "50%",
+        background: "#d1d5db", // light gray (Tailwind gray-300)
+        margin: "0 5px",
+        transition: "all 0.3s",
+      }}
+    />
+  ),
+  appendDots: (dots) => (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "20px",
+      }}
+    >
+      <ul style={{ display: "flex", padding: 0, margin: 0 }}>{dots}</ul>
+    </div>
+  ),
+};
+
+const meetsettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  arrows: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  customPaging: (i) => (
+    <div
+      style={{
+        width: "12px",
+        height: "12px",
+        borderRadius: "50%",
+        background: "#d1d5db", // light gray (Tailwind gray-300)
+        margin: "0 5px",
+        transition: "all 0.3s",
+      }}
+    />
+  ),
+  appendDots: (dots) => (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        paddingTop: "20px",
+      }}
+    >
+      <ul style={{ display: "flex", padding: 0, margin: 0 }}>{dots}</ul>
+    </div>
+  ),
+};
+
   return (
     <>
       <div className="flex flex-col w-[40%] ">
-        <div className="w-full pt-60 pb-30 flex flex-row">
-          <Image
-            src={ten}
-            alt="Conference Hall 2"
-            width={500}
-            height={300}
-            className="w-full h-auto object-cover"
-          />
-          <Image
-            src={eleven}
-            alt="Conference Hall 2"
-            width={500}
-            height={300}
-            className="w-full h-auto object-cover p-10"
-          />
+        <div className="w-full p-8 text-gray-900 font-sans space-y-10">
+          <Slider {...settings}>
+            {certImages.map((cert, index) => (
+              <Image
+                src={cert}
+                alt="Conference Hall 2"
+                width={400}
+                height={200}
+                className="w-full h-auto object-cover"
+              />
+            ))}
+          </Slider>
         </div>
         <div className="w-full py-8 text-gray-900 font-sans space-y-10">
           <div>
@@ -64,45 +138,34 @@ const Rightside = () => {
             </span>
           </div>
         </div>
-        <div className="w-full rounded-2xl overflow-hidden pt-60 pb-40">
-          <Image
-            src={twelve}
-            alt="Conference Hall 2"
-            width={1000}
-            height={600}
-            className="w-full h-auto object-cover"
-          />
-        </div>
-        <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6 px-6 pb-80 bg-white">
-          <div className="flex flex-col gap-6 w-[60%]">
-            <div className="rounded-2xl overflow-hidden">
-              <Image
-                src={thirteen}
-                alt="Coaching Conference 1"
-                width={1000}
-                height={800}
-                className="w-full h-auto object-cover"
-              />
-            </div>
-            <div className="rounded-2xl overflow-hidden">
-              <Image
-                src={forteen}
-                alt="Coaching Conference 2"
-                width={1000}
-                height={800}
-                className="w-full h-auto object-cover"
-              />
-            </div>
+        <div className="w-full overflow-hidden pt-30 pb-20">
+          <div className="w-[100%] relative pr-5">
+            <video
+              width="100%"
+              height="100%"
+              autoPlay
+              loop
+              muted
+              controls={false}
+              style={{ objectFit: "cover" }}
+            >
+              <source src="/Corona.mp4" type="video/mp4" />
+            </video>
           </div>
-
-          <div className="rounded-2xl overflow-hidden w-[50%]">
-            <Image
-              src={fifteen} // Replace with your image
-              alt="ICF Coaching Visual"
-              width={800}
-              height={1000}
-              className="w-full h-auto object-cover"
-            />
+        </div>
+        <div className="w-full flex flex-col md:flex-row justify-center items-center gap-6  bg-white pt-30 pb-20">
+          <div className="w-full pr-8 text-gray-900 font-sans space-y-10">
+            <Slider {...meetsettings}>
+              {meetImages.map((cert, index) => (
+                <Image
+                  src={cert}
+                  alt="Conference Hall 2"
+                  width={400}
+                  height={200}
+                  className="w-full h-auto object-cover"
+                />
+              ))}
+            </Slider>
           </div>
         </div>
         <div className="w-full px-6 py-10  text-gray-900 font-sans space-y-10">
@@ -140,7 +203,7 @@ const Rightside = () => {
           </div>
 
           {/* 2009 */}
-          <div className='pt-20'>
+          <div className="pt-20">
             <p className="text-[1.5rem] font-semibold">2009</p>
             <h2 className="text-[#E22E1B] font-semibold text-[1.8rem]">
               International Student of the Year for London

@@ -59,3 +59,11 @@
 .test-spin {
   animation: spin360 6s linear infinite;
 }
+
+
+
+
+/* Highlight active dot */
+.slick-dots li.slick-active div {
+  background: #6366f1 !important; /* Tailwind indigo-500 (matches your middle dot color) */
+}

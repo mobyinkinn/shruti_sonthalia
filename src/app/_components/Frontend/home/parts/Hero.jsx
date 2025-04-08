@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <div className="flex flex-col items-center justify-center p-12">
+    <div className="relative flex flex-col items-center justify-center p-12">
       <div className="w-[100%] relative ">
         {/* <Image src={hero} alt="" fill objectFit="cover" /> */}
         <video

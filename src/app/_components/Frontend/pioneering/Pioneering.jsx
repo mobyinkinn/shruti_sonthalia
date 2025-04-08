@@ -7,7 +7,7 @@ import Contact_us from '../about/parts/Contact_us';
 
 const Pioneering = () => {
   return (
-    <div className="px-14 py-10 bg-[#FCFCFF]">
+    <div className="bg-[#FCFCFF]">
       <Hero />
       <div className="flex flex-row justify-between">
         <Leftside />

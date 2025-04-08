@@ -1,14 +1,88 @@
+"use client"
 import React from 'react'
 import six from "../assets/Mask6.png"
 import seven from "../assets/Mask7.png";
 import eight from "../assets/Mask8.png";
 import nine from "../assets/Mask9.png";
+import img1 from "../assets/1.png";
+import img2 from "../assets/1.png";
+import img3 from "../assets/3.png";
+import img4 from "../assets/3.png";
 
+
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import Image from 'next/image';
+const coachingImages = [img1, img2];
+const fifthImages = [img3, img4];
 
 const Leftside = () => {
+  const Coasettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "12px",
+          height: "12px",
+          borderRadius: "50%",
+          background: "#d1d5db", // light gray (Tailwind gray-300)
+          margin: "0 5px",
+          transition: "all 0.3s",
+        }}
+      />
+    ),
+    appendDots: (dots) => (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingTop: "20px",
+        }}
+      >
+        <ul style={{ display: "flex", padding: 0, margin: 0 }}>{dots}</ul>
+      </div>
+    ),
+  };
+  const fifthsettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    arrows: false,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    customPaging: (i) => (
+      <div
+        style={{
+          width: "12px",
+          height: "12px",
+          borderRadius: "50%",
+          background: "#d1d5db", // light gray (Tailwind gray-300)
+          margin: "0 5px",
+          transition: "all 0.3s",
+        }}
+      />
+    ),
+    appendDots: (dots) => (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          paddingTop: "20px",
+        }}
+      >
+        <ul style={{ display: "flex", padding: 0, margin: 0 }}>{dots}</ul>
+      </div>
+    ),
+  };
   return (
-    <div className='flex flex-col w-[50%]'>
+    <div className="flex flex-col w-[50%]">
       <div className="w-full px-6 py-8 bg-gray-50 text-gray-900 font-sans">
         <h1 className="text-3xl text-[#E22E1B] font-medium">
           SHRUTI SONTHALIA:
@@ -58,26 +132,18 @@ const Leftside = () => {
           </div>
         </div>
       </div>
-      <div className="w-full py-8 flex flex-col gap-6">
-        <div className="rounded-2xl overflow-hidden">
-          <Image
-            src={six}
-            alt="Conference Hall 1"
-            width={1000}
-            height={600}
-            className="w-full h-auto object-cover"
-          />
-        </div>
-
-        <div className="rounded-2xl overflow-hidden">
-          <Image
-            src={seven}
-            alt="Conference Hall 2"
-            width={1000}
-            height={600}
-            className="w-full h-auto object-cover"
-          />
-        </div>
+      <div className="w-full p-8 flex flex-col gap-6">
+        <Slider {...Coasettings}>
+          {coachingImages.map((cert, index) => (
+            <Image
+              src={cert}
+              alt="Conference Hall 2"
+              width={400}
+              height={200}
+              className="w-full h-auto object-cover"
+            />
+          ))}
+        </Slider>
       </div>
       <div className="w-full px-6 py-8 text-gray-900 font-sans space-y-10">
         <div>
@@ -175,14 +241,18 @@ const Leftside = () => {
           </span>
         </div>
       </div>
-      <div className="w-full rounded-2xl overflow-hidden py-20">
-        <Image
-          src={nine}
-          alt="Conference Hall 2"
-          width={1000}
-          height={600}
-          className="w-full h-auto object-cover"
-        />
+      <div className="w-full pt-40 pb-20 pl-8 text-gray-900 font-sans space-y-10">
+        <Slider {...fifthsettings}>
+          {fifthImages.map((cert, index) => (
+            <Image
+              src={cert}
+              alt="Conference Hall 2"
+              width={400}
+              height={200}
+              className="w-full h-auto object-cover"
+            />
+          ))}
+        </Slider>
       </div>
       <div className="w-full rounded-2xl overflow-hidden py-20">
         <Image

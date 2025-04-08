@@ -2,8 +2,8 @@ import Image from "next/image";
 import publication from "../assets/Mask5.png";
 const Hero = () => {
   return (
-    <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
-      <Image
+    <div className="relative w-full h-[screen]">
+      {/* <Image
         src={publication}
         alt="Transformational Leadership"
         layout="fill"
@@ -11,7 +11,21 @@ const Hero = () => {
         className="z-0"
         priority
       />
-      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
+      <div className="absolute inset-0 bg-black opacity-30 z-10"></div> */}
+      <div className="w-[100%] relative ">
+        {/* <Image src={hero} alt="" fill objectFit="cover" /> */}
+        <video
+          width="100%"
+          height="100%"
+          autoPlay
+          loop
+          muted
+          controls={false}
+          style={{ objectFit: "cover" }}
+        >
+          <source src="/Pioneering.mp4" type="video/mp4" />
+        </video>
+      </div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
           Innovative Solutions for Social Inclusion
