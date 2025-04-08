@@ -1,9 +1,10 @@
-import React from 'react'
-import Hero from './parts/Hero'
-import ScrollTimeline from './parts/Dashed';
-import Leftside from './parts/Leftside';
-import Rightside from './parts/Rightside';
-import Contact_us from '../about/parts/Contact_us';
+import React from "react";
+import Hero from "./parts/Hero";
+import ScrollTimeline from "./parts/Dashed";
+import Leftside from "./parts/Leftside";
+import Rightside from "./parts/Rightside";
+import Contact_us from "../about/parts/Contact_us";
+import git from "../publications/assets/git.png";
 
 const Pioneering = () => {
   return (
@@ -14,14 +15,17 @@ const Pioneering = () => {
         <ScrollTimeline />
         <Rightside />
       </div>
-      <Contact_us
-        heading="Take the First Step Toward Successful Change"
-        line1="Don’t let your change initiatives fall into the 70% that fail. Are you ready to turn change into  a competitive advantage?"
-        line2="Sign up for Our Change Management Programs Now"
-        button_Name="Get In Touch"
-      />
+      <div className="px-6">
+        <Contact_us
+          heading="Take the First Step Toward Successful Change"
+          line1="Don’t let your change initiatives fall into the 70% that fail. Are you ready to turn change into  a competitive advantage?"
+          line2="Sign up for Our Change Management Programs Now"
+          button_Name="Get In Touch"
+          bg_image={git}
+        />
+      </div>
     </div>
   );
-}
+};
 
-export default Pioneering
+export default Pioneering;

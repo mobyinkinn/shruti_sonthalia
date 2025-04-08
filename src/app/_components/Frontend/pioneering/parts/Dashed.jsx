@@ -92,7 +92,7 @@ export default function ScrollTimeline() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const totalCircles = 10;
+  const totalCircles = 12;
   const height = 4000;
   const gap = height / totalCircles;
 
