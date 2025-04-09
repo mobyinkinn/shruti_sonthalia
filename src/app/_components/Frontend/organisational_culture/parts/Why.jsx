@@ -34,7 +34,7 @@ export default function Why() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
+    <div className="mx-auto py-6 px-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
       <div className="relative">
         <Image
           src={why}
