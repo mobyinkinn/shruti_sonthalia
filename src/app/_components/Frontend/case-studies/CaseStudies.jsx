@@ -1,14 +1,14 @@
 import React from "react";
 import Hero from "./parts/Hero";
-import Cards from "./parts/Cards";
 import Contact_us from "../about/parts/Contact_us";
 import git from "./assets/git.png";
+import Cards from "./parts/Cards";
 
 const CaseStudies = () => {
   return (
     <div>
       <Hero />
-      <Cards />
+      <Cards/>
       <div className="px-6">
         <Contact_us
           heading="Take the First Step Toward Successful Change"

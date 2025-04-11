@@ -134,8 +134,8 @@ const HoverEffectText = () => {
 
   return (
     <div className="flex flex-col items-center justify-center pt-10 relative">
-      <h2 className="text-center text-4xl font-normal py-12 uppercase">
-        Meet The Business Coach Shruti Sonthalia
+      <h2 className="text-center text-4xl font-normal py-12 uppercase text-#E22E1B">
+        Introducing Shruti Sonthalia
       </h2>
       <div
         className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6"

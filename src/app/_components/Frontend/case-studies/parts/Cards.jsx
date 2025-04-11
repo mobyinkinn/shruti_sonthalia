@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -13,27 +14,36 @@ import i9 from "../assets/i9.png";
 import i10 from "../assets/i10.png";
 import i11 from "../assets/i11.png";
 import i12 from "../assets/i12.png";
+import { useRouter } from "next/navigation";
 
 const Cards = () => {
+  const router = useRouter();
   const data = [
     {
       img: git,
       title: "Coaching Across Borders – From Innovation to Impact",
+      route: "Coaching-Across-Borders-From-Innovation-to-Impact",
     },
     {
       img: i2,
       title:
         "Scaling with Structure – A Leading Ethnic Wear Brand’s Growth Journey",
+      route:
+        "scaling-with-structure-a-leading-ethnic-wear-brand-growth-journey",
     },
     {
       img: i3,
       title:
         "From Legacy to Leadership – A Traditional Manufacturing Firm’s Evolution",
+      route:
+        "from-legacy-to-leadership-a-traditional-manufacturing-firm-evolution",
     },
     {
       img: i4,
       title:
         "Navigating Disruption – Reinventing Strategy in the Packaging Ink Sector",
+      route:
+        "navigating-disruption-reinventing-strategy-in-the-packaging-ink-sector",
     },
   ];
 
@@ -41,36 +51,44 @@ const Cards = () => {
     {
       img: i5,
       title: "Reclaiming Leadership Authority in a Legacy Business",
+      route: "reclaiming-leadership-authority-in-a-legacy-business",
     },
     {
       img: i6,
       title: "From Email Wars to Collaborative Wins",
+      route: "from-email-wars-to-collaborative-wins",
     },
     {
       img: i7,
       title: "Unlocking Strategic Focus and Accountability",
+      route: "unlocking-strategic-focus-and-accountability",
     },
     {
       img: i8,
       title: "Overcoming Inertia and Creating Career Clarity",
+      route: "overcoming-inertia-and-creating-career-clarity",
     },
   ];
   const data3 = [
     {
       img: i9,
       title: "Reclaiming Self Through Creativity and Boundaries",
+      route: "reclaiming-self-through-creativity-and-boundaries",
     },
     {
       img: i10,
       title: "Speaking Up with Courage and Confidence",
+      route: "speaking-up-with-courage-and-confidence",
     },
     {
       img: i11,
       title: "Listening with the Heart",
+      route: "listening-with-the-heart",
     },
     {
       img: i12,
       title: "From Burnout to Vitality",
+      route: "from-burnout-to-vitality",
     },
   ];
   return (
@@ -98,12 +116,12 @@ const Cards = () => {
                 <p className="text-gray-900 font-medium text-base mb-4">
                   {d.title}
                 </p>
-                <Link
-                  href="#"
+                <button
                   className="text-blue-800 font-medium flex items-center gap-1"
+                  onClick={() => router.push(`/Case-studies/${d.route}`)}
                 >
                   Read More <span className="text-xl leading-4">→</span>
-                </Link>
+                </button>
               </div>
             </div>
           ))}
@@ -132,12 +150,12 @@ const Cards = () => {
                 <p className="text-gray-900 font-medium text-base mb-4">
                   {d.title}
                 </p>
-                <Link
-                  href="#"
+                <button
                   className="text-blue-800 font-medium flex items-center gap-1"
+                  onClick={() => router.push(`/Case-studies/${d.route}`)}
                 >
                   Read More <span className="text-xl leading-4">→</span>
-                </Link>
+                </button>
               </div>
             </div>
           ))}
@@ -166,12 +184,12 @@ const Cards = () => {
                 <p className="text-gray-900 font-medium text-base mb-4">
                   {d.title}
                 </p>
-                <Link
-                  href="#"
+                <button
                   className="text-blue-800 font-medium flex items-center gap-1"
+                  onClick={() => router.push(`/Case-studies/${d.route}`)}
                 >
                   Read More <span className="text-xl leading-4">→</span>
-                </Link>
+                </button>
               </div>
             </div>
           ))}

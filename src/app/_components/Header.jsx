@@ -142,12 +142,27 @@ const navLinks = [
         link: "/services/organisational_vision",
       },
       { id: 5, name: "Change Management", link: "/services/change_management" },
+      {
+        id: 6,
+        name: "Organisational Culture",
+        link: "/services/organisational_culture",
+      },
     ],
   },
-  { id: 4, name: "Publications & Media", link: "/publication-and-media" },
+  { id: 4, name: "Research & Publications", link: "/publication-and-media" },
   {
     id: 5,
-    name: "Pioneering Innovative Solutions",
+    name: "Community First",
+    link: "/pioneering-innovative-solution",
+  },
+  {
+    id: 6,
+    name: "Case Studies",
+    link: "/Case-studies",
+  },
+  {
+    id: 7,
+    name: "Media",
     link: "/pioneering-innovative-solution",
   },
 ];
@@ -156,7 +171,7 @@ export default function Header() {
   return (
     <div className="absolute w-full h-24 flex items-center justify-between px-10 bg-transparent z-40">
       <a href="/" className="flex items-center">
-        <Image src="/logo_1.png" alt="Ruhco." width={142} height={51} />
+        <Image src="/logoo.png" alt="Ruhco." width={142} height={51} />
       </a>
 
       <div className="space-x-8 flex items-center">

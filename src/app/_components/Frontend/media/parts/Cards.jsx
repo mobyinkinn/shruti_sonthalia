@@ -20,6 +20,36 @@ const data = [
     item: "Podcast",
     img: e2,
   },
+  {
+    title: "ICF BD Family Businesses",
+    item: "Session",
+    img: e3,
+  },
+  {
+    title: "coaching mindset",
+    item: "Session",
+    img: e4,
+  },
+  {
+    title: "ICF coaching conclave",
+    item: "Podcast",
+    img: e5,
+  },
+  {
+    title: "ICF Converge",
+    item: "Lecture",
+    img: e6,
+  },
+  {
+    title: "ICF masterclass",
+    item: "Session",
+    img: e7,
+  },
+  {
+    title: "Coaching supports Mission-driven Organizations",
+    item: "Lecture",
+    img: e8,
+  },
 ];
 
 const Cards = () => {
@@ -35,22 +65,26 @@ const Cards = () => {
           professional transformation.
         </span>
       </div>
-      <div className="px-14">
-        <div className="flex flex-col justify-center w-[40%]">
-          <div className="relative h-80 ">
-            <Image
-              src={e1.src}
-              alt="Flying bird"
-              layout="fill"
-              objectFit="cover"
-              className="rounded-t-2xl"
-            />
+      <div className="px-9 flex flex-row gap-10 flex-wrap ">
+        {data.map((d) => (
+          <div className="flex flex-col justify-center w-[48%] ">
+            <div className="relative h-83 shadow-xl rounded-2xl">
+              <Image
+                src={d.img}
+                alt="Flying bird"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-t-2xl"
+              />
+            </div>
+            <div className="text-center text-black text-[1.8rem] font-medium pt-5">
+              {d.title}
+            </div>
+            <div className="text-center text-[1.1rem] font-medium">
+              {d.item}
+            </div>
           </div>
-          <div className="text-center text-black text-[1.8rem] font-medium">
-            Burnout
-          </div>
-          <div className="text-center text-[1.1rem] font-medium">Session</div>
-        </div>
+        ))}
       </div>
     </>
   );

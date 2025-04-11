@@ -9,7 +9,7 @@ const Hero = () => {
     transform: `translateY(${isHovered ? "-100%" : "0"})`,
   });
   return (
-    <div className="relative w-full h-[700px]">
+    <div className="relative w-full h-[screen]">
       <video
         width="100%"
         height="100%"

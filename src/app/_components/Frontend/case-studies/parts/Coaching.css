@@ -1,0 +1,64 @@
+.coaching-section {
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: 'Georgia', serif;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #222;
+  padding: 0 20px;
+}
+
+.coaching-section section {
+  margin-bottom: 40px;
+}
+
+.coaching-section h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 8px;
+}
+
+.coaching-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-decoration: underline;
+}
+
+.coaching-section h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.coaching-section p {
+  margin-bottom: 16px;
+}
+
+.coaching-section ul {
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.coaching-section ul li {
+  margin-bottom: 12px;
+  list-style-type: disc;
+}
+
+.coaching-section blockquote {
+  margin: 20px 0;
+  padding-left: 16px;
+  border-left: 4px solid #ccc;
+  font-style: italic;
+  color: #555;
+}
+
+.coaching-section blockquote footer {
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 8px;
+  display: block;
+}

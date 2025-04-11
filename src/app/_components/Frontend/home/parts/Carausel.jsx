@@ -66,7 +66,7 @@ export default function Carausal() {
     <div className="px-5 xl:px-12 py-5">
       <div className="flex justify-center py-5">
         <span className="text-black text-[2.2rem]">
-          Noteworthy Clients Working At
+          Success Stories Built at
         </span>
       </div>
       <div className="space-y-10 py-5">
