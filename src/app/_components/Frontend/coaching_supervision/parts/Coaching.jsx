@@ -10,8 +10,8 @@ const coachingData = [
     item: "Identify biases, blind spots, and personal influences on your coaching approach.",
   },
   {
-    heading: "Enhanced Self-Awareness",
-    item: "Identify biases, blind spots, and personal influences on your coaching approach.",
+    heading: "Ethical guidance",
+    item: "Navigate complex client situations with professional integrity.",
   },
   {
     heading: "Expanded Skill Set",

@@ -5,8 +5,8 @@ const LeadershipProwess = () => {
     <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 px-4 md:px-16 py-12">
       {/* Text Section */}
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 underline-offset-4">
-          UNLOCK YOUR LEADERSHIP PROWESS
+        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+          Unlock New Depths in Your Coaching Practice
         </h2>
         <p className="text-gray-800 text-base leading-relaxed mb-4">
           In today’s volatile and rapidly evolving business environment, senior

@@ -62,9 +62,9 @@ your business and community?`,
   return (
     <>
       <div className="flex justify-center py-5 ">
-        <span className="text-black text-[2.5rem]">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase py-8">
           Bespoke Solutions for Every Journey
-        </span>
+        </h2>
       </div>
       <section className="max-w-7xl mx-auto py-5 px-4">
         {/* Top Selection Buttons */}

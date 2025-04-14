@@ -134,15 +134,19 @@ const HoverEffectText = () => {
 
   return (
     <div className="flex flex-col items-center justify-center pt-10 relative">
-      <h2 className="text-center text-4xl font-normal py-12 uppercase text-#E22E1B">
-        Introducing Shruti Sonthalia
-      </h2>
+      <div className="py-5 flex flex-col items-center gap-2">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase">
+          Introducing Shruti Sonthalia
+        </h2>
+        <p className="text-[0.8rem]">
+          Master Certified Coach, Trusted Advisor to C-Suite Leaders and Coaches
+        </p>
+      </div>
       <div
-        className="relative w-[95%] h-[631px] bg-cover bg-right flex justify-end items-start rounded-[20px] pt-6"
+        className="relative w-[100%] h-[631px] bg-cover bg-right flex justify-end items-start  pt-6"
         style={{ backgroundImage: `url('/tempBanner.png')` }}
       >
-        {/* Text Content Section */}
-        <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-14">
+        {/* <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-14">
           {textItems.map((item, index) => (
             <p
               key={index}
@@ -151,7 +155,7 @@ const HoverEffectText = () => {
               {item}
             </p>
           ))}
-        </div>
+        </div> */}
       </div>
       <p className="absolute w-[89%] pb-4 text-white text-[1.4rem] bottom-0 text-center">
         Shruti Sonthalia, a highly accomplished Master Certified Coach

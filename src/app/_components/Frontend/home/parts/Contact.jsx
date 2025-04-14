@@ -63,7 +63,7 @@
 
 
 import Image from "next/image";
-import about from "../assets/Mask.png";
+import about from "../assets/1.png";
 import AnimatedButton from "@/app/utils/Butoon";
 
 const ContactSection = () => {
@@ -77,7 +77,7 @@ const ContactSection = () => {
             alt="Get in Touch"
             layout="fill"
             objectFit="cover"
-            className="rounded-l-3xl"
+            className="rounded-3xl"
             priority
           />
         </div>

@@ -8,7 +8,7 @@ const coachingData = [
     item: "Retention rates improve by 30% in companies with strong leadership development programs (LinkedIn Workplace Learning Report, 2023)",
   },
   {
-    item: "Executive coaching, when paired with training, boosts productivity by 86%, compared to just 22% with training alone",
+    item: "Executive coaching, when paired with training, boosts productivity by 86%, compared to just 22% with training alone  - (Personnel Management Association)",
   },
   {
     item: "Effective coaching increases team performance by 25% while reducing retention risk by 40%. (Corporate Executive Board)",

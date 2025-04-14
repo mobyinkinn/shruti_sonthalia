@@ -11,6 +11,7 @@ import Contact_us from "../about/parts/Contact_us";
 import Empowering from "./parts/Empowering";
 import ContactForm from "./parts/Contact";
 import InsightsSlider from "./parts/SliderInsights";
+import ResearchCard from "./parts/Stories";
 
 const Home = () => {
   return (
@@ -18,8 +19,9 @@ const Home = () => {
       <Hero />
       <Carausal />
       <Empowering/>
-      <Testimonials />
-      <InsightsSlider/>
+      {/* <Testimonials />
+      <InsightsSlider/> */}
+      <ResearchCard/>
       <HoverEffectText />
       <ContactForm/>
       {/* <Info /> */}

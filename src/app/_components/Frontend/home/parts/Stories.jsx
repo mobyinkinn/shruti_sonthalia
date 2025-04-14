@@ -1,0 +1,76 @@
+import Image from "next/image";
+import one from "../assets/stories/1.png";
+import two from "../assets/stories/2.png";
+import three from "../assets/stories/3.png";
+
+
+const ResearchCard = () => {
+    const data = [
+      {
+        img: one,
+        title: "See the Transformation",
+        desc: "Real stories of growth, resilience, and leadership in action",
+      },
+      {
+        img: two,
+        title: "Explore Our Research & Insights",
+        desc: "Thought leadership that inspires reflection, action, and change",
+      },
+      {
+        img: three,
+        title: "Beyond the Sessions",
+        desc: "Webinars, podcasts, and press moments that deepen the story",
+      },
+    ];
+  return (
+    <>
+      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase py-8">
+        Stories, Research & Sessions that Spark Change
+      </h2>
+      <div className="flex flex-row justify-evenly">
+        {data.map((d) => (
+          <div className=" bg-white shadow-lg rounded-md overflow-hidden">
+            {/* Image */}
+            <div className="w-full h-[200px] relative">
+              <Image
+                src={d.img}
+                alt="Research Discussion"
+                layout="fill"
+                objectFit="cover"
+              />
+            </div>
+
+            {/* Text Section */}
+            <div className="bg-[#091A63] p-6 text-white space-y-3">
+              <h3 className="text-lg font-semibold">{d.title}</h3>
+              <p className="text-sm">{d.desc}</p>
+
+              {/* Know More Button */}
+              <div className="flex items-center justify-between text-white mt-4 cursor-pointer">
+                <span className="font-medium">Know More</span>
+                <div className="w-8 h-8 rounded-full bg-white text-[#091A63] flex items-center justify-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-4 h-4"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+};
+
+export default ResearchCard;

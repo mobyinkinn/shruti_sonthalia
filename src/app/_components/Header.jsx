@@ -163,7 +163,7 @@ const navLinks = [
   {
     id: 7,
     name: "Media",
-    link: "/pioneering-innovative-solution",
+    link: "/media-and-events",
   },
 ];
 
