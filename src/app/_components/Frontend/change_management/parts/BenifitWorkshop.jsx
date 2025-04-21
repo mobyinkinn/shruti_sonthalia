@@ -1,5 +1,5 @@
 import Image from "next/image";
-import workshopImage from "../assets/bg2.png"; // Replace with your image path
+import workshopImage from "../assets/1.gif"; // Replace with your image path
 
 const WorkshopBenefits = () => {
   return (
@@ -21,7 +21,7 @@ const WorkshopBenefits = () => {
         <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4">
           WHO BENEFITS FROM THIS WORKSHOP?
         </h2>
-        <p className="text-lg text-gray-700 mb-6">Our program is ideal for:</p>
+        <span className="text-lg text-gray-700 mb-6">Our program is ideal for:</span>
         <span className="pst-disc pl-5 text-lg text-gray-700">
           <p>
             <span className="text-[#151583] text-[1.3rem] pr-2">ō</span> C-suite

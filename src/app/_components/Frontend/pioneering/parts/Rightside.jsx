@@ -11,13 +11,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
-import cert from "../assets/cert1.png";
-import cert2 from "../assets/cert1.png";
+import cert from "../assets/111.jpg";
+import cert2 from "../assets/222.jpg";
+import cert3 from "../assets/333.jpg";
 import meet2 from "../assets/2.png";
-import meet from "../assets/2.png";
+import meet from "../assets/11.png";
+import meet3 from "../assets/33.png";
 
-const certImages = [cert, cert2];
-const meetImages = [meet, meet2];
+
+const certImages = [cert, cert2, cert3];
+const meetImages = [meet, meet2, meet3];
 
 const Rightside = () => {
   const settings = {
@@ -133,7 +136,7 @@ const Rightside = () => {
               controls={false}
               style={{ objectFit: "cover" }}
             >
-              <source src="/Corona.mp4" type="video/mp4" />
+              <source src="/Pioneering.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

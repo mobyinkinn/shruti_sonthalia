@@ -4,7 +4,7 @@ import React from "react";
 const Contact_us = ({ heading, line1, line2, button_Name, bg_image }) => {
   return (
     <div
-      className="rounded-[35px] mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center"
+      className="mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center"
       style={{
         backgroundImage: `url(${bg_image?.src})`,
         backgroundColor: "#151583",

@@ -7,14 +7,18 @@ import Contact_us from "./parts/Contact_us";
 import Info from "./parts/Info";
 import LessonsSection from "./parts/Lessonby";
 import ContactSection from "../home/parts/Contact";
+import Content from "./parts/Content";
+import Carausal from "../media/parts/Carausel";
 
 const About = () => {
   return (
     <div className="px-14">
       <Hero />
-      {/* <About_shruti /> */}
-      {/* <Info /> */}
+      <About_shruti />
       <LessonsSection/>
+      <Content/>
+      <Info />
+      <Carausal/>
       {/* <Principles /> */}
       <About_ruhco />
       <ContactSection/>

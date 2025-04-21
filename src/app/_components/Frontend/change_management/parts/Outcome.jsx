@@ -35,6 +35,7 @@ const WorkshopOutcome = () => {
               ō Communication blueprint with stakeholders for better change
               implementation
             </p>
+            <p> ō Strategies to address conflicts arising due to uncertainty</p>
           </span>
 
           <span className="list-disc pl-20 space-y-4 text-lg text-gray-700 text-left w-[50%]">

@@ -12,22 +12,24 @@ import CaseStudy from "./parts/CaseStudy.jsx";
 
 const Oraganisational_vision = () => {
   return (
-    <div className="p-10 bg-[#FCFCFF]">
+    <>
       <Hero />
-      <Workshop />
-      <Vision />
-      <LeadershipProwess/>
-      <Benifit/>
-      <WhyWeStandApart/>
-      <ExecutiveCoaching/>
-      <HowWillThisHelp/>
-      <CaseStudy/>
-      <Contact_us
-        heading="Get in Touch Now!"
-        line1="Don’t let misalignment cost your organization growth and profitability. Join leading  companies that have transformed their vision into execution. Get started today!"
-        button_Name="Get In Touch"
-      />
-    </div>
+      <div className="p-10 bg-[#FCFCFF]">
+        <Workshop />
+        <Vision />
+        <LeadershipProwess />
+        <Benifit />
+        <WhyWeStandApart />
+        <ExecutiveCoaching />
+        <HowWillThisHelp />
+        <CaseStudy />
+        <Contact_us
+          heading="Get in Touch Now!"
+          line1="Don’t let misalignment cost your organization growth and profitability. Join leading  companies that have transformed their vision into execution. Get started today!"
+          button_Name="Get In Touch"
+        />
+      </div>
+    </>
   );
 };
 

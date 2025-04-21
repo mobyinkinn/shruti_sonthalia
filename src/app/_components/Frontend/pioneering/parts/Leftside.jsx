@@ -4,16 +4,21 @@ import six from "../assets/Mask6.png";
 import seven from "../assets/Mask7.png";
 import eight from "../assets/Mask8.png";
 import nine from "../assets/Mask9.png";
-import img1 from "../assets/1.png";
-import img2 from "../assets/1.png";
-import img3 from "../assets/3.png";
-import img4 from "../assets/3.png";
+import img from "../assets/1.png";
+import img1 from "../assets/1.jpg";
+import img2 from "../assets/2.jpg";
+import img3 from "../assets/1.jpeg";
+import img6 from "../assets/1111.jpg";
+
+import img4 from "../assets/2.jpeg";
+import img5 from "../assets/1.png";
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
-const coachingImages = [img1, img2];
+const coachingImages = [img, img1, img2, img6];
 const fifthImages = [img3, img4];
 
 const Leftside = () => {

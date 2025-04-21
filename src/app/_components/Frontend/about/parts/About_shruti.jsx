@@ -1,12 +1,12 @@
 import React from "react";
-import shruti from "../assets/about_shruti/shruti.png";
-import shruti_ring from "../assets/about_shruti/shruti_ring.png";
+import shruti from "../assets/about_shruti/2.png";
+import shruti_ring from "../assets/about_shruti/1.png";
 
 const About_shruti = () => {
   return (
     <div className="flex flex-col mt-12 gap-4">
       <div className="flex flex-row justify-between">
-        <div className="flex flex-col w-[45%] space-y-8">
+        <div className="flex flex-col w-[60%] space-y-8">
           <span className="text-[2.5rem] leading-none font-semibold">
             ABOUT SHRUTI SONTHALIA
           </span>
@@ -33,10 +33,10 @@ const About_shruti = () => {
             leading industry professional.
           </span>
         </div>
-        <div className=" w-[51%]">
+        <div className=" w-[43%]">
           {" "}
           <div
-            className="hidden md:flex w-full min-h-[312px] md:min-h-[312px] lg:min-h-[340px] xl:min-h-[640px] rounded-[40px] bg-cover bg-center"
+            className="hidden md:flex w-full min-h-[312px] md:min-h-[312px] lg:min-h-[340px] xl:min-h-[95%] rounded-[40px] bg-cover bg-center"
             style={{ backgroundImage: `url(${shruti_ring.src})` }}
           ></div>
           

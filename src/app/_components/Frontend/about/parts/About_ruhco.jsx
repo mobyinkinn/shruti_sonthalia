@@ -8,7 +8,7 @@ const About_ruhco = () => {
     <>
       <div className="text-center">
         <h2 className="text-3xl font-medium">
-          ABOUT <span className="text-indigo-700 font-bold">RUHCO</span>
+          ABOUT <span className="text-[#151582] font-bold">RUHCO</span>
         </h2>
       </div>
       <section className="py-8 px-4 md:px-12 bg-white">

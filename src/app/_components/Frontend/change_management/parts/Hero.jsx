@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import mask3 from "../assets/Mask.png";
+import mask3 from "../assets/1.png";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 const Hero = () => {
@@ -11,7 +11,7 @@ const Hero = () => {
     transform: `translateY(${isHovered ? "-100%" : "0"})`,
   });
   return (
-    <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
+    <div className="relative w-full h-[700px]">
       <Image
         src={mask3}
         alt="Transformational Leadership"
@@ -20,15 +20,15 @@ const Hero = () => {
         className="z-0"
         priority
       />
+
+      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <h1 className="text-white text-2xl md:text-5xl font-semibold mb-4 tracking-wider uppercase">
-          Change Management
+          Lead the change
         </h1>
         <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
-          Change management helps businesses adapt to new processes,
-          technologies, and strategies with minimal resistance. It fosters
-          employee engagement and ensures a smooth, successful transition.
+          Guiding Leaders Through Transitions
         </p>
         <button
           style={{

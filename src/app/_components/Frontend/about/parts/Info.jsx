@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const Info = () => {
   return (
-    <div className="relative mt-8">
+    <div className="relative my-10">
       <div className=" inset-0 flex flex-col">
         <div className="text-[#151583] text-[1.9rem] leading-[2.4rem] space-y-2  flex flex-col items-center justify-evenly">
           <div className="text-[#151583] flex w-full justify-between">

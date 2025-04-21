@@ -28,10 +28,24 @@ const socialMediaLinks = [
 ];
 
 const services = [
-  { id: 1, name: "Executive Coaching", link: "" },
-  { id: 2, name: "Mentor Coaching & Coaching Supervision", link: "" },
-  { id: 3, name: "Change Mangement", link: "" },
-  { id: 4, name: "Organizational Development", link: "" },
+  { id: 1, name: "Executive Coaching", link: "/services/executive_coaching" },
+  {
+    id: 2,
+    name: "Coaching Supervision",
+    link: "/services/coaching_supervision",
+  },
+  { id: 3, name: "Change Mangement", link: "/services/change_management" },
+  {
+    id: 4,
+    name: "Organizational Vision",
+    link: "/services/organisational_vision",
+  },
+  { id: 5, name: "Coaching Skills", link: "/services/coaching_skills" },
+  {
+    id: 6,
+    name: "Organizational Culture",
+    link: "/services/organisational_culture",
+  },
 ];
 
 const quickLinks = [
@@ -59,14 +73,15 @@ export default function Footer() {
         </div>
         <div className="flex flex-col">
           <span className="text-[1rem] leading-6">
-            Elevate your business with my coaching services and
-            <br /> take your business to the next level. Grow your
-            <br /> business today
+            Empowering you to elevate your business through bespoke leadership
+            <br />
+            programs that delivers clarity, strategy, and sustainable growth.
+            Let’s take your
+            <br /> business to the next level — starting today.
           </span>
         </div>
 
         <div className="flex flex-col">
-          <span className="text-[1rem] leading-6 mb-1">Follow Us On:</span>
           <div className="flex space-x-2">
             {socialMediaLinks.map((social) => (
               <div
