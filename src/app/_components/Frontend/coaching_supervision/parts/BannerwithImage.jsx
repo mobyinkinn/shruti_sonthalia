@@ -9,22 +9,18 @@ const LeadershipProwess = () => {
           Unlock New Depths in Your Coaching Practice
         </h2>
         <p className="text-gray-800 text-base leading-relaxed mb-4">
-          In today’s volatile and rapidly evolving business environment, senior
-          leaders face unprecedented challenges. The need for adaptive,
-          high-performing leadership has never been greater. Yet, only 18% of
-          leaders feel “very capable” of navigating this environment effectively
-          <sup>*</sup>.
+          Coaching supervision is an essential, structured process that enables
+          coaches to reflect, grow, and refine their skills. Whether you are an
+          experienced coach or new to the profession, supervision provides a
+          safe, confidential space to explore challenges, enhance self-
+          awareness, and improve professional effectiveness.
         </p>
         <p className="text-gray-800 text-base leading-relaxed mb-4">
-          Our executive coaching programs provide a structured, data-backed, and
-          results-driven approach to leadership development. These programs help
-          executives navigate complexity, enhance decision-making, and drive
-          organizational success by equipping leaders with the self-awareness,
-          resilience, and strategic insight required to drive meaningful
-          transformation within their organizations.
-        </p>
-        <p className="text-gray-800 text-base">
-          Development Dimensions International and The Conference Board
+          We offer high-quality coaching supervision designed to support your
+          continuous professional development. With a focus on ethical practice,
+          psychological insight, and systemic awareness, our supervision
+          sessions empower you to bring greater impact to your clients and
+          maintain your well-being as a coach.
         </p>
       </div>
 

@@ -32,7 +32,7 @@ const Coaching = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]"
+            className="bg-white shadow-lg rounded-[20px] p-6 w-[450px] cursor-pointer min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]"
           >
             <div className="text-[1.4rem] font-medium leading-snug">
               {item.heading}

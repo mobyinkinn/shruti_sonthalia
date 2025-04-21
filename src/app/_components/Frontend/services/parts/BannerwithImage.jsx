@@ -24,6 +24,7 @@ const LeadershipProwess = () => {
           transformation within their organizations.
         </p>
         <p className="text-gray-800 text-base">
+          <sup>*</sup>.
           Development Dimensions International and The Conference Board
         </p>
       </div>

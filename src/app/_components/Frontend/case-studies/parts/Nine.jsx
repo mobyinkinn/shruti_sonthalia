@@ -6,7 +6,6 @@ import hero_banner from "../assets/7.jpg";
 const Nine = () => {
   const data = `<section>
   <h2>Reclaiming Self Through Creativity and Boundaries</h2>
-  <p><strong>Image:</strong> <a href="https://drive.google.com/file/d/1UEauvIe52R7zJgNSueV1_OENTxyEWHk2/view?usp=sharing" target="_blank" rel="noopener noreferrer">View Image</a></p>
 </section>
 
 <section>

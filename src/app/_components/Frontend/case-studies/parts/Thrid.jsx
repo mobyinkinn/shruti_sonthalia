@@ -6,7 +6,6 @@ import hero_banner from "../assets/3.jpg";
 const Third = () => {
   const data = `<section>
   <h2>From Legacy to Leadership – A Traditional Manufacturing Firm’s Evolution</h2>
-  <p><strong>Image:</strong> <a href="https://drive.google.com/file/d/1i-WCC8ChV_bm_kDaqNR3IFmNTHdY5hfC/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View Image</a></p>
 </section>
 
 <section>

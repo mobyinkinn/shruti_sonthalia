@@ -6,7 +6,6 @@ import hero_banner from "../assets/6.jpg";
 const Seven = () => {
   const data = `<section>
   <h2>Unlocking Strategic Focus and Accountability</h2>
-  <p><strong>Image:</strong> <a href="https://drive.google.com/file/d/177rQXNN4OUEbqSwHytjEtqTaBv8ROuI6/view?usp=drive_link" target="_blank" rel="noopener noreferrer">View Image</a></p>
 </section>
 
 <section>

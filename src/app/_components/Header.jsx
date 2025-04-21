@@ -149,7 +149,7 @@ const navLinks = [
       },
     ],
   },
-  { id: 4, name: "Research & Publications", link: "/publication-and-media" },
+  { id: 4, name: "Publications", link: "/publication-and-media" },
   {
     id: 5,
     name: "Community First",
@@ -164,6 +164,11 @@ const navLinks = [
     id: 7,
     name: "Media",
     link: "/media-and-events",
+  },
+  {
+    id: 8,
+    name: "Contact us",
+    link: "/contact-us",
   },
 ];
 

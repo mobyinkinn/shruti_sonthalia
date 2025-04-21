@@ -21,6 +21,7 @@ const publicationData = [
     shortDescription:
       "The benefits of coach training for organisations and leaders are well-documented. Embodying the coaching mindset, defined as the development and maintenance of an open, curious, flexible, and..........",
     buttonTitle: "Journal Article",
+    link: "/pdfs/1.pdf",
   },
 
   {
@@ -45,6 +46,7 @@ const publicationData = [
     shortDescription:
       "We live in a time of exceptional upheaval, disruption, chaos and uncertainty. Often, moments of extremestress and pressure serve as  significant initiations for us as individuals and communities..........",
     buttonTitle: "Book",
+    link: "/pdfs/2.pdf",
   },
 
   {
@@ -55,7 +57,7 @@ const publicationData = [
     shortDescription:
       "India has the largest millennial population (400 million) in the world. This makes education the most critical insertion point for India and an important driver for future readiness. It is further essential..........",
     buttonTitle: "Book",
-    link: "https://docs.google.com/document/d/1GqzHvVxRkIObLte5w2aX_mrqofsQSrc0PGekOWRgD6M/edit?tab=t.0",
+    link: "/pdfs/3.pdf",
   },
 
   {
@@ -66,7 +68,7 @@ const publicationData = [
     shortDescription:
       "Brought up as a woman in India, the concept of my own needs seemed alien. I had learned to be a pleaser; the role and identity of being a caregiver came with ease. At one point I felt completely..........",
     buttonTitle: "Research Paper",
-    link: "https://drive.google.com/file/d/1cuOdwdXPJMT6yjaBfFRlRTVNCXnWHh1U/view?usp=drive_link",
+    link: "/pdfs/4.pdf",
   },
 
   {
@@ -77,6 +79,7 @@ const publicationData = [
     shortDescription:
       "An analysis of previous research demonstrates a clear correspondence between the variables that provide individuals meaning and happiness; however, this has surprisingly not been addressed in the..........",
     buttonTitle: "Thesis",
+    link: "/pdfs/5.pdf",
   },
 
   {
@@ -160,11 +163,19 @@ const Publication = () => {
 
             <p className="text-[#000000] text-[1.4rem] leading-relaxed">
               {publication.shortDescription}
-              <a
+              {/* <a
                 href={publication.link}
                 className="text-[#151583] hover:text-[#151583] "
               >
                 Read More
+              </a> */}
+              <a
+                href={publication.link}
+                className="text-[#151583] hover:text-[#151583] "
+                rel="noopener noreferrer"
+                target="blank"
+              >
+                  Read more
               </a>
             </p>
           </div>

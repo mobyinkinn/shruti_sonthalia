@@ -15,7 +15,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import empowering1 from "../assets/empowing/empower1.png"
+import empowering1 from "../assets/empowing/2.png"
 export default function Empowering() {
   // State to track selected option
   const [selectedOption, setSelectedOption] = useState(0);
@@ -95,6 +95,7 @@ your business and community?`,
             height={500}
             className="w-full h-auto transition-opacity duration-500"
           />
+          
         </div>
 
         {/* Dynamic Content */}
