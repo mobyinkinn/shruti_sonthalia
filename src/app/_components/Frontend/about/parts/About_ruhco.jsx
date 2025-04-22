@@ -12,9 +12,9 @@ const About_ruhco = () => {
         </h2>
       </div>
       <section className="py-8 px-4 md:px-12 bg-white">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           {/* Left Text Column */}
-          <div className="space-y-6 text-gray-800 text-lg leading-relaxed ">
+          <div className="space-y-6 text-gray-800 text-lg leading-relaxed w-[100%]">
             <p>
               <span className="text-red-600 font-semibold">Ruh</span> expresses
               spirit, essence, source. Honouring the life force that is abundant
@@ -43,7 +43,7 @@ const About_ruhco = () => {
           </div>
 
           {/* Right Image Column */}
-          <div className="w-135 h-93">
+          <div className="w-[100%]">
             <video
               width="100%"
               autoPlay

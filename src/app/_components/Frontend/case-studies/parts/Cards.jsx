@@ -101,7 +101,7 @@ const Cards = () => {
           {data.map((d, index) => (
             <div
               key={index}
-              className="w-[40%] rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="w-[40%] rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             >
               <div className="relative h-48 w-full">
                 <Image
@@ -131,11 +131,11 @@ const Cards = () => {
         <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
           Executive Coaching Case Study
         </h2>
-        <div className="flex flex-row flex-wrap justify-center gap-20">
+        <div className="flex flex-row flex-wrap justify-center gap-20 ">
           {data2.map((d, index) => (
             <div
               key={index}
-              className="w-[40%] rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="w-[40%] rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer"
             >
               <div className="relative h-48 w-full">
                 <Image

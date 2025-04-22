@@ -89,8 +89,8 @@ const publicationData = [
     publicationDate: "18 July , 2023",
     shortDescription:
       "Family businesses contribute to almost 70% of the annual GDP of most developed and developing countries. However, they surprisingly remain an underserved target group for the coaching industry worldwide..........",
-    buttonTitle: "Research Paper",
-    link: "https://coachingfederation.org/blog/trust-with-family-businesses",
+    buttonTitle: "Article",
+    link: "https://coachingfederation.org/blog/building-initial-trust-while-coaching-family-businesses/",
   },
 
   {
@@ -100,7 +100,7 @@ const publicationData = [
     publicationDate: "18 Mar , 2024",
     shortDescription:
       "As an ICF-accredited coach and coach educator, my journey has been one of continual learning and evolution. While my primary focus has been on using coaching as a space for personal growth and mentor..........",
-    buttonTitle: "Research Paper",
+    buttonTitle: "Article",
     link: "https://www.aoec.com/knowledge-bank/the-power-of-reflective-supervision-in-coaching-leadership/",
   },
 
@@ -111,7 +111,7 @@ const publicationData = [
     publicationDate: "13 Dec , 2024",
     shortDescription:
       "In our modern world, the relentless pursuit of productivity has led to an epidemic of burnout. We often find ourselves trapped in a cycle of endless striving, neglecting our wellbeing in the process. However, the..........",
-    buttonTitle: "Research Paper",
+    buttonTitle: "Article",
     link: "https://www.aoec.com/knowledge-bank/the-leadership-winter-embracing-the-season-of-renewal/",
   },
 
@@ -122,7 +122,7 @@ const publicationData = [
     publicationDate: "21 Oct , 2024",
     shortDescription:
       "Shruti Sonthalia is a Master Certified Coach (ICF) with extensive experience working with C-Suite and senior leaders across industries including technology, healthcare, financial services, and..........",
-    buttonTitle: "Research Paper",
+    buttonTitle: "Article",
     link: "https://www.aoec.com/knowledge-bank/in-conversation-with-shruti-sonthalia/",
   },
 ];

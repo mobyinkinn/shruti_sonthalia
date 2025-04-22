@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroCopy from './HeroCopy'
 import One from './One'
-import hero_banner from "../assets/6.jpg";
+import hero_banner from "../assets/i7.png";
 
 const Seven = () => {
   const data = `<section>

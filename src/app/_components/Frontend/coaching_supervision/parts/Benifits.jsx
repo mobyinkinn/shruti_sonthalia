@@ -1,8 +1,9 @@
 import Image from "next/image";
-import benifit1 from "../assets/benifits/benifit1.png";
-import benifit2 from "../assets/benifits/benifit2.png";
+import benifit1 from "../assets/benifits/1.jpg";
+import benifit2 from "../assets/benifits/2.jpg";
 export default function Benifits() {
   return (
+    <>
     <section className="flex flex-col lg:flex-row items-center justify-between mt-12">
       {/* Right Image Section */}
       <div className="lg:w-1/2 flex items-center justify-center mt-10 lg:mt-0 relative">
@@ -76,6 +77,17 @@ export default function Benifits() {
           </p>
         </div>
       </div>
+      
     </section>
+     <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6 mt-14">
+        <span className="text-[2rem] leading-none tracking-wide font-semibold text-[#151583]">
+          Coaching supervision is not just a professional requirement it’s an
+          opportunity to expand your potential. Investing in supervision
+          enhances your effectiveness, deepens your impact, and strengthens your
+          confidence as a coach.
+        </span>
+      </div>
+      </>
+    
   );
 }

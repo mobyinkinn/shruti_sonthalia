@@ -3,9 +3,9 @@ import benifit1 from "../assets/benifits/benifit1.png";
 import benifit2 from "../assets/benifits/benifit2.png";
 export default function Benifit() {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between mt-12">
+    <section className="flex flex-col gap-[75px] lg:flex-row items-center justify-between mt-12">
       {/* Right Image Section */}
-      <div className="lg:w-1/2 flex items-center justify-center mt-10 lg:mt-0 relative">
+      <div className="w-[40%] flex items-center justify-center mt-10 lg:mt-0 relative">
         <div className="relative w-full max-w-lg">
           {/* <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
           <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div> */}
@@ -36,7 +36,7 @@ export default function Benifit() {
       </div>
 
       {/* Left Text Section */}
-      <div className="lg:w-1/2 space-y-6 text-[#E22E1B]">
+      <div className="w-[60%] space-y-6 text-[#E22E1B]">
         <h2 className="text-4xl font-medium uppercase tracking-wider leading-12">
           Who Benefits from This Workshop?
         </h2>
@@ -47,21 +47,24 @@ export default function Benifit() {
         <div className="space-y-4">
           {[
             {
-              title: "Executive Coaches",
+              title: "Large Enterprises: ",
               description:
-                "Who looking to refine their leadership coaching skills.",
+                "Multinational corporations navigating complex transformations or mergers and acquisitions.",
             },
             {
-              title: "Mentor Coaches",
-              description: "Who are working with emerging professionals.",
+              title: "Mid-Sized Companies:",
+              description:
+                "Growing businesses looking to scale operations and aiming to improve decision-making and cross-functional collaboration. Midsize Enterprises Corporations Undergoing Transformation due to M&A, leadership change, or digital disruption.Organizations with Declining Employee Engagement that need to re-energize and inspire their workforce.",
             },
             {
-              title: "Organizational Coaches",
-              description: "Who are managing complex workplace dynamics.",
+              title: "Public Sector and NGOs:",
+              description:
+                "High-growth companies transitioning from founder-led to professionally managed structures.",
             },
             {
-              title: "Organizational Coaches",
-              description: "Who are managing complex workplace dynamics.",
+              title: "Startups and Scale-ups:",
+              description:
+                "Government agencies and nonprofits seeking to modernize and align their vision with stakeholder expectations.",
             },
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">

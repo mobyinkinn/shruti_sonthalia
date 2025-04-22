@@ -36,29 +36,17 @@ const Vision = () => {
         </span>
       </div>
 
-      <div className="flex flex-wrap gap-6 justify-center items-center mt-8 rounded-[20px]">
+      <div className="flex flex-wrap gap-8 justify-center items-center mt-8 ">
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className={`relative text-white rounded-[20px] ${item.bgClass} p-6 w-[436px] text-center`}
-            // style={{
-            //   backgroundImage: `url(${gradient.src})`,
-            //   backgroundSize: "cover",
-            //   backgroundPosition: "center",
-            //   WebkitMaskImage: `url(${gradient.src})`,
-            //   maskImage: `url(${gradient.src})`,
-            //   WebkitMaskSize: "cover",
-            //   maskSize: "cover",
-            // }}
+            className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#F3834C] hover:text-[#fff]"
           >
-            <span className="text-[1.2rem] leading-snug font-semibold">{item.item}</span>
+            <span className="text-[1rem] leading-snug">{item.item}</span>
           </div>
         ))}
       </div>
-      <span className="text-[2rem] mt-10 leading-12 tracking-wider font-medium capitalize text-center text-[#151583]">
-        A vision that’s aligned with the actions and aspirations of the
-        employees and stakeholders can create wonders. Here’s why:
-      </span>
+      
     </div>
   );
 };

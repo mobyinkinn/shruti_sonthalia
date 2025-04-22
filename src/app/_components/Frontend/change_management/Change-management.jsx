@@ -7,7 +7,7 @@ import WorkshopOutcome from './parts/Outcome';
 import ExecutiveCoaching from './parts/Executive';
 import Sliders from './parts/Slider';
 import Contact_us from '../about/parts/Contact_us';
-
+import cont from "./assets/1.jpg"
 const Change = () => {
   return (
     <>
@@ -20,10 +20,11 @@ const Change = () => {
         <WorkshopOutcome />
         <ExecutiveCoaching />
         <Contact_us
-          heading="Take the First Step Toward Successful Change"
-          line1="Don’t let your change initiatives fall into the 70% that fail. Are you ready to turn change into  a competitive advantage?"
-          line2="Sign up for Our Change Management Programs Now"
+          heading="Be the Leader Who Drives Change."
+          line1="Break through resistance. Inspire your team."
+          line2="Discover how our Change Management Workshop helps you lead with clarity and confidence."
           button_Name="Get In Touch"
+          bg_image={cont}
         />
       </div>
     </>

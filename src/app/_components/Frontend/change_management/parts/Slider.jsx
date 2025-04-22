@@ -20,24 +20,53 @@ const Sliders = () => {
     };
      const cardContent = [
        {
-         title: "Data-Driven",
+         title: "Employee Resistance:",
          description:
-           "We use behavioral analytics and tracking to measure progress and drive accountability.",
+           "65% of employees resist change due to fear of the unknown or lack of communication (Deloitte, 2023). We help you build trust and transparency.",
          img: Mask12,
        },
        {
-         title: "Tailored to Your Organization’s Needs",
+         title: "Leadership Gaps:",
          description:
-           "Our solutions are not one-size-fits-all. We create customized strategies based on your industry, company culture, and transformation objectives.",
+           "Only 25% of leaders feel confident leading change initiatives (Korn Ferry, 2022). We equip your leaders with the tools and mindset to drive transformation.",
          img: Mask12,
        },
        {
-         title: "Proven Track Record",
+         title: "Change Fatigue:",
          description:
-           "We’ve helped over x number of organizations across industries successfully navigate change, with a x% success rate in achieving desired outcomes.",
+         "45% of employees report feeling overwhelmed by constant changes (Gartner, 2023). Our program ensures sustainable pacing and employee well-being.",
+        img: Mask12,
+       },
+       {
+         title: "Ineffective Communication:",
+         description:
+         "Poor communication is the #1 reason change initiatives fail (Prosci, 2023). We design clear, consistent communication plans to keep everyone aligned.",
          img: Mask12,
        },
-       
+       {
+         title: "Lack of Measurable Outcomes:",
+         description:
+         "60% of organizations struggle to track the success of change initiatives (BCG, 2023). Our data-driven approach ensures you can measure progress and ROI.",
+         img: Mask12,
+       },
+       {
+         title: "Evolving work models: ",
+         description:
+         "Hybrid and remote work models have made change management essential for organisations. We provide tailored strategies to manage distributed teams, foster collaboration, and maintain productivity in hybrid and remote environments.",
+         img: Mask12,
+       },
+       {
+         title: "Unexpected market fluctuations:",
+         description:
+         "Sudden market changes caused by geopolitical events have made change management crucial. We help organizations build resilience and agility, enabling them to adapt quickly to external disruptions and maintain business continuity.",
+         img: Mask12,
+       },
+       {
+         title: "Acquisitions and mergers:",
+         description:
+         "Structural changes can overwhelm employees and leaders alike during mergers and acquisitions and need effective change management. We provide solutions that integrate cultures, align leadership, and ensure smooth transitions, minimizing disruption and maximizing value creation.",
+         img: Mask12,
+       },
      ];
   return (
     <div className="relative">

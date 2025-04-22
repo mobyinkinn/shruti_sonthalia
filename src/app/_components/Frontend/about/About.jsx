@@ -17,7 +17,7 @@ const About = () => {
       <About_shruti />
       <LessonsSection/>
       <Content/>
-      <Info />
+      {/* <Info /> */}
       <Carausal/>
       {/* <Principles /> */}
       <About_ruhco />

@@ -4,13 +4,15 @@ import React from "react";
 const Contact_us = ({ heading, line1, line2, button_Name, bg_image }) => {
   return (
     <div
-      className="mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center"
+      className="mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center relative"
       style={{
         backgroundImage: `url(${bg_image?.src})`,
         backgroundColor: "#151583",
       }}
     >
-      <div className="text-white items-center flex flex-col space-y-8">
+      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
+
+      <div className="text-white items-center flex flex-col space-y-8 z-20">
         <h2 className="text-[2.5rem] text-center leading-none font-medium uppercase">
           {heading}
         </h2>

@@ -9,6 +9,7 @@ import ExecutiveCoaching from "./parts/Executive.jsx";
 import WhyWeStandApart from "./parts/Stand.jsx";
 import HowWillThisHelp from "./parts/Willhelp.jsx";
 import CaseStudy from "./parts/CaseStudy.jsx";
+import cont from "./assets/cont.jpg";
 
 const Oraganisational_vision = () => {
   return (
@@ -24,9 +25,10 @@ const Oraganisational_vision = () => {
         <HowWillThisHelp />
         <CaseStudy />
         <Contact_us
-          heading="Get in Touch Now!"
-          line1="Don’t let misalignment cost your organization growth and profitability. Join leading  companies that have transformed their vision into execution. Get started today!"
+          heading="ALIGN. ACT. ACHIEVE."
+          line1="Don’t let misalignment hold your organization back. Join top-performing companies turning vision into action—and driving real results."
           button_Name="Get In Touch"
+          bg_image={cont}
         />
       </div>
     </>

@@ -1,6 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import img from "../assets/1.png"
+import img from "../assets/stand/1.jpg"
+import img2 from "../assets/stand/2.jpg";
+import img3 from "../assets/stand/3.jpg";
+import img4 from "../assets/stand/4.jpg";
+import img5 from "../assets/stand/5.jpg";
+import img6 from "../assets/1.png";
+
+
 const features = [
   {
     title: "Data-Driven",
@@ -12,7 +19,7 @@ const features = [
     title: "Incorporate PESTLE Analysis",
     description:
       "We use PESTLE analysis to assess external factors impacting your organization and help you adapt your strategy.",
-    image: img,
+    image: img2,
   },
   {
     title: "End-to-End Implementation",
@@ -52,7 +59,7 @@ const topFeatures = [
     title: "Incorporate PESTLE Analysis",
     description:
       "We use PESTLE analysis to assess external factors impacting your organization and help you adapt your strategy.",
-    image: img,
+    image: img2,
   },
 ];
 
@@ -61,25 +68,25 @@ const bottomFeatures = [
     title: "End-to-End Implementation",
     description:
       "From strategy to execution, we partner with you throughout your transformation journey.",
-    image: img,
+    image: img3,
   },
   {
     title: "Employee Engagement",
     description:
       "We foster environments that empower employees, boosting morale and productivity.",
-    image: img,
+    image: img4,
   },
   {
     title: "Customized for Your Industry",
     description:
       "Our solutions are tailored to the specific challenges and needs of your industry.",
-    image: img,
+    image: img5,
   },
   {
     title: "Proven Results",
     description:
       "Our data-backed approach delivers measurable improvements across your organization.",
-    image: img,
+    image: img6,
   },
 ];
 
@@ -115,27 +122,36 @@ const WhyWeStandApart = () => {
 const FeatureCard = ({ feature }) => {
   return (
     <div className="relative group rounded-[2rem] overflow-hidden shadow-lg h-64">
-      <div className="relative w-full h-full group flex items-end justify-center">
+      {/* Image Background */}
+      <div className="relative w-full h-full group">
         <Image
           src={feature.image}
           alt={feature.title}
           fill
           className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
         />
+        {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black opacity-40 transition-all duration-500 group-hover:opacity-0"></div>
-        <h3 className="text-xl font-bold mb-2 relative z-111 text-white transition-opacity duration-500 group-hover:opacity-0">
-          {feature.title}
-        </h3>
+
+        {/* Centered Title Initially */}
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h3 className="text-xl font-bold text-white text-center transition-opacity duration-500 group-hover:opacity-0 px-4">
+            {feature.title}
+          </h3>
+        </div>
       </div>
 
       {/* Hover Overlay */}
       <div className="absolute inset-0 bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-white p-5 text-center">
         <div className="absolute inset-0 bg-black opacity-20 transition-all duration-500"></div>
-        <h3 className="text-xl font-bold mb-2 relative z-111">{feature.title}</h3>
-        <p className="text-sm relative z-111">{feature.description}</p>
+        <h3 className="text-xl font-bold mb-2 relative z-10">
+          {feature.title}
+        </h3>
+        <p className="text-sm relative z-10">{feature.description}</p>
       </div>
     </div>
   );
 };
+
 
 export default WhyWeStandApart;

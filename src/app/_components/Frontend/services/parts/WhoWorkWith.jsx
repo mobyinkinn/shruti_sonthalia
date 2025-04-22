@@ -77,8 +77,8 @@
 
 
 import Image from "next/image";
-import one from "../assets/Mask1.png";
-import two from "../assets/mask2.png";
+import one from "../assets/1.jpg";
+import two from "../assets/3.jpg";
 
 export default function WhoWeWorkWith() {
   return (
@@ -139,7 +139,7 @@ export default function WhoWeWorkWith() {
                 width={300}
                 height={300}
                 alt="Leadership Team"
-                className="rounded-lg shadow-lg"
+                className="rounded-xl shadow-lg"
               />
             </div>
 
@@ -150,7 +150,7 @@ export default function WhoWeWorkWith() {
                 width={300}
                 height={300}
                 alt="Executive Leader"
-                className="rounded-lg shadow-lg"
+                className="rounded-xl shadow-lg"
               />
             </div>
           </div>

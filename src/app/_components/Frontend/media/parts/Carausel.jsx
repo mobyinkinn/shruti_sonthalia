@@ -4,12 +4,21 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import img from "../assets/2.png";
-import img2 from "../assets/2.png";
-import img3 from "../assets/2.png";
-import img4 from "../assets/2.png";
-import img5 from "../assets/2.png";
-import img6 from "../assets/2.png";
+import img from "../assets/Flyers/1.jpg";
+import img2 from "../assets/Flyers/2.jpg";
+import img3 from "../assets/Flyers/3.jpg";
+import img4 from "../assets/Flyers/4.jpg";
+import img5 from "../assets/Flyers/5.jpg";
+import img6 from "../assets/Flyers/6.jpg";
+import img7 from "../assets/Flyers/7.jpg";
+import img8 from "../assets/Flyers/8.jpg";
+import img9 from "../assets/Flyers/9.jpg";
+import img10 from "../assets/Flyers/10.jpg";
+import img11 from "../assets/Flyers/11.jpg";
+import img12 from "../assets/Flyers/12.jpg";
+import img13 from "../assets/Flyers/13.jpg";
+import img14 from "../assets/Flyers/14.jpg";
+
 
 
 const carausel = [
@@ -19,6 +28,14 @@ const carausel = [
   { id: 3, img: img4 },
   { id: 4, img: img5 },
   { id: 5, img: img6 },
+  { id: 6, img: img7 },
+  { id: 7, img: img8 },
+  { id: 8, img: img9 },
+  { id: 9, img: img10 },
+  { id: 10, img: img11 },
+  { id: 11, img: img12 },
+  { id: 12, img: img13 },
+  { id: 13, img: img14 },
 ];
 
 

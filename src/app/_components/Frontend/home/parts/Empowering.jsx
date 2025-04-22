@@ -15,47 +15,34 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import empowering1 from "../assets/empowing/2.png"
+import empowering1 from "../assets/empowing/1.jpg";
+import empowering2 from "../assets/empowing/2.jpg";
+import empowering3 from "../assets/empowing/3.jpg";
+import { useRouter } from "next/navigation";
+
 export default function Empowering() {
   // State to track selected option
   const [selectedOption, setSelectedOption] = useState(0);
-
+const router = useRouter();
   // Data for the three sections
   const sections = [
     {
       title: "Organisations",
-      content: `Are you grappling with digital transformation, adaptability, maintaining relevance, defining
-your identity and direction in the current global scenario, or achieving cultural alignment? Are
-skill gaps hindering your growth? Are you seeking to build resilience and address burnout?
-Are shifting customer expectations and market demands outpacing your adaptability, slowing
-decision-making, and creating inefficiencies? Are you struggling to attract and retain top
-talent and engage Gen Z? We have the answer`,
+      content: `We’re here to help — let’s explore the right solution for you.`,
       image: empowering1, // Replace with actual image path
-      bold: "We’re here to help — let’s explore the right solution for you.",
+      button: "Start Your Journey",
     },
     {
       title: "Business Leaders",
-      content: `Are you a senior executive, a promoter director of an intergenerational family
-business, or a startup founder dealing with high-stakes decisions, organizational
-transformation, or complex stakeholder dynamics? Is resistance to change affecting
-your leadership? Is balancing vision with daily operations overwhelming you? Are
-leadership blind spots, misalignment, or ineffective delegation slowing you down? Are
-you unsure about your next career move or struggling to manage a diverse workforce
-in a competitive environment? Does navigating uncertainty feel isolating? We can help
-you transform your leadership, support your career, and drive meaningful impact.`,
-      image: empowering1, // Replace with actual image path
-      bold: "We’re here to help — let’s explore the right solution for you.",
+      content: `Let’s turn these challenges into opportunities`,
+      image: empowering2, // Replace with actual image path
+      button: "Talk to us Today",
     },
     {
       title: "Coaches",
-      content: `Are you a practicing executive coach aiming to gain accreditation or elevate your coaching
-practice? Do you struggle with complex client dynamics, ethical dilemmas, or maintaining
-your well-being while delivering impactful coaching? Do blind spots or emotional fatigue
-hinder your progress? Would a structured, reflective space be valuable for enhancing your
-skills? And are you also seeking support to brainstorm and discover authentic ways to grow
-your business and community?`,
-      image: empowering1, // Replace with actual image path
-      bold: "We’re here to help — let’s explore the right solution for you.",
+      content: `Let’s co-create your path forward`,
+      image: empowering3, // Replace with actual image path
+      button: "Get in Touch",
     },
   ];
 
@@ -87,29 +74,31 @@ your business and community?`,
         </div>
 
         {/* Dynamic Image Section */}
-        <div className="relative rounded-lg overflow-hidden shadow-lg mb-6">
+        <div className="relative rounded-lg overflow-hidden shadow-lg mb-6 h-[70vh]">
           <Image
             src={sections[selectedOption].image}
             alt="Coaching Session"
-            width={1000}
-            height={500}
+            layout="fill"
+            objectFit="cover"
             className="w-full h-auto transition-opacity duration-500"
           />
-          
         </div>
 
         {/* Dynamic Content */}
-        <p className="text-gray-700 text-lg text-center max-w-5xl mx-auto leading-relaxed mb-6">
+        {/* <p className="text-gray-700 text-lg text-center max-w-5xl mx-auto leading-relaxed mb-6">
           {sections[selectedOption].content}
-        </p>
+        </p> */}
         <p className="text-black text-lg font-bold text-center max-w-5xl mx-auto leading-relaxed mb-6">
-          {sections[selectedOption].bold}
+          {sections[selectedOption].content}
         </p>
 
         {/* CTA Button */}
         <div className="flex justify-center">
-          <button className="flex items-center gap-2 px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border  transition cursor-pointer">
-            Start Journey
+          <button
+            className="flex items-center gap-2 px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border  transition cursor-pointer"
+            onClick={() => router.push("/contact-us")}
+          >
+            {sections[selectedOption].button}
           </button>
         </div>
       </section>
