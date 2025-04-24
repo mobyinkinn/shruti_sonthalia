@@ -10,21 +10,23 @@ import Testimonials from "./parts/Testimonials.jsx";
 import bgimage from "../services/assets/2.jpg"
 const Services = () => {
   return (
-    <div className="p-14 bg-[#FCFCFF]">
+    <>
       <Hero />
-      <LeadershipProwess />
-      <Coaching />
-      <Executive />
-      <WhoWeWorkWith />
-      <Case_Study />
-      {/* <Testimonials /> */}
-      <Contact_us
-        heading="Ready to Transform Your Leadership?"
-        line1="Join the growing community of leaders investing in their leadership journey."
-        line2="Get in touch today to explore coaching can drive measurable impact or you and your organization."
-        bg_image={bgimage}
-      />
-    </div>
+      <div className="p-14 bg-[#FCFCFF]">
+        <LeadershipProwess />
+        <Coaching />
+        <Executive />
+        <WhoWeWorkWith />
+        <Case_Study />
+        {/* <Testimonials /> */}
+        <Contact_us
+          heading="Ready to Transform Your Leadership?"
+          line1="Join the growing community of leaders investing in their leadership journey."
+          line2="Get in touch today to explore coaching can drive measurable impact or you and your organization."
+          bg_image={bgimage}
+        />
+      </div>
+    </>
   );
 };
 

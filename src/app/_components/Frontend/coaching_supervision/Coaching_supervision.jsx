@@ -8,20 +8,22 @@ import LeadershipProwess from "./parts/BannerwithImage";
 import cont from "./assets/1.jpg"
 const Coaching_supervision = () => {
   return (
-    <div className="p-14">
+    <>
       <Hero />
-      <LeadershipProwess />
-      <Coaching />
-      <Benifits />
+      <div className="p-14">
+        <LeadershipProwess />
+        <Coaching />
+        <Benifits />
 
-      <Approach />
-      <Contact_us
-        heading="READY TO ADVANCE YOUR COACHING PRACTICE?"
-        line1="Our expert supervision is here to support your journey."
-        line2="Let’s connect and explore how we can amplify your impact through purposeful guidance."
-        bg_image={cont}
-      />
-    </div>
+        <Approach />
+        <Contact_us
+          heading="READY TO ADVANCE YOUR COACHING PRACTICE?"
+          line1="Our expert supervision is here to support your journey."
+          line2="Let’s connect and explore how we can amplify your impact through purposeful guidance."
+          bg_image={cont}
+        />
+      </div>
+    </>
   );
 };
 

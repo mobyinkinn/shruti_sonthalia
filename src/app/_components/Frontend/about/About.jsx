@@ -12,22 +12,24 @@ import Carausal from "../media/parts/Carausel";
 
 const About = () => {
   return (
-    <div className="px-14">
+    <>
       <Hero />
-      <About_shruti />
-      <LessonsSection/>
-      <Content/>
-      {/* <Info /> */}
-      <Carausal/>
-      {/* <Principles /> */}
-      <About_ruhco />
-      <ContactSection/>
-      {/* <Contact_us
+      <div className="px-14">
+        <About_shruti />
+        <LessonsSection />
+        <Content />
+        {/* <Info /> */}
+        <Carausal />
+        {/* <Principles /> */}
+        <About_ruhco />
+        <ContactSection />
+        {/* <Contact_us
         heading="Ready to Transform Your Leadership?"
         line1="Join the growing community of leaders investing in their leadership journey."
         line2="Get in touch today to explore coaching can drive measurable impact or you and your organization."
       /> */}
-    </div>
+      </div>
+    </>
   );
 };
 
