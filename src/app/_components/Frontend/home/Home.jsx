@@ -6,17 +6,17 @@ import News from "./parts/News";
 import Insightsews from "./parts/Insights";
 import Testimonials from "./parts/Testimonials";
 import HoverEffectText from "./parts/ImageDesign";
-import Hero from "./parts/Hero";
 import Contact_us from "../about/parts/Contact_us";
 import Empowering from "./parts/Empowering";
 import ContactForm from "./parts/Contact";
 import InsightsSlider from "./parts/SliderInsights";
 import ResearchCard from "./parts/Stories";
+import Hero from "./parts/Hero";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+    <Hero/>
       <Carausal />
       <Empowering/>
       {/* <Testimonials />

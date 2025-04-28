@@ -49,10 +49,10 @@ const services = [
 ];
 
 const quickLinks = [
-  { id: 1, name: "About Shruti", link: "" },
-  { id: 2, name: "Case Studies", link: "" },
-  { id: 3, name: "Publications & Media", link: "" },
-  { id: 4, name: "Contact Us", link: "" },
+  { id: 1, name: "About Shruti", link: "/about_me" },
+  { id: 2, name: "Case Studies", link: "/Case-studies" },
+  { id: 3, name: "Publications & Media", link: "/publication-and-media" },
+  { id: 4, name: "Contact Us", link: "/contact-us" },
 ];
 
 export default function Footer() {

@@ -1,30 +1,37 @@
+"use client"
 import Image from "next/image";
 import one from "../assets/stories/1.png";
 import two from "../assets/stories/2.png";
 import three from "../assets/stories/3.png";
+import { useRouter } from "next/navigation";
 
 
 const ResearchCard = () => {
+    const router = useRouter();
+  
     const data = [
       {
         img: one,
         title: "See the Transformation",
         desc: "Real stories of growth, resilience, and leadership in action",
+        link:"/Case-studies"
       },
       {
         img: two,
         title: "Explore Our Research & Insights",
         desc: "Thought leadership that inspires reflection, action, and change",
+        link:"/media-and-events"
       },
       {
         img: three,
         title: "Beyond the Sessions",
         desc: "Webinars, podcasts, and press moments that deepen the story",
+        link:"/publication-and-media"
       },
     ];
   return (
     <>
-      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase py-8">
+      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize py-8">
         Stories, Research & Sessions that Spark Change
       </h2>
       <div className="flex flex-row justify-evenly">
@@ -47,8 +54,16 @@ const ResearchCard = () => {
 
               {/* Know More Button */}
               <div className="flex items-center justify-between text-white mt-4 cursor-pointer">
-                <span className="font-medium">Know More</span>
-                <div className="w-8 h-8 rounded-full bg-white text-[#091A63] flex items-center justify-center">
+                <span
+                  className="font-medium"
+                  onClick={() => router.push(`${d.link}`)}
+                >
+                  Know More
+                </span>
+                <div
+                  className="w-8 h-8 rounded-full bg-white text-[#091A63] flex items-center justify-center"
+                  onClick={() => router.push(`${d.link}`)}
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-4 h-4"

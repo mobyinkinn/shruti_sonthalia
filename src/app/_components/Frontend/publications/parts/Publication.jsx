@@ -140,14 +140,14 @@ const Publication = () => {
             <Image
               src={publication.img}
               alt="Leadership Team Discussion"
-              width={600}
-              height={300}
+              width={500}
+              height={200}
               className="w-full h-auto object-cover"
             />
-            <button className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-2 text-[1.5rem] px-6 py-2 bg-[#E22E1B] text-white rounded-[10px] hover:bg-white hover:text-[#E22E1B] hover:border hover:border-[#E22E1B] transition cursor-pointer">
+            <button className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-2 text-[1.2rem] px-6 py-2 bg-[#E22E1B] text-white rounded-[10px] hover:bg-white hover:text-[#E22E1B] hover:border hover:border-[#E22E1B] transition cursor-pointer">
               <a
                 href={publication.link}
-                className="text-[white] hover:text-[black] "
+                className="text-[white] hover:text-[black]"
               >
                 {publication.buttonTitle}
               </a>
@@ -157,11 +157,11 @@ const Publication = () => {
           {/* Text Section */}
 
           <div className="flex-1 space-y-4 xl:mt-6">
-            <h2 className="text-[2.4rem] font-medium text-[#000000] underline-offset-4">
+            <h2 className="text-[2rem] font-medium text-[#000000] underline-offset-4">
               {publication.title}
             </h2>
 
-            <p className="text-[#000000] text-[1.4rem] leading-relaxed">
+            <p className="text-[#000000] text-[1rem] leading-relaxed">
               {publication.shortDescription}
               {/* <a
                 href={publication.link}

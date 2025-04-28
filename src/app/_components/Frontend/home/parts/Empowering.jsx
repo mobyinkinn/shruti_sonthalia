@@ -49,7 +49,7 @@ const router = useRouter();
   return (
     <>
       <div className="flex justify-center py-5 ">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase py-8">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize py-8">
           Bespoke Solutions for Every Journey
         </h2>
       </div>

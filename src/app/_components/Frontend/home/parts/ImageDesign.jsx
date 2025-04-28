@@ -135,7 +135,7 @@ const HoverEffectText = () => {
   return (
     <div className="flex flex-col items-center justify-center pt-10 relative">
       <div className="py-5 flex flex-col items-center gap-2">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize">
           Introducing Shruti Sonthalia
         </h2>
         <p className="text-[0.8rem]">
