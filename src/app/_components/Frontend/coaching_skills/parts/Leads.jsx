@@ -12,13 +12,14 @@ const Leads = () => {
         </div>
         <div className=" w-[48%]">
           <span className="text-[1.2rem] leading-7 tracking-widest">
-            In today’s fast-changing business landscape, leaders who embrace
-            coaching skills unlock deeper team engagement, higher performance,
-            and sustainable success. Our Coaching Skills Program isn’t just
-            another leadership course—it is a results-driven program designed to
-            enhance how leaders communicate, inspire, and empower their teams,
-            with measurable improvements in engagement, performance, and
-            collaboration.
+            We have devised a unique program driven by our deep expertise in
+            coaching & organizational leadership: With 10+ years of experience
+            mentoring coaches and working with organizational stakeholders, we
+            understand the distinct challenges of both. Our program is uniquely
+            designed to bridge leadership development with coaching excellence,
+            ensuring that leaders gain practical, organization-ready coaching
+            skills while driving measurable impact at both the individual and
+            enterprise levels.
           </span>
         </div>
       </div>
