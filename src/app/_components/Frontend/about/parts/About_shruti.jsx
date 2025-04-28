@@ -10,7 +10,7 @@ const About_shruti = () => {
           <span className="text-[2.5rem] leading-none font-semibold">
             ABOUT SHRUTI SONTHALIA
           </span>
-          <span className="text-[1.2rem] leading-7 tracking-widest">
+          <span className="text-[1.2rem] leading-6">
             Shruti Sonthalia, a highly accomplished Master Certified Coach
             recognized by the International Coaching Federation (ICF), conveys a
             profound depth and breadth of experience, a fervent passion for
@@ -19,7 +19,7 @@ const About_shruti = () => {
             ranging from multinational corporations and technology leaders to
             family businesses, as well as mentoring fellow coaches.
           </span>
-          <span className="text-[1.2rem] leading-7 tracking-widest">
+          <span className="text-[1.2rem] leading-6">
             As a Leading Organisational Development Specialist and an advisor to
             senior leadership. Shruti is proficient in coaching across various
             industries such as technology, healthcare, retail, manufacturing,
@@ -27,13 +27,13 @@ const About_shruti = () => {
             and textiles, she stands as a testament to dynamic executive
             coaching prowess.
           </span>
-          <span className="text-[1.2rem] leading-7 tracking-widest">
+          <span className="text-[1.2rem] leading-6">
             Invitations to present at major coaching platforms, including the
             prestigious ICF Global Converge, underscore her reputation as a
             leading industry professional.
           </span>
         </div>
-        <div className=" w-[43%]">
+        <div className=" w-[43%] h-[74vh]">
           {" "}
           <div
             className="hidden md:flex w-full min-h-[312px] md:min-h-[312px] lg:min-h-[340px] xl:min-h-[95%] rounded-[40px] bg-cover bg-center"
@@ -50,7 +50,7 @@ const About_shruti = () => {
           ></div>
         </div>
         <div className="flex flex-col w-[48%]  space-y-8">
-          <span className="text-[1.2rem] leading-7 tracking-widest text-end">
+          <span className="text-[1.2rem] leading-7 text-end">
             With nearly a decade of expertise as a Coach Educator, Mentor Coach,
             and Assessor, Shruti has contributed to shaping coaching
             professionals globally. She has mentored over 200 trainee coaches
