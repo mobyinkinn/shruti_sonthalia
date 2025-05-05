@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import blog from "../assets/blog.jpg";
+import blog from "../assets/blog.png";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/app/_components/Header";
@@ -12,7 +12,7 @@ const Hero = () => {
     transform: `translateY(${isHovered ? "-100%" : "0"})`,
   });
   return (
-    <div className="relative w-full h-[600px]">
+    <div className="relative w-full h-[700px]">
       <Image
         src={blog}
         alt="Transformational Leadership"

@@ -114,7 +114,7 @@ const data = [
     video: "/videos/e3.mp4",
   },
   {
-    title: "coaching mindset",
+    title: "Coaching Mindset",
     item: "Session",
     video: "/videos/e4.mp4",
   },
@@ -147,7 +147,7 @@ const Cards = () => {
         <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
           Events
         </h2>
-        <span className="text-[1.4rem] font-medium w-[70%]">
+        <span className="text-lg md:text-xl max-w-4xl mb-6">
           Join our curated events designed to ignite leadership potential,
           foster meaningful connections, and accelerate personal and
           professional transformation.

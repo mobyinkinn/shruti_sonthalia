@@ -174,10 +174,10 @@ const Hero = () => {
       </div>
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
+        <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
           OUR EXECUTIVE COACHING INTEGRATES:
         </h1>
-        <p className="text-white text-lg md:text-md max-w-5xl mb-6">
+        <p className="text-white text-lg md:text-xl max-w-4xl mb-6">
           Our Approach: Multi-Touchpoint Learning for Sustainable Impact
         </p>
         <button

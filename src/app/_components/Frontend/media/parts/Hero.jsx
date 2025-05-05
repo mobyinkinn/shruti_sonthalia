@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <div>
-          <h1 className="text-white text-2xl md:text-[2.5rem] font-semibold mb-4 tracking-wider uppercase">
+          <h1 className="text-white text-2xl md:text-[2.5rem] font-bold mb-4 tracking-wider uppercase">
             Press, Appearances & Highlights
           </h1>
           <p className="text-white text-lg md:text-xl max-w-4xl mb-6">

@@ -138,7 +138,7 @@ const HoverEffectText = () => {
         <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize">
           Introducing Shruti Sonthalia
         </h2>
-        <p className="text-[0.8rem]">
+        <p className="text-black text-lg font-bold text-center max-w-5xl mx-auto leading-relaxed">
           Master Certified Coach, Trusted Advisor to C-Suite Leaders and Coaches
         </p>
       </div>
@@ -157,7 +157,7 @@ const HoverEffectText = () => {
           ))}
         </div> */}
       </div>
-      <p className="absolute w-[89%] pb-4 text-white text-[1.4rem] bottom-0 text-center">
+      <p className="absolute w-[89%] pb-4 text-white text-lg md:text-xl max-w-4xl bottom-0 text-center">
         Shruti Sonthalia, a highly accomplished Master Certified Coach
         recognized by the International Coaching Federation (ICF), conveys a
         profound depth and breadth of experience, a fervent passion for

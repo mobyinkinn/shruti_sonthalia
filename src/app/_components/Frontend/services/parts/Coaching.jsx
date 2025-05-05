@@ -22,8 +22,8 @@ const Coaching = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
-          WHY COACHING MATTERS?
+        <span className="text-2xl md:text-3xl font-bold text-[#E22E1B] capitalize leading-none tracking-wider">
+          Why Coaching Matters?
         </span>
       </div>
 

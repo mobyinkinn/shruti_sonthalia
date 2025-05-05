@@ -133,14 +133,14 @@ const Hero = () => {
       </div>
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
-          Innovative Solutions for Social Inclusion
+        <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
+          CURATED RESEARCH. PRACTICAL WISDOM. REAL IMPACT
         </h1>
         <p className="text-white text-lg md:text-md max-w-5xl mb-6">
-          With over 20 years of experience, we've led impactful initiatives in
-          coaching, advocacy, and social change. Our journey reflects a deep
-          commitment to empowering communities and driving meaningful
-          transformation.
+          Explore insightful research by Shruti Sonthalia, covering leadership,
+          business strategy, and market trends. These publications offer
+          practical wisdom to help professionals navigate and thrive in today’s
+          dynamic business world.
         </p>
         <button
           style={{
@@ -163,8 +163,12 @@ const Hero = () => {
           }}
         >
           <span className="fancy-button-text-container">
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
+            <span style={getTrasformStyles(isHovered)}>
+              Discuss With Shruti
+            </span>
+            <span style={getTrasformStyles(isHovered)}>
+              Discuss With Shruti
+            </span>
           </span>
         </button>
       </div>

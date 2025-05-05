@@ -234,7 +234,7 @@ const CaseStudyCards = () => {
   return (
     <div className="py-16 px-6 md:px-12 bg-[#F8F8F8]">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-[#E22E1B] uppercase mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold  md:text-3xl text-[#E22E1B] capitalize  ">
           Real-World Impact
         </h2>
         <p className="text-lg text-[#151583]">

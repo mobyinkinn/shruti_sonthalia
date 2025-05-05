@@ -22,14 +22,15 @@ import img14 from "../assets/Flyers/14.jpg";
 
 
 const carausel = [
-  { id: 0, img: img },
-  { id: 1, img: img2 },
-  { id: 2, img: img3 },
-  { id: 3, img: img4 },
-  { id: 4, img: img5 },
-  { id: 5, img: img6 },
-  { id: 6, img: img7 },
-  { id: 7, img: img8 },
+  { id: 0, img: img4 },
+  { id: 1, img: img5 },
+  { id: 2, img: img6 },
+  { id: 3, img: img7 },
+  { id: 4, img: img8 },
+  { id: 5, img: img },
+  { id: 6, img: img2 },
+  { id: 7, img: img3 },
+
   { id: 8, img: img9 },
   { id: 9, img: img10 },
   { id: 10, img: img11 },

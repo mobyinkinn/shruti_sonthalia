@@ -7,10 +7,10 @@ const About_shruti = () => {
     <div className="flex flex-col mt-12 gap-4">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col w-[60%] space-y-8">
-          <span className="text-[2.5rem] leading-none font-semibold">
-            ABOUT SHRUTI SONTHALIA
+          <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] capitalize underline-offset-4 ">
+            About Shruti Sonthalia
           </span>
-          <span className="text-[1.2rem] leading-6">
+          <span className="text-lg md:text-xl max-w-4xl">
             Shruti Sonthalia, a highly accomplished Master Certified Coach
             recognized by the International Coaching Federation (ICF), conveys a
             profound depth and breadth of experience, a fervent passion for
@@ -33,13 +33,12 @@ const About_shruti = () => {
             leading industry professional.
           </span>
         </div>
-        <div className=" w-[43%] h-[74vh]">
+        <div className=" w-[38%] h-[74vh]">
           {" "}
           <div
             className="hidden md:flex w-full min-h-[312px] md:min-h-[312px] lg:min-h-[340px] xl:min-h-[95%] rounded-[40px] bg-cover bg-center"
             style={{ backgroundImage: `url(${shruti_ring.src})` }}
           ></div>
-          
         </div>
       </div>
       <div className="flex flex-row justify-between mt-12 items-center">
@@ -50,7 +49,7 @@ const About_shruti = () => {
           ></div>
         </div>
         <div className="flex flex-col w-[48%]  space-y-8">
-          <span className="text-[1.2rem] leading-7 text-end">
+          <span className="text-[1.2rem] leading-7 text-left">
             With nearly a decade of expertise as a Coach Educator, Mentor Coach,
             and Assessor, Shruti has contributed to shaping coaching
             professionals globally. She has mentored over 200 trainee coaches

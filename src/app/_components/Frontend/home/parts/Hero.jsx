@@ -214,6 +214,12 @@ const Hero = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    infinite: true,
+    speed: 1000,
+    loop: true,
+    autoplaySpeed: 500,
+
+    autoplay: true,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -240,7 +246,7 @@ const Hero = () => {
                 <div className="text-4xl font-bold">
                   Build a culture that’s felt—not just framed
                 </div>
-                <div className="text-2l">
+                <div className="text-white text-lg md:text-xl max-w-4xl mb-6">
                   Bespoke leadership and organizational solutions built for a
                   world that is continuously evolving. Turn uncertainty into
                   your strategic advantage.

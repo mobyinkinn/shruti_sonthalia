@@ -201,7 +201,7 @@ const Hero = () => {
         </button>
       </div>
 
-      <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
+      {/* <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
           Innovative Solutions for Social Inclusion
         </h1>
@@ -236,7 +236,7 @@ const Hero = () => {
             <span style={getTrasformStyles(isHovered)}>Book a Session</span>
           </span>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

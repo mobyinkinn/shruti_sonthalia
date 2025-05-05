@@ -48,7 +48,7 @@ const LessonsSection = () => {
 
           <div className="mt-10">
             <h3 className="font-semibold text-lg mb-2">
-              Pragmatic Transformation
+              Meet vulnerability with respect
             </h3>
             <p className="text-gray-700">
               Coaching isn’t energy healing or esoteric practices, but
