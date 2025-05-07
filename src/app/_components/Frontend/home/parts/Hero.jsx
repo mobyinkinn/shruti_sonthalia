@@ -240,7 +240,6 @@ const Hero = () => {
                 className="absolute inset-0"
               />
               {/* Black Overlay */}
-              <div className="absolute inset-0 bg-black opacity-50"></div>
 
               <div className="absolute inset-0 justify-end flex flex-col w-full pb-20 items-center text-white text-center space-y-4">
                 <div className="text-4xl font-bold">
