@@ -25,11 +25,11 @@ const Oraganisational_vision = () => {
         <Benifit />
         <WhyWeStandApart />
         <ExecutiveCoaching />
-        <HowWillThisHelp />
         <OrgView
           bg_image={org}
         />
-        <CaseStudy />
+        <HowWillThisHelp />
+        {/* <CaseStudy /> */}
 
         <Contact_us
           heading="ALIGN. ACT. ACHIEVE."

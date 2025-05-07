@@ -11,7 +11,6 @@ const OrgView = ({ bg_image }) => {
       transform: `translateY(${isHovered ? "-100%" : "0"})`,
     });
   return (
-    
     <div
       className="mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center relative"
       style={{
@@ -33,7 +32,7 @@ const OrgView = ({ bg_image }) => {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() => router.push("/Case-studies")}
           onMouseEnter={() => {
             setIsHovered(true);
           }}
@@ -42,8 +41,8 @@ const OrgView = ({ bg_image }) => {
           }}
         >
           <span className="fancy-button-text-container">
-            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
-            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
+            <span style={getTrasformStyles(isHovered)}>View Case Study</span>
+            <span style={getTrasformStyles(isHovered)}>View Case Study</span>
           </span>
         </button>
       </div>

@@ -26,13 +26,25 @@ const LeadershipProwess = () => {
 
       {/* Image Section */}
       <div className="flex-1 rounded-2xl overflow-hidden shadow-md max-w-md w-full">
-        <Image
+        {/* <Image
           src={image}
           alt="Leadership Team Discussion"
           width={600}
           height={400}
           className="rounded-2xl"
-        />
+        /> */}{" "}
+        <video
+          width="100%"
+          height="100%"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls={false}
+          style={{ objectFit: "cover" }}
+        >
+          <source src="/super1.mp4" type="video/mp4" />
+        </video>
       </div>
     </section>
   );

@@ -162,7 +162,7 @@ const Hero = () => {
           controls={false}
           style={{ objectFit: "cover" }}
         >
-          <source src="/Ser.mp4" type="video/mp4" />
+          <source src="/super.mp4" type="video/mp4" />
         </video>
 
         {/* Sound Toggle Button */}

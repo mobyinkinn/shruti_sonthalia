@@ -2,7 +2,16 @@
 import Image from "next/image";
 import Mask from "../assets/Maskbg.png"
 import { useRef } from "react";
-import Mask12 from "../assets/12.png"
+import Mask1 from "../assets/slider/1.jpg"
+import Mask2 from "../assets/slider/2.jpg";
+import Mask3 from "../assets/slider/3.jpg";
+import Mask4 from "../assets/slider/4.jpg";
+import Mask5 from "../assets/slider/5.jpg";
+import Mask6 from "../assets/slider/6.jpg";
+import Mask12 from "../assets/slider/1.jpg"
+import Mask7 from "../assets/slider/7.jpg";
+
+
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "slick-carousel/slick/slick.css"; // Import Slick CSS
 import "slick-carousel/slick/slick-theme.css"; 
@@ -29,43 +38,43 @@ const Sliders = () => {
          title: "Leadership Gaps:",
          description:
            "Only 25% of leaders feel confident leading change initiatives (Korn Ferry, 2022). We equip your leaders with the tools and mindset to drive transformation.",
-         img: Mask12,
+         img: Mask1,
        },
        {
          title: "Change Fatigue:",
          description:
          "45% of employees report feeling overwhelmed by constant changes (Gartner, 2023). Our program ensures sustainable pacing and employee well-being.",
-        img: Mask12,
+        img: Mask2,
        },
        {
          title: "Ineffective Communication:",
          description:
          "Poor communication is the #1 reason change initiatives fail (Prosci, 2023). We design clear, consistent communication plans to keep everyone aligned.",
-         img: Mask12,
+         img: Mask3,
        },
        {
          title: "Lack of Measurable Outcomes:",
          description:
          "60% of organizations struggle to track the success of change initiatives (BCG, 2023). Our data-driven approach ensures you can measure progress and ROI.",
-         img: Mask12,
+         img: Mask4,
        },
        {
          title: "Evolving work models: ",
          description:
          "Hybrid and remote work models have made change management essential for organisations. We provide tailored strategies to manage distributed teams, foster collaboration, and maintain productivity in hybrid and remote environments.",
-         img: Mask12,
+         img: Mask5,
        },
        {
          title: "Unexpected market fluctuations:",
          description:
          "Sudden market changes caused by geopolitical events have made change management crucial. We help organizations build resilience and agility, enabling them to adapt quickly to external disruptions and maintain business continuity.",
-         img: Mask12,
+         img: Mask6,
        },
        {
          title: "Acquisitions and mergers:",
          description:
          "Structural changes can overwhelm employees and leaders alike during mergers and acquisitions and need effective change management. We provide solutions that integrate cultures, align leadership, and ensure smooth transitions, minimizing disruption and maximizing value creation.",
-         img: Mask12,
+         img: Mask7,
        },
      ];
   return (
@@ -92,7 +101,7 @@ const Sliders = () => {
                 {cardContent.map((card, index) => (
                   <div
                     key={index}
-                    className={`p-5 rounded-xl shadow-lg text-white h-[100%]`}
+                    className={`p-5 rounded-xl text-white h-[100%]`}
                   >
                     <div className="h-[100%] flex flex-row justify-between">
                       <div className="w-[50%] flex flex-col justify-center">

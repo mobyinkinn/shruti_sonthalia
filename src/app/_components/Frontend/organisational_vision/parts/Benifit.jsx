@@ -1,6 +1,6 @@
 import Image from "next/image";
-import benifit1 from "../assets/benifits/benifit1.png";
-import benifit2 from "../assets/benifits/benifit2.png";
+import benifit1 from "../assets/benifits/1.jpg";
+import benifit2 from "../assets/benifits/2.jpg";
 export default function Benifit() {
   return (
     <section className="flex flex-col gap-[75px] lg:flex-row items-center justify-between mt-12">

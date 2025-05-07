@@ -11,20 +11,22 @@ import cont from "./assets/1.jpg";
 
 const Coaching_skills = () => {
   return (
-    <div className="p-14 bg-[#FCFCFF]">
+    <>
       <Hero />
-      <LeadershipProwess />
-      <Coaching />
-      <ExecutiveCoaching />
-      <WhoWeWorkWith />
-      <Leads />
-      <Contact_us
-        bg_image={cont}
-        heading="Ready to Transform Your Leadership?"
-        line1="Take the first step toward building a coaching culture in your organization. Join our Coaching Skills Program and become the leader who inspires, empowers, and drives meaningful change."
-        line2="Get in Touch Now to book a consultation and explore how this program can elevate your leadership."
-      />
-    </div>
+      <div className="p-14 bg-[#FCFCFF]">
+        <LeadershipProwess />
+        <Coaching />
+        <ExecutiveCoaching />
+        <WhoWeWorkWith />
+        <Leads />
+        <Contact_us
+          bg_image={cont}
+          heading="Ready to Transform Your Leadership?"
+          line1="Take the first step toward building a coaching culture in your organization. Join our Coaching Skills Program and become the leader who inspires, empowers, and drives meaningful change."
+          line2="Get in Touch Now to book a consultation and explore how this program can elevate your leadership."
+        />
+      </div>
+    </>
   );
 };
 

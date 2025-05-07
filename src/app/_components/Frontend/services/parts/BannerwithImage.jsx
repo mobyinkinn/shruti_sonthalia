@@ -1,5 +1,5 @@
 import Image from "next/image";
-import image from "../assets/Rectangle.png"
+// import image from "../assets/Rectangle.png"
 const LeadershipProwess = () => {
   return (
     <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 px-4 md:px-16 py-12">
@@ -32,7 +32,7 @@ const LeadershipProwess = () => {
       {/* Image Section */}
       <div className="flex-1 rounded-2xl overflow-hidden shadow-md max-w-md w-full">
         <Image
-          src={image}
+          src={"/exe1.gif"}
           alt="Leadership Team Discussion"
           width={600}
           height={400}

@@ -2,7 +2,10 @@
 import Image from "next/image";
 import Mask from "../assets/Maskbg.png";
 import { useRef } from "react";
-import Mask12 from "../assets/mask.png";
+import Mask1 from "../assets/1.jpg";
+import Mask2 from "../assets/2.jpg";
+import Mask3 from "../assets/3.jpg";
+
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "slick-carousel/slick/slick.css"; // Import Slick CSS
 import "slick-carousel/slick/slick-theme.css";
@@ -23,19 +26,19 @@ const Sliders = () => {
       title: "Culture Definition & Alignment",
       description:
         "Define a culture that aligns with your larger vision and  strategic objectives",
-      img: Mask12,
+      img: Mask1,
     },
     {
       title: "Tailored to Your Organization’s Needs",
       description:
         "Our solutions are not one-size-fits-all. We create customized strategies based on your industry, company culture, and transformation objectives.",
-      img: Mask12,
+      img: Mask2,
     },
     {
       title: "Proven Track Record",
       description:
         "We’ve helped over x number of organizations across industries successfully navigate change, with a x% success rate in achieving desired outcomes.",
-      img: Mask12,
+      img: Mask3,
     },
   ];
   return (
@@ -63,7 +66,7 @@ const Sliders = () => {
                 {cardContent.map((card, index) => (
                   <div
                     key={index}
-                    className={`p-5 rounded-xl shadow-lg text-white h-[100%]`}
+                    className={`p-5 rounded-xl text-white h-[100%]`}
                   >
                     <div className="h-[100%] flex flex-row justify-between">
                       <div className="w-[50%] flex flex-col justify-center">

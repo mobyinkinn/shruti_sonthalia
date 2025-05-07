@@ -77,8 +77,8 @@
 
 
 import Image from "next/image";
-import one from "../assets/Mask1.png";
-import two from "../assets/mask2.png";
+import one from "../assets/program/1.jpg";
+import two from "../assets/program/2.jpg";
 
 export default function WhoWeWorkWith() {
   return (
@@ -119,10 +119,10 @@ export default function WhoWeWorkWith() {
               description:
                 "Aiming to expand their influence, innovate, and create a lasting impact in their industries.",
             },
-            {
-              title: "HR And L&D Professionals",
-              description: "ō  Start-up Founders And Small Business Owners",
-            },
+            // {
+            //   title: "HR And L&D Professionals",
+            //   description: "ō  Start-up Founders And Small Business Owners",
+            // },
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">
               <div>
