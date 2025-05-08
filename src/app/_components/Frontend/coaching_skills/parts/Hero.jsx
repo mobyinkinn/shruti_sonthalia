@@ -65,7 +65,7 @@
 "use client";
 
 import Image from "next/image";
-import mask3 from "../assets/mask3.png";
+import mask3 from "../assets/Mask3.png";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 const Hero = () => {
