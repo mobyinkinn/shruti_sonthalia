@@ -6,16 +6,21 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import img from "../assets/logos/1.png";
 import img2 from "../assets/logos/2.png";
-import img3 from "../assets/logos/3.png";
+import img3 from "../assets/logos/3.jpg";
 import img4 from "../assets/logos/4.png";
 import img5 from "../assets/logos/5.png";
 import img6 from "../assets/logos/6.png";
+import img13 from "../assets/logos/AIA.png";
 import img7 from "../assets/logos/7.png";
 import img8 from "../assets/logos/8.png";
 import img9 from "../assets/logos/9.png";
 import img10 from "../assets/logos/10.png";
 import img11 from "../assets/logos/11.png";
 import img12 from "../assets/logos/12.png";
+import img16 from "../assets/logos/12.png";
+import img14 from "../assets/logos/12.png";
+import img15 from "../assets/logos/12.png";
+
 
 const carausel = [
   { id: 0, img: img },
@@ -24,6 +29,8 @@ const carausel = [
   { id: 3, img: img4 },
   { id: 4, img: img5 },
   { id: 5, img: img6 },
+  { id: 6, img: img15 },
+  { id: 7, img: img16 },
 ];
 
 const carausel2 = [
@@ -33,6 +40,8 @@ const carausel2 = [
   { id: 9, img: img10 },
   { id: 10, img: img11 },
   { id: 11, img: img12 },
+  { id: 12, img: img13 },
+  { id: 13, img: img14 },
 ];
 
 const settings = {

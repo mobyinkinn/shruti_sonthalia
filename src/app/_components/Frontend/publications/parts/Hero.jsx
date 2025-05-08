@@ -154,7 +154,11 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}

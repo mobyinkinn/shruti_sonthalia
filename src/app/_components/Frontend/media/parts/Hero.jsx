@@ -22,7 +22,6 @@ const Hero = () => {
         priority
       />
 
-      <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <div>
           <h1 className="text-white text-2xl md:text-[2.5rem] font-bold mb-4 tracking-wider uppercase">
@@ -45,7 +44,11 @@ const Hero = () => {
               outline: "none",
               border: "none",
             }}
-            onClick={() => router.push("/contact-us")}
+            onClick={() =>
+              router.push(
+                "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+              )
+            }
             onMouseEnter={() => {
               setIsHovered(true);
             }}

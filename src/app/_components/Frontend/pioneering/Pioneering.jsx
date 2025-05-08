@@ -10,6 +10,12 @@ const Pioneering = () => {
   return (
     <div className="bg-[#FCFCFF]">
       <Hero />
+      <h1 className="text-[2.5rem] text-[#E22E1B] font-medium text-center">
+        SHRUTI SONTHALIA
+      </h1>
+      <p className="text-[#151583] text-[1.5rem] mt-1 mb-6 text-center">
+        A Two-Decade Journey in Coaching, Advocacy, and Social Impact
+      </p>
       <div className="flex flex-row justify-between">
         <Leftside />
         <ScrollTimeline />

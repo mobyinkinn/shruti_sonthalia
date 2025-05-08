@@ -16,6 +16,7 @@ const ContactSection = () => {
             objectFit="cover"
             priority
           />
+          <div className="absolute inset-0 bg-black opacity-40 transition-all duration-500 group-hover:opacity-0"></div>
         </div>
 
         {/* Right Form */}

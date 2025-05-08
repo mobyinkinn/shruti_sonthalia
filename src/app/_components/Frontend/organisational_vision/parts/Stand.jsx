@@ -94,11 +94,11 @@ const WhyWeStandApart = () => {
   return (
     <section className="bg-white py-16 px-4 md:px-10">
       <div className="text-center mb-12">
-        <h3 className="text-indigo-800 font-medium text-lg">
+        <h3 className="text-indigo-800 font-medium text-xl">
           The RuhCo Approach
         </h3>
-        <h2 className="text-3xl md:text-4xl font-semibold text-red-600 mt-2">
-          WHY WE STAND APART
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize my-2">
+          Why We Stand Apart
         </h2>
       </div>
 
@@ -128,7 +128,7 @@ const FeatureCard = ({ feature }) => {
           src={feature.image}
           alt={feature.title}
           fill
-          className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
+          className="object-cover transition-all duration-500 group-hover:scale-105"
         />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black opacity-40 transition-all duration-500 group-hover:opacity-0"></div>

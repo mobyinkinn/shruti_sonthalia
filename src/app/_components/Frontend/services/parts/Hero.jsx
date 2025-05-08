@@ -178,7 +178,7 @@ const Hero = () => {
           OUR EXECUTIVE COACHING INTEGRATES:
         </h1>
         <p className="text-white text-lg md:text-xl max-w-4xl mb-6">
-          Our Approach: Multi-Touchpoint Learning for Sustainable Impact
+          Multi-Touchpoint Learning for Sustainable Impact
         </p>
         <button
           style={{
@@ -192,7 +192,11 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}

@@ -27,7 +27,7 @@ const Who = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
+        <span className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium">
           Who We Work With?
         </span>
       </div>

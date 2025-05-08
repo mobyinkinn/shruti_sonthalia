@@ -157,7 +157,7 @@ const [isHovered, setIsHovered] = useState(false);
         >
           <source src="/Corona.mp4" type="video/mp4" />
         </video>
-        
+
         {/* Sound Toggle Button */}
         <button
           onClick={toggleMute}
@@ -189,7 +189,11 @@ const [isHovered, setIsHovered] = useState(false);
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}

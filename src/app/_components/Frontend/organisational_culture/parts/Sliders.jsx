@@ -17,28 +17,34 @@ const Sliders = () => {
     dots: false,
     infinite: true,
     speed: 500,
+    infinite: true,
+    speed: 1000,
+    loop: true,
+    autoplaySpeed: 500,
+
+    autoplay: true,
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
   };
   const cardContent = [
     {
       title: "Culture Definition & Alignment",
       description:
-        "Define a culture that aligns with your larger vision and  strategic objectives",
-      img: Mask1,
+      "Shape a culture that not only reflects your vision—but fuels it. We help you define, articulate, and embed cultural principles that drive alignment, accountability, and long-term strategic momentum.",
+      img: Mask2,
     },
     {
       title: "Tailored to Your Organization’s Needs",
       description:
-        "Our solutions are not one-size-fits-all. We create customized strategies based on your industry, company culture, and transformation objectives.",
-      img: Mask2,
+      "No templates. No assumptions. Just solutions built for you—from the ground up. Our approach is deeply contextual, aligning to your unique industry dynamics, cultural nuances, and transformation goals",
+      img: Mask3,
     },
     {
       title: "Proven Track Record",
       description:
-        "We’ve helped over x number of organizations across industries successfully navigate change, with a x% success rate in achieving desired outcomes.",
-      img: Mask3,
+      "We've guided numerous organizations across diverse industries through complex change journeys—consistently driving measurable progress and delivering outcomes that matter. Our work is grounded in strategy, sustained by trust, and proven in execution.",
+      img: Mask1,
     },
   ];
   return (
@@ -70,7 +76,7 @@ const Sliders = () => {
                   >
                     <div className="h-[100%] flex flex-row justify-between">
                       <div className="w-[50%] flex flex-col justify-center">
-                        <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4 uppercase">
+                        <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4">
                           {card.title}
                         </h2>
                         <p className="text-black">{card.description}</p>
@@ -88,7 +94,7 @@ const Sliders = () => {
                 ))}
               </Slider>
             </div>
-            <button
+            {/* <button
               onClick={() => TwosliderRef.current.slickPrev()}
               className="absolute cursor-pointer right-172 bottom-0 border-black border transform -translate-y-1/2 bg-[transparent] text-black p-2 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
             >
@@ -100,7 +106,7 @@ const Sliders = () => {
               className="absolute cursor-pointer right-155 bottom-0 border-black border transform -translate-y-1/2 bg-[transparent] text-black p-2 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
             >
               <IoIosArrowForward className="w-6 h-6" />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

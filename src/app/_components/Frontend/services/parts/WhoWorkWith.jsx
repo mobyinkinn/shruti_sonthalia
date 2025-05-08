@@ -85,7 +85,7 @@ export default function WhoWeWorkWith() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-12">
       {/* Left Text Section */}
       <div className="lg:w-1/2 space-y-6">
-        <h2 className="font-bold text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
+        <h2 className="font-normal text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
           Who We Work with?
         </h2>
         <div className="space-y-4">
@@ -114,7 +114,7 @@ export default function WhoWeWorkWith() {
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-3">
               <div>
-                <h3 className="text-lg font-semibold">
+                <h3 className="text-lg font-normal">
                   <span className="text-[#151583] text-[1.3rem] pr-2">ō</span>{" "}
                   {item.title}
                 </h3>

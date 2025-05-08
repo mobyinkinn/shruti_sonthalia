@@ -8,7 +8,7 @@ import Mask3 from "../assets/slider/3.jpg";
 import Mask4 from "../assets/slider/4.jpg";
 import Mask5 from "../assets/slider/5.jpg";
 import Mask6 from "../assets/slider/6.jpg";
-import Mask12 from "../assets/slider/1.jpg"
+import Mask12 from "../assets/slider/12.jpg"
 import Mask7 from "../assets/slider/7.jpg";
 
 
@@ -23,9 +23,15 @@ const Sliders = () => {
       dots: false,
       infinite: true,
       speed: 500,
+      infinite: true,
+      speed: 1000,
+      loop: true,
+      autoplaySpeed: 500,
+
+      autoplay: true,
+      arrows: false,
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
     };
      const cardContent = [
        {
@@ -123,7 +129,7 @@ const Sliders = () => {
                 ))}
               </Slider>
             </div>
-            <button
+            {/* <button
               onClick={() => TwosliderRef.current.slickPrev()}
               className="absolute cursor-pointer right-172 bottom-0 border-black border transform -translate-y-1/2 bg-[transparent] text-black p-2 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
             >
@@ -135,7 +141,7 @@ const Sliders = () => {
               className="absolute cursor-pointer right-155 bottom-0 border-black border transform -translate-y-1/2 bg-[transparent] text-black p-2 rounded-[10px] shadow-md hover:bg-[white] hover:text-[#151583] transition"
             >
               <IoIosArrowForward className="w-6 h-6" />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

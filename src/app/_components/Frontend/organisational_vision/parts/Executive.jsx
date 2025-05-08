@@ -87,8 +87,8 @@ export default function ExecutiveCoaching() {
   return (
     <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
       <div className="flex flex-col gap-5">
-        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium uppercase">
-          What Does Our Program Offer?
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+          What Does Our Program Offer
         </h2>
         <div className="mt-4 space-y-4">
           {coachingSections.map((section, index) => (

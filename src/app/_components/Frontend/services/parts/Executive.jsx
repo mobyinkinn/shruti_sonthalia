@@ -56,7 +56,7 @@
 import { useState } from "react";
 import { Plus, Minus } from "lucide-react";
 import Image from "next/image";
-import upimage from "../assets/upimage.png"
+import upimage from "../assets/12.png"
 const coachingSections = [
   {
     title: "Psychometric Assessments (360-Degree Feedback)",
@@ -116,7 +116,7 @@ export default function ExecutiveCoaching() {
       </div>
 
       <div className="flex flex-col gap-5">
-        <h2 className=" tracking-widest font-bold text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
+        <h2 className=" tracking-widest font-normal text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
           Our Executive Coaching Integrates:
         </h2>
         <p className="text-[#151582]">

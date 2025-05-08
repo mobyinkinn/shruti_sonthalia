@@ -175,14 +175,13 @@ const Hero = () => {
       </div>
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
-          Innovative Solutions for Social Inclusion
+        <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
+          COACHING SUPERVISION FOR ASPIRING COACHES
         </h1>
-        <p className="text-white text-lg md:text-md max-w-5xl mb-6">
-          With over 20 years of experience, we've led impactful initiatives in
-          coaching, advocacy, and social change. Our journey reflects a deep
-          commitment to empowering communities and driving meaningful
-          transformation.
+        <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
+          Enhance your coaching skills with expert guidance, constructive
+          feedback, and practical insights. Build confidence, refine your
+          approach, and elevate your coaching impact.
         </p>
         <button
           style={{
@@ -196,7 +195,11 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}

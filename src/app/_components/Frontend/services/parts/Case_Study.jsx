@@ -204,28 +204,28 @@ const caseStudies = [
     heading: "Better Leadership",
     description:
       "Transformed a third-gen family business by building assertive, communicative leadership with strong stakeholder alignment.",
-    color: "from-[#672da6] to-[#67289e]",
+    color: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
   },
   {
     title: "Case Study 2",
     heading: "Collaborative Shift",
     description:
       "Reduced internal conflicts through nonviolent communication training—leading to stronger collaboration and peer alignment.",
-    color: "from-[#812185] to-[#9e185d]",
+    color: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
   },
   {
     title: "Case Study 3",
     heading: "Personal Clarity",
     description:
       "Empowered personal and professional breakthrough—book launch, job switch, and stronger boundary setting.",
-    color: "from-[#bf1d4b] to-[#c93e45]",
+    color: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
   },
   {
     title: "Case Study 4",
     heading: "Sustainable Vitality",
     description:
       "From burnout to executive wisdom: built energy, clarity and peer networks in a high-pressure leadership role.",
-    color: "from-[#d1563b] to-[#de7331]",
+    color: "bg-gradient-to-r from-[#f43d24] to-[#8d2e69]",
   },
 ];
 
@@ -234,7 +234,7 @@ const CaseStudyCards = () => {
   return (
     <div className="py-16 px-6 md:px-12 bg-[#F8F8F8]">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold  md:text-3xl text-[#E22E1B] capitalize  ">
+        <h2 className="text-3xl md:text-4xl font-normal text-[#E22E1B] capitalize  ">
           Real-World Impact
         </h2>
         <p className="text-lg text-[#151583]">

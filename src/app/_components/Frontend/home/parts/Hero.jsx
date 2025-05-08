@@ -217,7 +217,7 @@ const Hero = () => {
     infinite: true,
     speed: 1000,
     loop: true,
-    autoplaySpeed: 500,
+    autoplaySpeed: 1000,
 
     autoplay: true,
     arrows: false,
@@ -257,7 +257,7 @@ const Hero = () => {
       </Slider>
 
       {/* Left Arrow */}
-      <div className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10">
+      {/* <div className="absolute top-1/2 left-4 transform -translate-y-1/2 z-10">
         <div
           className="border-2 border-white rounded-full flex justify-center items-center p-2 cursor-pointer hover:bg-transparent"
           onClick={() => sliderRef.current.slickPrev()}
@@ -271,7 +271,7 @@ const Hero = () => {
       </div>
 
       {/* Right Arrow */}
-      <div className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10">
+      {/* <div className="absolute top-1/2 right-4 transform -translate-y-1/2 z-10">
         <div
           className="border-2 border-white rounded-full flex justify-center items-center p-2 cursor-pointer hover:bg-transparent"
           onClick={() => sliderRef.current.slickNext()}
@@ -282,7 +282,7 @@ const Hero = () => {
             onMouseLeave={() => setArrowStyle2(normalStyle)}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

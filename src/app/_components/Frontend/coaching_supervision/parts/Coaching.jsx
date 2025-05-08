@@ -23,8 +23,8 @@ const Coaching = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase text-[#E22E1B]">
-          WHY COACHING Supervison MATTERS?
+        <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] mb-4 underline-offset-4">
+          Why Coaching Supervison Matters?
         </span>
       </div>
 

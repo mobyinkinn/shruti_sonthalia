@@ -7,6 +7,10 @@ import Subm from "../assets/thumb/Subm.png";
 import Fami from "../assets/thumb/Fami.png";
 import Mast from "../assets/thumb/Mast.png";
 import Onv from "../assets/thumb/Onv.png";
+import ICF from "../assets/thumb/ICF.png";
+import BURN from "../assets/thumb/BURJ.png";
+
+
 
 import Image from "next/image";
 const data = [
@@ -50,8 +54,14 @@ const data = [
   {
     title: "ICF Conclave",
     item: "Session",
-    video: "https://www.youtube.com/watch?v=COvi0GUimG0",
-    thumbnail: Mast,
+    video: "https://youtu.be/M6oGgurwlkk",
+    thumbnail: ICF,
+  },
+  {
+    title: "Burnout",
+    item: "Session",
+    video: "https://www.youtube.com/watch?v=3S5-ifS-Mas&feature=youtu.be",
+    thumbnail: BURN,
   },
   // {
   //   title: "Coaching supports Mission-driven Organizations",

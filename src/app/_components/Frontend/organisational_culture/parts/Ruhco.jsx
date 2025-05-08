@@ -27,7 +27,9 @@ const Ruhco = () => {
   return (
     <div className="bg-[#151583] text-white flex flex-col justify-center items-center text-center p-6 mt-20">
       <div className="flex flex-col">
-        <span className="font-medium text-[1.9rem]">Why RuhCo?</span>
+        <span className="text-3xl w-[80%] text-[white] tracking-wider font-medium">
+          Why RuhCo?
+        </span>
         <span className="text-[1.1rem]">
           We don’t do cookie-cutter culture work. We co-create living cultures:
         </span>

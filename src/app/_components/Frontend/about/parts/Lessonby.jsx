@@ -48,7 +48,7 @@ const LessonsSection = () => {
 
           <div className="mt-10">
             <h3 className="font-semibold text-lg mb-2">
-              Meet vulnerability with respect
+              Pragmatic Transformation
             </h3>
             <p className="text-gray-700">
               Coaching isn’t energy healing or esoteric practices, but
@@ -71,7 +71,7 @@ const LessonsSection = () => {
         <div className="space-y-6">
           <div>
             <h3 className="font-semibold text-lg mb-2">
-              Pragmatic Transformation
+              Meet vulnerability with respect
             </h3>
             <p className="text-gray-700">
               The coaching relationship is a protected space where clients

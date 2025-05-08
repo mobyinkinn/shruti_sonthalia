@@ -25,12 +25,9 @@ const About_shruti = () => {
             industries such as technology, healthcare, retail, manufacturing,
             financial services, development, Edutech, chemical, agrochemical,
             and textiles, she stands as a testament to dynamic executive
-            coaching prowess.
-          </span>
-          <span className="text-[1.2rem] leading-6">
-            Invitations to present at major coaching platforms, including the
-            prestigious ICF Global Converge, underscore her reputation as a
-            leading industry professional.
+            coaching prowess. Invitations to present at major coaching
+            platforms, including the prestigious ICF Global Converge, underscore
+            her reputation as a leading industry professional.
           </span>
         </div>
         <div className=" w-[38%] h-[74vh]">
@@ -55,9 +52,11 @@ const About_shruti = () => {
             professionals globally. She has mentored over 200 trainee coaches
             from Omega Institute, Los Angeles, New York Open Centre, Distance
             Learning, and India cohorts, ensuring compliance with ICF ACTP/Level
-            2 accreditation. Currently, she serves as a faculty member at the
-            Academy of Executive Coaching in the United Kingdom, facilitating
-            the Practitioner Diploma in Executive Coaching and the Professional
+            2 accreditation. <br></br>
+            <br></br>
+            Currently, she serves as a faculty member at the Academy of
+            Executive Coaching in the United Kingdom, facilitating the
+            Practitioner Diploma in Executive Coaching and the Professional
             Practitioner Diploma in Executive Coaching. She also mentors coaches
             in training on the Advance Diploma in Executive Coaching. Her focus
             lies in equipping business leaders, consultants, and HR

@@ -85,7 +85,7 @@ export default function WhoWeWorkWith() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-12">
       {/* Left Text Section */}
       <div className="lg:w-1/2 space-y-6">
-        <h2 className="text-3xl font-medium leading-12 uppercase text-[#E22E1B]">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
           Who is this Program for?
         </h2>
         <span className="text-[1rem] leading-7 tracking-widest">

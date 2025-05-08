@@ -10,7 +10,7 @@ import WhyWeStandApart from "./parts/Stand.jsx";
 import HowWillThisHelp from "./parts/Willhelp.jsx";
 import CaseStudy from "./parts/CaseStudy.jsx";
 import cont from "./assets/cont.jpg";
-import org from "./assets/org.jpg";
+import org from "./assets/org.png";
 import OrgView from "./parts/OrgView.jsx";
 
 

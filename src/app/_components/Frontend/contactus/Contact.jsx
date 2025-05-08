@@ -11,44 +11,6 @@ export default function Contact() {
     });
   return (
     <>
-      <div className="text-center py-12">
-        <p className="text-[1rem] text-gray-600">Contact Us</p>
-        <div className="w-full flex justify-center">
-          <h2 className="text-[2.5rem] font-bold mt-2 tracking-wider w-[50%]">
-            START YOUR JOURNEY WITH SHRUTI TODAY
-          </h2>
-        </div>
-        <p className="mt-4 text-gray-600 max-w-xxl mx-auto">
-          Reach out today for expert guidance, personalized coaching, and
-          strategies to unlock your full potential.
-        </p>
-        <button
-          style={{
-            marginTop: "20px",
-            color: "white",
-            backgroundColor: "#151583",
-            padding: "10px 25px",
-            borderRadius: "20px",
-            fontWeight: "bold",
-            cursor: "pointer",
-            outline: "none",
-            border: "none",
-          }}
-          onClick={() => router.push("/contact-us")}
-          onMouseEnter={() => {
-            setIsHovered(true);
-          }}
-          onMouseLeave={() => {
-            setIsHovered(false);
-          }}
-        >
-          <span className="fancy-button-text-container">
-            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
-            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
-          </span>
-        </button>
-      </div>
-
       <div className="text-center text-2xl font-semibold mt-12 mb-6">
         GET IN TOUCH
       </div>
@@ -83,6 +45,8 @@ export default function Contact() {
               <label className="block text-sm mb-2">Gender</label>
               <select className="w-full px-4 py-3 border border-gray-300 rounded-full text-gray-500">
                 <option>Select Your Gender</option>
+                <option>Male</option>
+                <option>Female</option>
               </select>
             </div>
             <div>
@@ -95,9 +59,11 @@ export default function Contact() {
             </div>
             <div>
               <label className="block text-sm mb-2">Organisation</label>
-              <select className="w-full px-4 py-3 border border-gray-300 rounded-full text-gray-500">
-                <option>Select Your Organisation</option>
-              </select>
+              <input
+                type="text"
+                placeholder="Select Your Organisation"
+                className="w-full px-4 py-3 border border-gray-300 rounded-full"
+              />
             </div>
             <div>
               <label className="block text-sm mb-2">Service Selection</label>

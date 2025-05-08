@@ -5,10 +5,10 @@ const LeadershipProwess = () => {
     <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 px-4 md:px-16 py-12">
       {/* Text Section */}
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
           Lead with Influence, Not Authority
         </h2>
-        <p className="text-gray-800 text-base leading-relaxed mb-4">
+        <p className="text-gray-800 text-base leading-relaxed  md:text-xl max-w-4xl my-3">
           In today’s fast-changing business landscape, leaders who embrace
           coaching skills unlock deeper team engagement, higher performance, and
           sustainable success. Our Coaching Skills Program isn’t just another
@@ -16,7 +16,6 @@ const LeadershipProwess = () => {
           how leaders communicate, inspire, and empower their teams, with
           measurable improvements in engagement, performance, and collaboration.
         </p>
-        
       </div>
 
       {/* Image Section */}

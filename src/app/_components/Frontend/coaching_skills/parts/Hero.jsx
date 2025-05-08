@@ -65,7 +65,7 @@
 "use client";
 
 import Image from "next/image";
-import mask3 from "../assets/Mask3.png";
+import mask3 from "../assets/mask3.png";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 const Hero = () => {
@@ -107,7 +107,11 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() => router.push("/contact-us")}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
           onMouseEnter={() => {
             setIsHovered(true);
           }}

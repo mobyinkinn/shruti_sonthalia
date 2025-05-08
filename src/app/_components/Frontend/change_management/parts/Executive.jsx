@@ -39,10 +39,10 @@ export default function ExecutiveCoaching() {
   return (
     <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
       <div className="flex flex-col gap-5">
-        <h3 className="text-md text-[#151583] ">
+        <h3 className="text-lg text-[#151583] ">
           ō Our Change Management Framework
         </h3>
-        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4">
           What Will You Learn?
         </h2>
         <div className="mt-4 space-y-4">

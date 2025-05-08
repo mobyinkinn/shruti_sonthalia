@@ -18,10 +18,12 @@ const WorkshopBenefits = () => {
 
       {/* Right side: Content */}
       <div className="w-full md:w-1/2 md:pl-10">
-        <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4">
-          WHO BENEFITS FROM THIS WORKSHOP?
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+          Who Benifits From This Workshop?
         </h2>
-        <span className="text-lg text-gray-700 mb-6">Our program is ideal for:</span>
+        <span className="text-lg text-gray-700 ">
+          Our program is ideal for:
+        </span>
         <span className="pst-disc pl-5 text-lg text-gray-700">
           <p>
             <span className="text-[#151583] text-[1.3rem] pr-2">ō</span> C-suite

@@ -9,6 +9,8 @@ import img3 from "../assets/approach/img3.png";
 import img4 from "../assets/approach/img4.png";
 import { useInView } from "framer-motion";
 import { motion } from "framer-motion";
+import upimage from "../assets/12.png";
+import Image from "next/image";
 
 const Approach = () => {
   const ref = useRef(null);
@@ -19,10 +21,10 @@ const Approach = () => {
         <h5 className="font-medium uppercase tracking-wider text-[#151583]">
           Our Approach
         </h5>
-        <h2 className="text-3xl font-medium uppercase tracking-wider text-[#E22E1B]">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
           What You Can Expect?
         </h2>
-        <span className="text-[1.5rem] text-center leading-8 tracking-wider font-normal text-[#181818]">
+        <span className="text-center leading-8 tracking-wider font-normal text-[1.2rem] ">
           We offer individual and group supervision tailored to your needs. Our
           experienced supervisors create a non-judgmental, supportive
           environment where you can explore real client cases, receive
@@ -83,18 +85,15 @@ const Approach = () => {
             ></motion.div>
           </div> */}
 
-          <div className="relative w-[600px] flex items-center justify-center">
-            {/* <div
-              className="absolute w-[580px] h-[600px] rounded-full bg-cover bg-center"
-              style={{ backgroundImage: `url(${circle.src})` }}
-            ></div> */}
-
-            <div
-              className=" w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[550px] rounded-[40px] bg-cover bg-center"
-              style={{ backgroundImage: `url(${service.src})` }}
-            ></div>
-          </div>
-
+ <div className="relative flex justify-center">
+        <Image
+          src={upimage}
+          alt="Executive Coaching"
+          width={600}
+          height={400}
+          className="rounded-lg"
+        />
+      </div>
           {/* Right Section */}
           <div className="flex flex-col w-[24%] space-y-8">
             <motion.div
@@ -131,7 +130,6 @@ const Approach = () => {
           </div>
         </div>
       </div>
-     
     </>
   );
 };

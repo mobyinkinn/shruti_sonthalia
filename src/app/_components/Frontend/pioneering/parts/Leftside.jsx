@@ -10,8 +10,11 @@ import img2 from "../assets/2.jpg";
 import img3 from "../assets/1.jpeg";
 import img6 from "../assets/1111.jpg";
 
-import img4 from "../assets/2.jpeg";
+
 import img5 from "../assets/1.png";
+import cert from "../assets/111.jpg";
+import imgnew from "../assets/img.jpg";
+
 
 
 import "slick-carousel/slick/slick.css";
@@ -19,13 +22,19 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
 const coachingImages = [img, img1, img2, img6];
-const fifthImages = [img3, img4];
+const fifthImages = [imgnew,img3, cert];
 
 const Leftside = () => {
   const Coasettings = {
     dots: true,
     infinite: true,
     speed: 500,
+    infinite: true,
+    speed: 1000,
+    loop: true,
+    autoplaySpeed: 1000,
+
+    autoplay: true,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -57,6 +66,12 @@ const Leftside = () => {
     dots: true,
     infinite: true,
     speed: 500,
+    infinite: true,
+    speed: 1000,
+    loop: true,
+    autoplaySpeed: 1000,
+
+    autoplay: true,
     arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -87,19 +102,12 @@ const Leftside = () => {
   return (
     <div className="flex flex-col w-[50%]">
       <div className="w-full px-6 py-8  text-gray-900 font-sans">
-        <h1 className="text-[2.5rem] text-[#E22E1B] font-medium">
-          SHRUTI SONTHALIA:
-        </h1>
-        <p className="text-[#151583] text-[1.5rem] mt-1 mb-6">
-          A Two-Decade Journey in Coaching, Advocacy, and Social Impact
-        </p>
-
         <div className="space-y-6">
           <div className="space-y-2">
-            <p className="font-semibold text-xl text-[1.5rem]">2024 - 2025</p>
-            <p className="text-[#E22E1B] font-semibold text-[1.8rem]">
+            <p className="font-normal text-xl text-[1.5rem]">2024 - 2025</p>
+            <p className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
               ICF Coaching Education -{" "}
-              <span className="font-normal text-[#E22E1B] text-[1.8rem]">
+              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
                 Global Diversity, Equity, Inclusion, and Belonging Advisory
                 Committee
               </span>
@@ -107,10 +115,10 @@ const Leftside = () => {
           </div>
 
           <div className="mt-24 space-y-2">
-            <p className="font-semibold text-xl text-[1.8rem]">2024</p>
-            <p className="text-[#E22E1B] font-semibold text-[1.8rem]">
+            <p className="font-normal text-xl text-[1.8rem]">2024</p>
+            <p className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
               ICF Coaching Impact Awards -{" "}
-              <span className="font-normal text-[#E22E1B] ">
+              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
                 Professional Coaches Distinguished Coach (MCC Category) Jury
                 Member
               </span>
@@ -142,8 +150,8 @@ const Leftside = () => {
       </div>
       <div className="w-full px-6 py-8 text-gray-900 font-sans space-y-10">
         <div className="space-y-2">
-          <p className="text-[1.5rem] font-semibold">2020</p>
-          <h2 className="text-[#E22E1B] font-bold text-[1.8rem]">
+          <p className="text-[1.5rem] font-normal">2020</p>
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
             Co-founder, Corona Quilt Project
           </h2>
           <span className="list-disc list-inside text-black space-y-1 mt-2">
@@ -170,8 +178,8 @@ const Leftside = () => {
         </div>
 
         <div>
-          <h2 className="text-[#E22E1B] text-[1.8rem]">
-            <b>International Coaching Federation Foundation (ICFF) -</b> Council
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+           International Coaching Federation Foundation (ICFF) - Council
             of Ambassadors
           </h2>
           <span className="list-disc list-inside text-black space-y-1 mt-2">
@@ -205,9 +213,9 @@ const Leftside = () => {
         </div>
 
         <div className="space-y-2">
-          <p className="text-[1.5rem] font-semibold">2019</p>
-          <h2 className="text-[#E22E1B] text-[1.8rem]">
-            <b>Vice President,</b> Young Members’ Advocacy & Education, Graduate
+          <p className="text-[1.5rem] font-normal">2019</p>
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            Vice President, Young Members’ Advocacy & Education, Graduate
             Women’s International; Nominated to represent GWI at the UN's 64th
             Commission on the Status of Women
           </h2>
@@ -237,9 +245,9 @@ const Leftside = () => {
       </div>
       <div className="w-full px-6 py-8 text-gray-900 font-sans space-y-10">
         <div>
-          <p className="text-[1.5rem] font-semibold">2007 - 2009</p>
-          <h2 className="text-[#E22E1B] text-[1.8rem]">
-            <span className="font-semibold"> LSE Ambassador,</span> LSE Student
+          <p className="text-[1.5rem] font-normal">2007 - 2009</p>
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <span className="font-normal"> LSE Ambassador,</span> LSE Student
             Recruitment Office
           </h2>
           <span className="list-disc list-inside  mt-2">
@@ -251,14 +259,14 @@ const Leftside = () => {
         </div>
 
         <div className="space-y-2 mt-60">
-          <p className="text-[1.5rem] font-semibold">2008 - 2009</p>
-          <h2 className="text-[#E22E1B]  text-[1.8rem]">
-            <span className="font-semibold">Student Associate Scheme,</span>
+          <p className="text-[1.5rem] font-normal">2008 - 2009</p>
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <span className="font-normal">Student Associate Scheme,</span>
             Institute of Education, London
           </h2>
 
-          <h2 className="text-[#E22E1B]  mt-12 pb-48 text-[1.8rem]">
-            <span className="font-semibold">London Nightline,</span> University
+          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <span className="font-normal">London Nightline,</span> University
             of London, Providing confidential support through overnight helpline
           </h2>
         </div>

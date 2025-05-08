@@ -3,10 +3,10 @@ import workshopImage from "../assets/2.png"; // Replace with your image path
 
 const WorkshopOutcome = () => {
   return (
-    <section className="py-20 px-4 bg-white text-center">
+    <section className=" px-4 bg-white text-center">
       {/* Title */}
-      <h2 className="text-4xl font-semibold text-[#E22E1B] mb-6">
-        AT THE END OF OUR 3 DAY WORKSHOP
+      <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 mb-5">
+        At The End Of Our 3 Day Workshop
       </h2>
       {/* Subheading */}
 
@@ -19,7 +19,7 @@ const WorkshopOutcome = () => {
             layout="responsive"
             width={500}
             height={300}
-            className="rounded-lg shadow-lg"
+            className="shadow-lg"
           />
         </div>
         <p className="text-lg  text-gray-600 py-5">You will walk away with:</p>

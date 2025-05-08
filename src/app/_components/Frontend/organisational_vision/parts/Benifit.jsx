@@ -7,9 +7,6 @@ export default function Benifit() {
       {/* Right Image Section */}
       <div className="w-[40%] flex items-center justify-center mt-10 lg:mt-0 relative">
         <div className="relative w-full max-w-lg">
-          {/* <div className="absolute bg-[#151583] opacity-60 rounded-full w-36 h-36 top-16 left-8"></div>
-          <div className="absolute bg-[#151583] opacity-60 rounded-full w-44 h-44 bottom-16 right-8"></div> */}
-          {/* <div className="absolute bg-[#151583] opacity-40 rounded-full w-56 h-56 top-8 left-0 z-111 animate-pulse"></div> */}
           <div className="absolute bg-[#151583] opacity-40 rounded-full w-60 h-60 bottom-8 right-30 z-111 animate-pulse"></div>
 
           <div className="relative z-10 flex space-x-4">
@@ -37,10 +34,10 @@ export default function Benifit() {
 
       {/* Left Text Section */}
       <div className="w-[60%] space-y-6 text-[#E22E1B]">
-        <h2 className="text-4xl font-medium uppercase tracking-wider leading-12">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
           Who Benefits from This Workshop?
         </h2>
-        <p className="text-[#000000] text-[1.3rem]">
+        <p className="text-gray-800 text-base leading-relaxed my-4">
           Our programs are designed for organizations of all sizes and
           industries, including:
         </p>
@@ -70,7 +67,9 @@ export default function Benifit() {
             <div key={index} className="flex items-start gap-3">
               <p className="text-[#151583] text-2xl">ō</p>
               <div>
-                <h3 className="text-[1.3rem] text-black ">{item.title}</h3>
+                <h3 className="text-gray-800 text-base leading-relaxed">
+                  {item.title}
+                </h3>
                 <p className="text-[#363B3F]">{item.description}</p>
               </div>
             </div>

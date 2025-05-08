@@ -2,24 +2,23 @@ import Image from "next/image";
 import workshop from "../assets/workshop/workshop.png";
 const Workshop = () => {
   return (
-    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 py-12">
+    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 py-6">
       {/* Text Section */}
 
       <div className="flex-1">
-        <p className="text-[#151583] font-medium text-base">
+        {/* <p className="text-[#151583] font-medium text-base">
           ō Discover Your Vision:
-        </p>
-        <h2 className="text-[2.5rem] font-semibold text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+        </p> */}
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
           A Workshop to Redefine Success
         </h2>
-        <p className="text-gray-800 text-base leading-relaxed mb-4">
+        <p className="text-gray-800 text-base leading-relaxed my-4">
           What does it take to become the Apple or the Disney of your industry?
           Surprisingly, it’s not just a structured business plan or well-crafted
           promotional pitches. Research suggests that most successful companies
           value vision more than numbers (Forbes, 2019). This is because a
           vision is like the glue that binds the employees and stakeholders of a
           company together and propels them to a common goal.
-          <sup>*</sup>.
         </p>
         <p className="text-gray-800 text-base leading-relaxed mb-4">
           A vision is not just about making profits. It’s also about the company

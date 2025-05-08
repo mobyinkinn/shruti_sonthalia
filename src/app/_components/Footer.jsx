@@ -18,12 +18,12 @@ const socialMediaLinks = [
   {
     id: 3,
     icon: <FaLinkedinIn color="white" size={"25px"} />,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/shruti-sonthalia/",
   },
   {
     id: 4,
     icon: <FaYoutube color="white" size={"25px"} />,
-    link: "https://www.youtube.com",
+    link: "https://www.youtube.com/@RuhcoSupport",
   },
 ];
 

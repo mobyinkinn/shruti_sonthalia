@@ -35,7 +35,7 @@ export default function Why() {
 
   return (
     <div className="mx-auto py-6 px-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
-      <div className="relative">
+      {/* <div className="relative">
         <Image
           src={why}
           alt="Executive Coaching"
@@ -43,9 +43,23 @@ export default function Why() {
           height={400}
           className="rounded-lg"
         />
+      </div> */}
+      <div className="flex-1 rounded-2xl overflow-hidden shadow-md max-w-xl w-full">
+        <video
+          width="100%"
+          height="100%"
+          autoPlay
+          loop
+          muted
+          playsInline
+          controls={false}
+          style={{ objectFit: "cover" }}
+        >
+          <source src="/12.mp4" type="video/mp4" />
+        </video>
       </div>
       <div className="flex flex-col gap-5">
-        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium uppercase">
+        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium">
           Why Culture Matters?
         </h2>
         <div className="mt-4 space-y-4">
