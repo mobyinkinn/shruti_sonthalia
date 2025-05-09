@@ -21,7 +21,7 @@ const Approach = () => {
         <h5 className="font-medium uppercase tracking-wider text-[#151583]">
           Our Approach
         </h5>
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           What You Can Expect?
         </h2>
         <span className="text-center leading-8 tracking-wider font-normal text-[1.2rem] ">

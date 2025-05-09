@@ -27,7 +27,7 @@ const Who = () => {
   return (
     <div className="flex flex-col  mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium">
+        <span className="text-3xl w-[80%] text-[#E53935] tracking-wider font-medium">
           Who We Work With?
         </span>
       </div>
@@ -36,7 +36,7 @@ const Who = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className=" flex flex-col bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#F3834C] hover:text-[#fff] h-[125px] space-y-4"
+            className=" flex flex-col bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#E53935] hover:text-[#fff] h-[125px] space-y-4"
           >
             <span className="text-[1.2rem] font-bold leading-snug">
               {item.heading}

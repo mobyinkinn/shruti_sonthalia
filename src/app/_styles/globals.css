@@ -69,3 +69,7 @@
 .slick-dots li.slick-active div {
   background: #6366f1 !important; /* Tailwind indigo-500 (matches your middle dot color) */
 }
+
+.input {
+  @apply w-full px-4 py-3 border border-gray-300 rounded-full;
+}

@@ -5,7 +5,7 @@ const WorkshopOutcome = () => {
   return (
     <section className=" px-4 bg-white text-center">
       {/* Title */}
-      <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 mb-5">
+      <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 mb-5">
         At The End Of Our 3 Day Workshop
       </h2>
       {/* Subheading */}

@@ -3,7 +3,7 @@ import React from 'react'
 const Content = () => {
   return (
     <div className="flex flex-row items-center">
-      <p className="text-[#E22E1B] text-[2rem] font-bold w-[72%]">
+      <p className="text-[#E53935] text-[2rem] font-bold w-[72%]">
         Unlocking Potential, Delivering Results
       </p>
       <p className="text-[1.2rem] leading-7 text-left">

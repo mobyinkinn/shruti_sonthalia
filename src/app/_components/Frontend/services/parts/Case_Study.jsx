@@ -9,7 +9,7 @@
 //     <div className="flex flex-col mt-12">
 //       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6">
 //         <span className="text-[1.4rem] leading-none ">Real-World Impact</span>
-//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
+//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E53935]">
 //           Case Study 1
 //         </span>
 //         <span className="text-[1.4rem] leading-6 tracking-wider text-[#151583]">
@@ -55,7 +55,7 @@
 //       </div>
 
 //       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6 mt-12">
-//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
+//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E53935]">
 //           Case Study 2
 //         </span>
 //         <span className="text-[1.4rem] leading-6 tracking-wider text-[#151583]">
@@ -100,7 +100,7 @@
 //       </div>
 
 //       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6 mt-12">
-//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
+//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E53935]">
 //           Case Study 3
 //         </span>
 //         <span className="text-[1.4rem] leading-6 tracking-wider text-[#151583]">
@@ -144,7 +144,7 @@
 //       </div>
 
 //       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6 mt-12">
-//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E22E1B]">
+//         <span className="text-[2.5rem] leading-none tracking-wider font-medium uppercase text-[#E53935]">
 //           Case Study 4
 //         </span>
 //         <span className="text-[1.4rem] leading-6 tracking-wider text-[#151583]">
@@ -234,7 +234,7 @@ const CaseStudyCards = () => {
   return (
     <div className="py-16 px-6 md:px-12 bg-[#F8F8F8]">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-normal text-[#E22E1B] capitalize  ">
+        <h2 className="text-3xl md:text-4xl font-normal text-[#E53935] capitalize  ">
           Real-World Impact
         </h2>
         <p className="text-lg text-[#151583]">

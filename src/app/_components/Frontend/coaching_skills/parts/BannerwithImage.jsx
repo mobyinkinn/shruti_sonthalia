@@ -5,7 +5,7 @@ const LeadershipProwess = () => {
     <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 px-4 md:px-16 py-12">
       {/* Text Section */}
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           Lead with Influence, Not Authority
         </h2>
         <p className="text-gray-800 text-base leading-relaxed  md:text-xl max-w-4xl my-3">

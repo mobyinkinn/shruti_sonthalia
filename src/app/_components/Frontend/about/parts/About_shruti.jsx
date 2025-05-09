@@ -7,7 +7,7 @@ const About_shruti = () => {
     <div className="flex flex-col mt-12 gap-4">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col w-[60%] space-y-8">
-          <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] capitalize underline-offset-4 ">
+          <span className="text-2xl md:text-3xl font-normal text-[#E53935] capitalize underline-offset-4 ">
             About Shruti Sonthalia
           </span>
           <span className="text-lg md:text-xl max-w-4xl">

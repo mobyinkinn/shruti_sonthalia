@@ -94,7 +94,7 @@ const Cards = () => {
   return (
     <>
       <div className="py-10">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] mb-4 underline-offset-4 uppercase">
           Organisational Case Study
         </h2>
         <div className="flex flex-row flex-wrap justify-center gap-20">
@@ -128,7 +128,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="py-10">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] mb-4 underline-offset-4 uppercase">
           Executive Coaching Case Study
         </h2>
         <div className="flex flex-row flex-wrap justify-center gap-20 ">
@@ -162,7 +162,7 @@ const Cards = () => {
         </div>
       </div>
       <div className="py-10">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] mb-4 underline-offset-4 uppercase">
           Case Study
         </h2>
         <div className="flex flex-row flex-wrap justify-center gap-20">

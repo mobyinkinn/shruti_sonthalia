@@ -9,7 +9,7 @@ const Workshop = () => {
         {/* <p className="text-[#151583] font-medium text-base">
           ō Discover Your Vision:
         </p> */}
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           A Workshop to Redefine Success
         </h2>
         <p className="text-gray-800 text-base leading-relaxed my-4">

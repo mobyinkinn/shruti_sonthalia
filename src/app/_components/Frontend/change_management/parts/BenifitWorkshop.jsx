@@ -18,7 +18,7 @@ const WorkshopBenefits = () => {
 
       {/* Right side: Content */}
       <div className="w-full md:w-1/2 md:pl-10">
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           Who Benifits From This Workshop?
         </h2>
         <span className="text-lg text-gray-700 ">

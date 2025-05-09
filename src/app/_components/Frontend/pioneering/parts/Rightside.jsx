@@ -44,9 +44,9 @@ const Rightside = () => {
     infinite: true,
     speed: 500,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     loop: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
 
     autoplay: true,
     arrows: false,
@@ -99,9 +99,9 @@ const Rightside = () => {
     infinite: true,
     speed: 500,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     loop: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
 
     autoplay: true,
     arrows: false,
@@ -136,9 +136,9 @@ const newsettings = {
   infinite: true,
   speed: 500,
   infinite: true,
-  speed: 1000,
+  speed: 1500,
   loop: true,
-  autoplaySpeed: 1000,
+  autoplaySpeed: 1500,
 
   autoplay: true,
   arrows: false,
@@ -187,9 +187,9 @@ const newsettings = {
         <div className="w-full py-8 text-gray-900 font-sans mt-24 space-y-10">
           <div className="space-y-2">
             <p className="text-[1.5rem] font-semibold">2022 - 2023</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Global Board Member,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 Graduate Women’s International, Geneva
               </span>
             </h2>
@@ -197,9 +197,9 @@ const newsettings = {
 
           <div className="space-y-2 mt-24">
             <p className="text-[1.5rem] font-semibold">2021</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Vice President,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 Gujarat State Coaching Council, Women’s Indian Chamber of
                 Commerce & Industry (WICCI)
               </span>
@@ -262,9 +262,9 @@ const newsettings = {
         <div className="w-full px-6 py-10  text-gray-900 font-sans  pt-32 space-y-10">
           <div className="space-y-2">
             <p className="text-[1.5rem] font-semibold ">2017 – 2018</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Peace Corps Coaching Intervention,{" "}
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 Fiji & Madagascar
               </span>
             </h2>
@@ -273,24 +273,24 @@ const newsettings = {
           {/* 2009 */}
           <div className="pt-32 space-y-2">
             <p className="text-[1.5rem] font-semibold">2009</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Awarded by the British Council International Student of the Year
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 – London for academic and leadership excellence
               </span>
             </h2>
 
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Worked under COO Julie Devonshire at Global Ethics,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 The One Foundation, London conducted evaluation of supply chain
                 service options
               </span>
             </h2>
 
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Aim Higher Path Finder,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 London, Supporting students aiming for higher education t St.
                 George’s School, Maida Vale
               </span>
@@ -300,9 +300,9 @@ const newsettings = {
           {/* 2007 - 2008 */}
           <div className="pt-30 space-y-2">
             <p className="text-[1.5rem] font-semibold">2007 - 2008</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               National Mentoring Scheme,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 London, Mentoring school students for academic and emotional
                 well-being
               </span>
@@ -325,9 +325,9 @@ const newsettings = {
           {/* 2006 - 2007 */}
           <div className="space-y-2 pt-28">
             <p className="text-[1.5rem] font-semibold">2006 - 2007</p>
-            <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               Young Entrepreneurship Network Society,
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 SIM, Singapore, Organising national events such as Cash Flow and
                 Exoro
               </span>

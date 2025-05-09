@@ -91,7 +91,7 @@ const Cards = () => {
   return (
     <>
       <div className="py-10 flex flex-col justify-center items-center text-center">
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 uppercase">
+        <h2 className="text-2xl md:text-3xl font-semibold text-[#E53935] mb-4 uppercase">
           Events
         </h2>
         <p className="text-lg md:text-xl max-w-4xl mb-6">

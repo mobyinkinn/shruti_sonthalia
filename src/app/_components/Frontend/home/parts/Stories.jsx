@@ -31,7 +31,7 @@ const ResearchCard = () => {
     ];
   return (
     <>
-      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize py-8">
+      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] underline-offset-4 capitalize py-8">
         Stories, Research & Sessions that Spark Change
       </h2>
       <div className="flex flex-row justify-evenly">

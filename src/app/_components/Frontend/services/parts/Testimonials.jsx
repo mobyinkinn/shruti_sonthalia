@@ -41,7 +41,7 @@ const Testimonials = () => {
 
   return (
     <>
-      <h2 className="text-3xl font-medium text-[#E22E1B] mb-6 text-center">
+      <h2 className="text-3xl font-medium text-[#E53935] mb-6 text-center">
         WHAT THEY SAY
       </h2>
       <div className="flex justify-center relative">

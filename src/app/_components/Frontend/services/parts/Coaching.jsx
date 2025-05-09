@@ -22,7 +22,7 @@ const Coaching = () => {
   return (
     <div className="flex flex-col mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] capitalize leading-none tracking-wider">
+        <span className="text-2xl md:text-3xl font-normal text-[#E53935] capitalize leading-none tracking-wider">
           Why Coaching Matters?
         </span>
       </div>
@@ -31,7 +31,7 @@ const Coaching = () => {
         {coachingData.map((item, index) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#F3834C] hover:text-[#fff] h-[150px]"
+            className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#E53935] hover:text-[#fff] h-[150px]"
           >
             <span
               className="text-[1.1rem] leading-snug"

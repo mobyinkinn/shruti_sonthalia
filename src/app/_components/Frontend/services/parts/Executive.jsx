@@ -116,7 +116,7 @@ export default function ExecutiveCoaching() {
       </div>
 
       <div className="flex flex-col gap-5">
-        <h2 className=" tracking-widest font-normal text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
+        <h2 className=" tracking-widest font-normal text-2xl md:text-3xl text-[#E53935] capitalize  ">
           Our Executive Coaching Integrates:
         </h2>
         <p className="text-[#151582]">

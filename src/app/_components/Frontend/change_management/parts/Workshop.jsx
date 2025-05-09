@@ -6,10 +6,10 @@ const Workshop = () => {
       {/* Text Section */}
 
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] mb-4 underline-offset-4 ">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] mb-4 underline-offset-4 ">
           Lead the Change:
         </h2>
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] mb-4 underline-offset-4">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] mb-4 underline-offset-4">
           A Workshop to Navigate Transitions
         </h2>
         <p className="text-gray-800 text-base leading-relaxed mb-4">

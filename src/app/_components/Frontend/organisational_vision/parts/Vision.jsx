@@ -25,7 +25,7 @@ const Vision = () => {
   return (
     <div className="flex flex-col mt-12">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <span className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           Why Organisational Vision Matters?
         </span>
       </div>
@@ -41,7 +41,7 @@ const Vision = () => {
           return (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#F3834C] hover:text-[#fff]"
+              className="bg-white border border-gray-200 rounded-[20px] p-6 w-[400px] text-center hover:bg-[#E53935] hover:text-[#fff]"
             >
               <span
                 className="text-[1rem] leading-snug"

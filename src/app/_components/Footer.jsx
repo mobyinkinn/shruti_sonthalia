@@ -5,16 +5,16 @@ import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import { RiFacebookFill } from "react-icons/ri";
 
 const socialMediaLinks = [
-  {
-    id: 1,
-    icon: <FaInstagram color="white" size={"25px"} />,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: 2,
-    icon: <RiFacebookFill color="white" size={"25px"} />,
-    link: "https://www.facebook.com/",
-  },
+  // {
+  //   id: 1,
+  //   icon: <FaInstagram color="white" size={"25px"} />,
+  //   link: "https://www.instagram.com/",
+  // },
+  // {
+  //   id: 2,
+  //   icon: <RiFacebookFill color="white" size={"25px"} />,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: 3,
     icon: <FaLinkedinIn color="white" size={"25px"} />,
@@ -49,7 +49,7 @@ const services = [
 ];
 
 const quickLinks = [
-  { id: 1, name: "About Shruti", link: "/about_me" },
+  { id: 1, name: "About Us", link: "/about_me" },
   { id: 2, name: "Case Studies", link: "/Case-studies" },
   { id: 3, name: "Publications & Media", link: "/publication-and-media" },
   { id: 4, name: "Contact Us", link: "/contact-us" },

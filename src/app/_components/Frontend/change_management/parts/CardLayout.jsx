@@ -59,7 +59,7 @@ const WhyStandApart = () => {
     <section className="py-20 px-4 bg-white text-center relative">
       <h3 className="text-xl text-[#151583] mb-2 ">The RuhCo Approach</h3>
 
-      <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 my-3">
+      <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 my-3">
         Why We Stand Apart
       </h2>
 

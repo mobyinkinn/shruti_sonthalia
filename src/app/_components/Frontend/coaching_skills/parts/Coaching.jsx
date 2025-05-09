@@ -23,7 +23,7 @@ const Coaching = () => {
   return (
     <div className="flex flex-col mt-12 items-center">
       <div className="flex flex-col justify-center items-center text-center">
-        <span className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <span className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           Why Coaching Skills Matters?
         </span>
 
@@ -51,14 +51,14 @@ const Coaching = () => {
           return (
             <div
               key={index}
-              className="bg-white border border-[lightgrey] rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#F3834C] hover:text-[#fff]"
+              className="bg-white border border-[lightgrey] rounded-[20px] p-6 w-[450px] min-h-[8rem] text-center hover:bg-[#E53935] hover:text-[#fff]"
               dangerouslySetInnerHTML={{ __html: updatedItem }}
             />
           );
         })}
       </div>
 
-      <div className="bg-[#F3834C] text-white flex mt-10 rounded-[20px] p-6 w-[70%] min-h-[8rem] text-center hover:bg-[white] hover:text-[white]">
+      <div className="bg-[#E53935] text-white flex mt-10 rounded-[20px] p-6 w-[70%] min-h-[8rem] text-center hover:bg-[white] hover:text-[white]">
         <div className="text-gray-800 text-base leading-relaxed  md:text-xl max-w-4xl my-3">
           Our 2-day coach skills program transforms the leadership styles of
           organisations. It helps them in fostering a coaching mindset. It also

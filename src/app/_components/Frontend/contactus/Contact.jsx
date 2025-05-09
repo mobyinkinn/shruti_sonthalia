@@ -1,119 +1,109 @@
-"use client"
+"use client";
 
-import { useRouter } from "next/navigation";
-import React, {useState } from "react";
+import React from "react";
 
 export default function Contact() {
-  const [isHovered, setIsHovered] = useState(false);
-   const router = useRouter();
-    const getTrasformStyles = (isHovered) => ({
-      transform: `translateY(${isHovered ? "-100%" : "0"})`,
-    });
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (res.ok) {
+        alert("Message sent successfully!");
+        e.target.reset();
+      } else {
+        const { error } = await res.json();
+        alert("Failed: " + error);
+      }
+    } catch (err) {
+      alert("Request error: " + err.message);
+    }
+  };
+
   return (
     <>
       <div className="text-center text-2xl font-semibold mt-12 mb-6">
         GET IN TOUCH
       </div>
       <div className="max-w-4xl mx-auto mb-30 p-8 bg-white rounded-3xl shadow-lg">
-        <form className="space-y-8">
+        <form className="space-y-8" onSubmit={sendEmail}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div>
-              <label className="block text-sm mb-2">Full Name</label>
-              <input
-                type="text"
-                placeholder="Enter Your Full Name"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full"
-              />
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Profession</label>
-              <input
-                type="text"
-                placeholder="Enter Your Profession"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full"
-              />
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Age</label>
-              <input
-                type="number"
-                placeholder="Enter Your Age"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full"
-              />
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Gender</label>
-              <select className="w-full px-4 py-3 border border-gray-300 rounded-full text-gray-500">
-                <option>Select Your Gender</option>
-                <option>Male</option>
-                <option>Female</option>
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Work Title</label>
-              <input
-                type="text"
-                placeholder="Enter Your Work Title"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full"
-              />
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Organisation</label>
-              <input
-                type="text"
-                placeholder="Select Your Organisation"
-                className="w-full px-4 py-3 border border-gray-300 rounded-full"
-              />
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Service Selection</label>
-              <select className="w-full px-4 py-3 border border-gray-300 rounded-full text-gray-500">
-                <option>Select the service you are interested in</option>
-              </select>
-            </div>
-            <div>
-              <label className="block text-sm mb-2">Logistics</label>
-              <select className="w-full px-4 py-3 border border-gray-300 rounded-full text-gray-500">
-                <option>When would you like to begin?</option>
-              </select>
-            </div>
+            <input name="full_name" placeholder="Full Name" className="input" />
+            <input
+              name="profession"
+              placeholder="Profession"
+              className="input"
+            />
+            <input
+              name="work_title"
+              placeholder="Work Title"
+              className="input"
+            />
+            <input
+              name="organisation"
+              placeholder="Organisation"
+              className="input"
+            />
+            <input
+              name="email"
+              type="email"
+              placeholder="Email"
+              className="input"
+            />
+            <input
+              name="phone"
+              type="tel"
+              placeholder="Phone No."
+              className="input"
+            />
+
+            <select name="service" className="input">
+              <option>Select Service</option>
+              <option>Executive Coaching</option>
+              <option>Coaching Skills</option>
+              <option>Coaching Supervision</option>
+              <option>Change Management</option>
+              <option>Organisational Culture</option>
+              <option>Organisational Vision</option>
+            </select>
+
+            <select name="for_whom" className="input">
+              <option>For Whom</option>
+              <option>Self</option>
+              <option>Team</option>
+              <option>Organisation</option>
+            </select>
+
+            <select name="start_time" className="input">
+              <option>When do you want to start?</option>
+              <option>Within 3 months</option>
+              <option>Within 6 months</option>
+              <option>Within 12 months</option>
+            </select>
           </div>
 
-          <div>
-            <label className="block text-sm mb-2">
-              Reason for Seeking Services
-            </label>
-            <textarea
-              placeholder="Type Here"
-              className="w-full px-4 py-3 border border-gray-300 rounded-2xl resize-none"
-              rows={4}
-            ></textarea>
-          </div>
+          <textarea
+            name="reason"
+            rows={4}
+            placeholder="Reason for seeking services"
+            className="input"
+          />
+          <input name="goal_1" placeholder="Goal 1" className="input" />
+          <input name="goal_2" placeholder="Goal 2" className="input" />
+          <input name="goal_3" placeholder="Goal 3" className="input" />
 
-          <div>
-            <label className="block text-sm mb-2">
-              Goals and Desired Results
-            </label>
-            <div className="space-y-4">
-              {[1, 2, 3].map((goal) => (
-                <div key={goal} className="flex w-full flex-row gap-5">
-                  <span className="flex items-center justify-center w-24 px-4 py-3 border border-gray-300 rounded-l-full text-sm font-medium bg-white">
-                    Goal {goal}
-                  </span>
-                  <input
-                    type="text"
-                    placeholder="What are your goals and desired results from this service?"
-                    className="w-full px-4 py-3 border border-gray-300  rounded-r-full"
-                  />
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="flex justify-center items-center ">
+          <div className="flex justify-center">
             <button
               type="submit"
-              className="border border-[#151583] text-black rounded-full py-3 px-10 hover:bg-[#151583] hover:text-white mt-4 md:mt-0"
+              className="border border-[#151583] rounded-full py-3 px-10 hover:bg-[#151583] hover:text-white"
             >
               Submit
             </button>

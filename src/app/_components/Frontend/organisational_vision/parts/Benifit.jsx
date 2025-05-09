@@ -33,8 +33,8 @@ export default function Benifit() {
       </div>
 
       {/* Left Text Section */}
-      <div className="w-[60%] space-y-6 text-[#E22E1B]">
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+      <div className="w-[60%] space-y-6 text-[#E53935]">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           Who Benefits from This Workshop?
         </h2>
         <p className="text-gray-800 text-base leading-relaxed my-4">

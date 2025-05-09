@@ -122,7 +122,7 @@
 //     <section className="py-20 px-4 bg-white text-center relative">
 //       <h3 className="text-xl text-[#151583] mb-4 ">The RuhCo Approach</h3>
 
-//       <h2 className="text-4xl font-semibold text-[#E22E1B] mb-6">
+//       <h2 className="text-4xl font-semibold text-[#E53935] mb-6">
 //         WHY WE STAND APART
 //       </h2>
 

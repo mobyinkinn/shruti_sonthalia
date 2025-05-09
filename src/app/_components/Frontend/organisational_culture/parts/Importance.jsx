@@ -6,7 +6,7 @@ const Importance = () => {
       {/* Text Section */}
 
       <div className="flex-1">
-        <h2 className="text-2xl md:text-3xl font-semibold text-[#E22E1B] mb-4 underline-offset-4">
+        <h2 className="text-2xl md:text-3xl font-semibold text-[#E53935] mb-4 underline-offset-4">
           The Importance of Organisational Culture
         </h2>
 

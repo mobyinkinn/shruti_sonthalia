@@ -85,7 +85,7 @@ export default function WhoWeWorkWith() {
     <section className="flex flex-col lg:flex-row items-center justify-between px-6 lg:px-16 py-12">
       {/* Left Text Section */}
       <div className="lg:w-1/2 space-y-6">
-        <h2 className="font-normal text-2xl md:text-3xl text-[#E22E1B] capitalize  ">
+        <h2 className="font-normal text-2xl md:text-3xl text-[#E53935] capitalize  ">
           Who We Work with?
         </h2>
         <div className="space-y-4">

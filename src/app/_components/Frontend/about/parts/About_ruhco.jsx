@@ -9,7 +9,7 @@ const About_ruhco = () => {
       <div className="text-center">
         <h2 className="text-3xl font-medium">
           About {""} <span className="text-[#151582] font-bold">Ruh</span>
-          <span className="text-[#E22E1B] font-bold">Co</span>
+          <span className="text-[#E53935] font-bold">Co</span>
         </h2>
       </div>
       <section className="py-8 px-4 md:px-12 bg-white">

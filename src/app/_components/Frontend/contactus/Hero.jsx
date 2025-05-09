@@ -25,42 +25,45 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-42">
-            <h2 className="text-[2.5rem] font-bold mt-2 tracking-wider w-[100%] text-white">
-              START YOUR JOURNEY WITH RUHCO TODAY
-            </h2>
-          <p className="mt-4 text-white max-w-xxl mx-auto">
-            Reach out today for expert guidance, personalized coaching, and
-            strategies to unlock your full potential.
-          </p>
-          <button
-            style={{
-              marginTop: "20px",
-              color: "white",
-              backgroundColor: "#151583",
-              padding: "10px 25px",
-              borderRadius: "20px",
-              fontWeight: "bold",
-              cursor: "pointer",
-              outline: "none",
-              border: "none",
-            }}
-            onClick={() =>
-              router.push(
-                "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
-              )
-            }
-            onMouseEnter={() => {
-              setIsHovered(true);
-            }}
-            onMouseLeave={() => {
-              setIsHovered(false);
-            }}
-          >
-            <span className="fancy-button-text-container">
-              <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
-              <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
-            </span>
-          </button>
+        <h2 className="text-[2.5rem] font-bold mt-2 tracking-wider w-[100%] text-white">
+          START YOUR JOURNEY WITH RUHCO TODAY
+        </h2>
+        <p className="mt-4 text-white max-w-xxl mx-auto">
+          Reach out today for expert guidance, personalized coaching, and
+          strategies to unlock your full potential.
+        </p>
+        <p className="mt-4 text-white max-w-xxl mx-auto">
+          You can also reach out to us at support@ruhco.org
+        </p>
+        <button
+          style={{
+            marginTop: "20px",
+            color: "white",
+            backgroundColor: "#151583",
+            padding: "10px 25px",
+            borderRadius: "20px",
+            fontWeight: "bold",
+            cursor: "pointer",
+            outline: "none",
+            border: "none",
+          }}
+          onClick={() =>
+            router.push(
+              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+            )
+          }
+          onMouseEnter={() => {
+            setIsHovered(true);
+          }}
+          onMouseLeave={() => {
+            setIsHovered(false);
+          }}
+        >
+          <span className="fancy-button-text-container">
+            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
+            <span style={getTrasformStyles(isHovered)}>Book a Consult</span>
+          </span>
+        </button>
       </div>
     </div>
   );

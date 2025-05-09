@@ -42,7 +42,7 @@ export default function ExecutiveCoaching() {
         <h3 className="text-lg text-[#151583] ">
           ō Our Change Management Framework
         </h3>
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4">
           What Will You Learn?
         </h2>
         <div className="mt-4 space-y-4">

@@ -76,7 +76,7 @@ const Sliders = () => {
                   >
                     <div className="h-[100%] flex flex-row justify-between">
                       <div className="w-[50%] flex flex-col justify-center">
-                        <h2 className="text-3xl font-semibold text-[#e22e1b] mb-4">
+                        <h2 className="text-3xl font-semibold text-[#E53935] mb-4">
                           {card.title}
                         </h2>
                         <p className="text-black">{card.description}</p>

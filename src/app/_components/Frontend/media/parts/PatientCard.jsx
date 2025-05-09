@@ -29,7 +29,7 @@ export default function NewsCard() {
   ];
   return (
     <div className="rounded-2xl h-[85vh] overflow-hidden  bg-white  transition-shadow duration-300">
-      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] mb-4 underline-offset-4 uppercase">
+      <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] mb-4 underline-offset-4 uppercase">
         In the News
       </h2>
       <div className="flex flex-row w-[100%] justify-around">

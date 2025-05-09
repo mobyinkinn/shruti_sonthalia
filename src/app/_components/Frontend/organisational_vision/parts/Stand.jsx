@@ -97,7 +97,7 @@ const WhyWeStandApart = () => {
         <h3 className="text-indigo-800 font-medium text-xl">
           The RuhCo Approach
         </h3>
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize my-2">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize my-2">
           Why We Stand Apart
         </h2>
       </div>

@@ -144,7 +144,7 @@ const Publication = () => {
               height={200}
               className="w-full h-auto object-cover"
             />
-            <button className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-2 text-[1.2rem] px-6 py-2 bg-[#E22E1B] text-white rounded-[10px] hover:bg-white hover:text-[#E22E1B] hover:border hover:border-[#E22E1B] transition cursor-pointer">
+            <button className="absolute bottom-[20px] left-1/2 transform -translate-x-1/2 z-50 flex items-center gap-2 text-[1.2rem] px-6 py-2 bg-[#E53935] text-white rounded-[10px] hover:bg-white hover:text-[#E53935] hover:border hover:border-[#E53935] transition cursor-pointer">
               <a
                 href={publication.link}
                 className="text-[white] hover:text-[black]"

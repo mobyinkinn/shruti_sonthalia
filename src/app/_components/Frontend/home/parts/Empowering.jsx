@@ -49,7 +49,7 @@ const router = useRouter();
   return (
     <>
       <div className="flex justify-center py-5 ">
-        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E22E1B] underline-offset-4 capitalize py-8">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] underline-offset-4 capitalize py-8">
           Bespoke Solutions for Every Journey
         </h2>
       </div>
@@ -63,7 +63,7 @@ const router = useRouter();
               className={`text-lg font-semibold py-10 px-6 cursor-pointer rounded-lg shadow-md transition-colors duration-300 tracking-wider
               ${
                 selectedOption === index
-                  ? "bg-[#F3834C] text-white"
+                  ? "bg-[#E53935] text-white"
                   : "bg-white text-black border border-gray-300"
               }
             `}

@@ -34,7 +34,7 @@ export default function Benifits() {
         </div>
 
         {/* Left Text Section */}
-        <div className="lg:w-1/2 space-y-6 text-[#E22E1B]">
+        <div className="lg:w-1/2 space-y-6 text-[#E53935]">
           <h2 className="text-3xl font-normal tracking-wider">
             Who Benefits from <br /> Coaching Supervision?
           </h2>

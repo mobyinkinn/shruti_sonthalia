@@ -59,7 +59,7 @@ export default function Why() {
         </video>
       </div>
       <div className="flex flex-col gap-5">
-        <h2 className="text-3xl w-[80%] text-[#E22E1B] tracking-wider font-medium">
+        <h2 className="text-3xl w-[80%] text-[#E53935] tracking-wider font-medium">
           Why Culture Matters?
         </h2>
         <div className="mt-4 space-y-4">

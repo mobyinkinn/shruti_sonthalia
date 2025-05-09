@@ -30,9 +30,9 @@ const Leftside = () => {
     infinite: true,
     speed: 500,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     loop: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
 
     autoplay: true,
     arrows: false,
@@ -67,9 +67,9 @@ const Leftside = () => {
     infinite: true,
     speed: 500,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     loop: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
 
     autoplay: true,
     arrows: false,
@@ -105,9 +105,9 @@ const Leftside = () => {
         <div className="space-y-6">
           <div className="space-y-2">
             <p className="font-normal text-xl text-[1.5rem]">2024 - 2025</p>
-            <p className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <p className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               ICF Coaching Education -{" "}
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 Global Diversity, Equity, Inclusion, and Belonging Advisory
                 Committee
               </span>
@@ -116,9 +116,9 @@ const Leftside = () => {
 
           <div className="mt-24 space-y-2">
             <p className="font-normal text-xl text-[1.8rem]">2024</p>
-            <p className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+            <p className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
               ICF Coaching Impact Awards -{" "}
-              <span className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+              <span className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
                 Professional Coaches Distinguished Coach (MCC Category) Jury
                 Member
               </span>
@@ -151,7 +151,7 @@ const Leftside = () => {
       <div className="w-full px-6 py-8 text-gray-900 font-sans space-y-10">
         <div className="space-y-2">
           <p className="text-[1.5rem] font-normal">2020</p>
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
             Co-founder, Corona Quilt Project
           </h2>
           <span className="list-disc list-inside text-black space-y-1 mt-2">
@@ -178,7 +178,7 @@ const Leftside = () => {
         </div>
 
         <div>
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
            International Coaching Federation Foundation (ICFF) - Council
             of Ambassadors
           </h2>
@@ -214,7 +214,7 @@ const Leftside = () => {
 
         <div className="space-y-2">
           <p className="text-[1.5rem] font-normal">2019</p>
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
             Vice President, Young Members’ Advocacy & Education, Graduate
             Women’s International; Nominated to represent GWI at the UN's 64th
             Commission on the Status of Women
@@ -246,7 +246,7 @@ const Leftside = () => {
       <div className="w-full px-6 py-8 text-gray-900 font-sans space-y-10">
         <div>
           <p className="text-[1.5rem] font-normal">2007 - 2009</p>
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
             <span className="font-normal"> LSE Ambassador,</span> LSE Student
             Recruitment Office
           </h2>
@@ -260,12 +260,12 @@ const Leftside = () => {
 
         <div className="space-y-2 mt-60">
           <p className="text-[1.5rem] font-normal">2008 - 2009</p>
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
             <span className="font-normal">Student Associate Scheme,</span>
             Institute of Education, London
           </h2>
 
-          <h2 className="text-[#E22E1B] font-normal tracking-wider text-xl md:text-3xl">
+          <h2 className="text-[#E53935] font-normal tracking-wider text-xl md:text-3xl">
             <span className="font-normal">London Nightline,</span> University
             of London, Providing confidential support through overnight helpline
           </h2>

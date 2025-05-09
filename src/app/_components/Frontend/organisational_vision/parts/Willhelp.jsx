@@ -4,7 +4,7 @@ const HowWillThisHelp = () => {
   return (
     <section className="py-16 px-4 md:px-10 bg-white relative">
       <div className="text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-normal text-[#E22E1B] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           How Will This Help?
         </h2>
         <p className="text-lg text-gray-600 mt-4">
