@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import blog from "../assets/blogs.png";
+import blog from "../assets/blog.jpg";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/app/_components/Header";

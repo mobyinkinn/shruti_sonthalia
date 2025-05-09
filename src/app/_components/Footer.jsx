@@ -51,8 +51,9 @@ const services = [
 const quickLinks = [
   { id: 1, name: "About Us", link: "/about_me" },
   { id: 2, name: "Case Studies", link: "/Case-studies" },
-  { id: 3, name: "Publications & Media", link: "/publication-and-media" },
-  { id: 4, name: "Contact Us", link: "/contact-us" },
+  { id: 3, name: "Media", link: "/publication-and-media" },
+  { id: 4, name: "Publications", link: "/media-and-events" },
+  { id: 5, name: "Contact Us", link: "/contact-us" },
 ];
 
 export default function Footer() {

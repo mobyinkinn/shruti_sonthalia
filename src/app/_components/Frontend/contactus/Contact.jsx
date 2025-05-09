@@ -96,9 +96,9 @@ export default function Contact() {
             placeholder="Reason for seeking services"
             className="input"
           />
-          <input name="goal_1" placeholder="Goal 1" className="input" />
+          {/* <input name="goal_1" placeholder="Goal 1" className="input" />
           <input name="goal_2" placeholder="Goal 2" className="input" />
-          <input name="goal_3" placeholder="Goal 3" className="input" />
+          <input name="goal_3" placeholder="Goal 3" className="input" /> */}
 
           <div className="flex justify-center">
             <button

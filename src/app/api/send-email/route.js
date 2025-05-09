@@ -25,9 +25,6 @@ export async function POST(request) {
     Start Time: ${data.start_time}
     Reason: ${data.reason}
 
-    Goal 1: ${data.goal_1}
-    Goal 2: ${data.goal_2}
-    Goal 3: ${data.goal_3}
   `;
 
   try {
