@@ -213,12 +213,10 @@ const Hero = () => {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 500,
     infinite: true,
     speed: 1500,
     loop: true,
     autoplaySpeed: 1500,
-
     autoplay: true,
     arrows: false,
     slidesToShow: 1,
