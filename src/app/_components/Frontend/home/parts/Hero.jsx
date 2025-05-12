@@ -215,9 +215,9 @@ const Hero = () => {
     infinite: true,
     speed: 500,
     infinite: true,
-    speed: 1000,
+    speed: 1500,
     loop: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 1500,
 
     autoplay: true,
     arrows: false,
