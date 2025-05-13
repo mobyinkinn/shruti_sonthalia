@@ -7,7 +7,7 @@ import ruhco from "../assets/ruhco.png";
 
 const LessonsSection = () => {
   return (
-    <section className="py-20 px-4 md:px-12">
+    <section className="md:py-20 py-10 px-4 md:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 items-start text-center md:text-left">
         {/* Left Column */}
         <div className="space-y-6">

@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
       <Hero />
-      <div className="px-14">
+      <div className="md:px-14 px-5">
         <About_shruti />
         <LessonsSection />
         <Content />

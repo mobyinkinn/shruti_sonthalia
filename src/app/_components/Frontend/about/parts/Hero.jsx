@@ -201,42 +201,7 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-semibold mb-4 tracking-wider uppercase">
-          Innovative Solutions for Social Inclusion
-        </h1>
-        <p className="text-white text-lg md:text-md max-w-5xl mb-6">
-          With over 20 years of experience, we've led impactful initiatives in
-          coaching, advocacy, and social change. Our journey reflects a deep
-          commitment to empowering communities and driving meaningful
-          transformation.
-        </p>
-        <button
-          style={{
-            marginTop: "20px",
-            color: "white",
-            backgroundColor: "#151583",
-            padding: "10px 25px",
-            borderRadius: "20px",
-            fontWeight: "bold",
-            cursor: "pointer",
-            outline: "none",
-            border: "none",
-          }}
-          onClick={() => router.push("/contact-us")}
-          onMouseEnter={() => {
-            setIsHovered(true);
-          }}
-          onMouseLeave={() => {
-            setIsHovered(false);
-          }}
-        >
-          <span className="fancy-button-text-container">
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
-          </span>
-        </button>
-      </div> */}
+    
     </div>
   );
 };
