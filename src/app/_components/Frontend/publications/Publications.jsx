@@ -15,7 +15,7 @@ const Publications = () => {
       }}
     >
       <Hero />
-      <div className="p-12">
+      <div className="md:p-12">
         <Publication />
         <Contact_us
           heading="Take the First Step Toward Successful Change"

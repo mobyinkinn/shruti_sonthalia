@@ -236,7 +236,7 @@ export default function Footer() {
       </div>
 
       {/* Services Section */}
-      <div className="flex flex-col pt-3 gap-4 w-full md:w-1/4">
+      <div className="flex flex-col pt-11 gap-4 w-full md:w-1/4">
         <span className="font-bold text-[1.4rem] leading-6 mb-4">Services</span>
         <ul className="flex flex-col space-y-4">
           {services.map((service) => (
@@ -253,7 +253,7 @@ export default function Footer() {
       </div>
 
       {/* Quick Links Section */}
-      <div className="flex flex-col pt-3 gap-4 w-full md:w-1/4">
+      <div className="flex flex-col pt-11 gap-4 w-full md:w-1/4">
         <span className="font-bold text-[1.4rem] leading-6 mb-4">Quick Links</span>
         <ul className="flex flex-col space-y-4">
           {quickLinks.map((link) => (

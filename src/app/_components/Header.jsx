@@ -182,7 +182,7 @@ export default function Header() {
                   <a
                     key={item.id}
                     href={item.link}
-                    className="block text-white hover:text-black hover:bg-white hover:rounded-full p-2 transition"
+                    className="block text-black hover:rounded-full p-2 transition"
                   >
                     {item.name}
                   </a>

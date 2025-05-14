@@ -9,7 +9,7 @@ const CaseStudies = () => {
     <div>
       <Hero />
       <Cards/>
-      <div className="px-6">
+      <div className="md:px-6">
         <Contact_us
           heading="Take the First Step Toward Successful Change"
           line1="Don’t let your change initiatives fall into the 70% that fail. Are you ready to turn change into a competitive advantage?"

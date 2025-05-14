@@ -37,9 +37,9 @@ const LessonsSection = () => {
             <img
               src="/Animation.png"
               alt="Rotating"
-              className="w-80 h-80 test-spin"
+              className="md:w-80 md:h-80 w-56 h-56 test-spin"
             />
-            <div className="absolute flex flex-col items-center text-white font-semibold z-10 bottom-30 w-[10%] left-37 ">
+            <div className="absolute flex flex-col items-center text-white font-semibold z-10 md:bottom-30 bottom-20 w-[10%] md:left-37 left-25">
               <p className="text-2xl md:text-2xl text-center px-4 max-w-xs uppercase">
                 Lessons I Live By
               </p>
