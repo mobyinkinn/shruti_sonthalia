@@ -85,7 +85,7 @@ export default function ExecutiveCoaching() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
+    <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center md:mt-12">
       <div className="flex flex-col gap-5">
         <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
           What Does Our Program Offer

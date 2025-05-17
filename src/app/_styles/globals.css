@@ -71,5 +71,5 @@
 }
 
 .input {
-  @apply w-full px-4 py-3 border border-gray-300 rounded-full;
+  @apply w-full px-4 py-3 border border-gray-300 md:rounded-full;
 }

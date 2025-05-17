@@ -63,12 +63,7 @@ const data = [
     video: "https://www.youtube.com/watch?v=3S5-ifS-Mas&feature=youtu.be",
     thumbnail: BURN,
   },
-  // {
-  //   title: "Coaching supports Mission-driven Organizations",
-  //   item: "Lecture",
-  //   video: "https://www.youtube.com/watch?v=H2NGCP_rR2E",
-  //   thumbnail: thumb,
-  // },
+  
 ];
 
 const Cards = () => {
@@ -100,7 +95,7 @@ const Cards = () => {
         </p>
       </div>
 
-      <div className="px-9 flex flex-row gap-10 flex-wrap justify-center">
+      <div className="px-9 flex flex-row md:gap-10 flex-wrap justify-center">
         {data.map((d, index) => (
           <VideoCard
             key={index}
@@ -147,7 +142,7 @@ const VideoCard = ({ videoUrl, title, item, thumbnail, onPlay }) => {
   };
 
   return (
-    <div className="flex flex-col justify-center w-[45%] relative group cursor-pointer">
+    <div className="flex flex-col justify-center md:w-[45%] w-[100%] relative group cursor-pointer">
       <div className="relative h-[320px] shadow-xl rounded-2xl overflow-hidden">
         <Image
           src={thumbnail.src} // Custom thumbnail or fallback

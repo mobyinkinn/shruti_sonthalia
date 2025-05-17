@@ -12,7 +12,7 @@ const Change = () => {
   return (
     <>
       <Hero />
-      <div className="p-14 bg-[#FCFCFF]">
+      <div className="p-5 md:p-14 bg-[#FCFCFF]">
         <Workshop />
         <Sliders />
         <WorkshopBenefits />

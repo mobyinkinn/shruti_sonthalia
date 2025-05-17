@@ -34,16 +34,8 @@ export default function Why() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="mx-auto py-6 px-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
-      {/* <div className="relative">
-        <Image
-          src={why}
-          alt="Executive Coaching"
-          width={600}
-          height={400}
-          className="rounded-lg"
-        />
-      </div> */}
+    <div className="mx-auto md:py-6 md:px-8  py-3 px-4 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
+     
       <div className="flex-1 rounded-2xl overflow-hidden shadow-md max-w-xl w-full">
         <video
           width="100%"

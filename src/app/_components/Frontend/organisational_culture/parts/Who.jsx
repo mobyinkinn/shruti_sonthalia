@@ -32,7 +32,7 @@ const Who = () => {
         </span>
       </div>
 
-      <div className="flex flex-wrap gap-8 justify-center items-center mt-8 ">
+      <div className="flex flex-wrap gap-8 justify-center items-center mt-8 px-2 md:px-0">
         {coachingData.map((item, index) => (
           <div
             key={index}

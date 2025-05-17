@@ -2,7 +2,7 @@ import Image from "next/image";
 import culture from "../assets/culture.png";
 const Importance = () => {
   return (
-    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 pt-12 px-16">
+    <section className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-16 md:pt-12 pt-5 px-8 md:px-16">
       {/* Text Section */}
 
       <div className="flex-1">

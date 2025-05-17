@@ -37,7 +37,7 @@ import React from "react";
 const Contact_us = ({ heading, line1, line2, button_Name, bg_image }) => {
   return (
     <div
-      className="mx-5 p-12 md:p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center relative"
+      className="md:mx-5 p-10 md:p-16 flex flex-col items-center justify-between md:mt-12 bg-cover bg-center relative  mt-5"
       style={{
         backgroundImage: `url(${bg_image?.src})`,
         backgroundColor: "#151583",
@@ -50,7 +50,7 @@ const Contact_us = ({ heading, line1, line2, button_Name, bg_image }) => {
           {heading}
         </h2>
         <div className="items-center flex flex-col space-y-6 leading-12">
-          <p className="text-lg md:text-xl text-center leading-8">{line1}</p>
+          <p className="text-lg md:text-xl text-center leading-7">{line1}</p>
           <p className="text-lg md:text-xl leading-none text-center">{line2}</p>
         </div>
         <AnimatedButton name={button_Name ? button_Name : "Contact Us"} />

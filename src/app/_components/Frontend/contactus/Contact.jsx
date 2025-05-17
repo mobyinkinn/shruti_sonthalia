@@ -62,7 +62,7 @@ export default function Contact() {
               name="phone"
               type="tel"
               placeholder="Phone No."
-              className="input"
+              className=""
             />
 
             <select name="service" className="input">

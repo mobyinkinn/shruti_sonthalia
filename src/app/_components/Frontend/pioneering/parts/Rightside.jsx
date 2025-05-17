@@ -170,7 +170,7 @@ const newsettings = {
 };
   return (
     <>
-      <div className="flex flex-col w-[40%] mt-24">
+      <div className="flex flex-col md:w-[40%] w-[100%] mt-24">
         <div className="w-full p-8 text-gray-900 font-sans space-y-10">
           <Slider {...settings}>
             {certImages.map((cert, index) => (
@@ -207,19 +207,6 @@ const newsettings = {
           </div>
         </div>
         <div className="w-full overflow-hidden pt-52 pb-20">
-          {/* <div className="w-[100%] relative pr-5">
-            <video
-              width="100%"
-              height="100%"
-              autoPlay
-              loop
-              muted
-              controls={false}
-              style={{ objectFit: "cover" }}
-            >
-              <source src="/Pioneering.mp4" type="video/mp4" />
-            </video>
-          </div> */}
           <div className="w-[95%] relative">
             <video
               ref={videoRef}

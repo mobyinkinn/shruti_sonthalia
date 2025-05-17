@@ -21,6 +21,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Image from "next/image";
+import Rightside from "./Rightside";
 const coachingImages = [img, img1, img2, img6];
 const fifthImages = [imgnew,img3, cert];
 
@@ -100,7 +101,8 @@ const Leftside = () => {
     ),
   };
   return (
-    <div className="flex flex-col w-[50%]">
+    <>
+    <div className="flex flex-col w-[100%] md:w-[45%]">
       <div className="w-full px-6 py-8  text-gray-900 font-sans">
         <div className="space-y-6">
           <div className="space-y-2">
@@ -272,6 +274,7 @@ const Leftside = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

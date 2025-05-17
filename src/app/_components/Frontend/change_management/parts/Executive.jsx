@@ -37,7 +37,7 @@ export default function ExecutiveCoaching() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <div className="mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
+    <div className="md:mx-auto md:p-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
       <div className="flex flex-col gap-5">
         <h3 className="text-lg text-[#151583] ">
           ō Our Change Management Framework

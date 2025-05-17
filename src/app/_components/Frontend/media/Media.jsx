@@ -13,7 +13,7 @@ const CaseStudies = () => {
       <Cards />
       <Carausal/>
       <NewsCard/>
-      <div className="px-6">
+      <div className="md:px-6">
         <Contact_us
           heading="We are the answer you’ve been looking for"
           line1="Reach out to us at support@ruhco.org to learn more"

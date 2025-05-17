@@ -18,7 +18,7 @@ const Oraganisational_vision = () => {
   return (
     <>
       <Hero />
-      <div className="p-10 bg-[#FCFCFF]">
+      <div className="md:p-10 p-5 bg-[#FCFCFF]">
         <Workshop />
         <Vision />
         <LeadershipProwess />

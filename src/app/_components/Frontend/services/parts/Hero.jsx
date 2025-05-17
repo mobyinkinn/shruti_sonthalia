@@ -1,87 +1,68 @@
-// import React from "react";
-// import hero from "../assets/hero/hero.png";
+
+// "use client";
+// import { useEffect, useRef, useState } from "react";
+// import Image from "next/image";
+// import { Volume2, VolumeX } from "lucide-react"; // You can use any icon library
+// import { useRouter } from "next/navigation";
 
 // const Hero = () => {
+//   const videoRef = useRef(null);
+//   const [isMuted, setIsMuted] = useState(true);
+//   const [isHovered, setIsHovered] = useState(false);
+//   const router = useRouter();
+//   const getTrasformStyles = (isHovered) => ({
+//     transform: `translateY(${isHovered ? "-100%" : "0"})`,
+//   });
+//   const toggleMute = () => {
+//     const video = videoRef.current;
+//     if (video) {
+//       video.muted = !video.muted;
+//       setIsMuted(video.muted);
+//     }
+//   };
+
+//   useEffect(() => {
+//     const video = videoRef.current;
+//     if (video) {
+//       video.muted = true;
+//       video.play().catch((err) => {
+//         console.warn("Autoplay failed", err);
+//       });
+//     }
+//   }, []);
+
 //   return (
-//     <div className="flex flex-col ">
-//       <div className="flex flex-col justify-center items-center space-x-4 text-center space-y-6">
-//         <span className="text-[1.4rem] leading-none ">Services</span>
-//         <span className="text-[2.5rem] leading-none tracking-wider font-semibold uppercase">
-//           Master Transformational
-//           <br /> Leadership
-//         </span>
-//         <span className="text-[1.4rem] leading-6 tracking-wider">
-//           Develop essential coaching techniques, enhance leadership abilities,
-//           and drive meaningful
-//           <br /> transformation in businesses and teams
-//         </span>
-//         <button className="flex items-center gap-2 text-[1.4rem] px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border transition cursor-pointer">
-//           Book A Session
+//     <div className="relative w-full h-[screen]">
+//       <div className="w-full relative">
+//         <video
+//           ref={videoRef}
+//           width="100%"
+//           height="100%"
+//           autoPlay
+//           loop
+//           muted
+//           playsInline
+//           controls={false}
+//           style={{ objectFit: "cover" }}
+//         >
+//           <source src="/Ser.mp4" type="video/mp4" />
+//         </video>
+
+//         {/* Sound Toggle Button */}
+//         <button
+//           onClick={toggleMute}
+//           className="absolute bottom-5 right-5 z-100 bg-black bg-opacity-50 p-2 rounded-full text-white"
+//         >
+//           {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
 //         </button>
 //       </div>
 
-//       <div className="mt-12">
-//         <div className="flex flex-row justify-between">
-//           <div className="flex flex-col w-[58%] space-y-8 justify-center">
-//             <span className="text-[2.5rem] leading-none font-semibold uppercase">
-//               Lead with Influence, Not Authority
-//             </span>
-//             <span className="text-[1.2rem] leading-7 tracking-widest">
-//               In today’s fast-changing business landscape, leaders who embrace
-//               coaching skills unlock deeper team engagement, higher performance,
-//               and sustainable success. Our Coaching Skills Program isn’t just
-//               another leadership course—it is a results-driven program designed
-//               to enhance how leaders communicate, inspire, and empower their
-//               teams, with measurable improvements in engagement, performance,
-//               and collaboration.
-//             </span>
-//           </div>
-//           <div className=" w-[38%]">
-//             <div
-//               className="hidden md:flex w-full min-h-[322px] md:min-h-[322px] lg:min-h-[350px] xl:min-h-[400px] rounded-[40px] bg-cover bg-center"
-//               style={{ backgroundImage: `url(${hero.src})` }}
-//             ></div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-
-// export default Hero;
-
-"use client";
-
-// import Image from "next/image";
-// import mask3 from "../assets/Banner.png"
-// import { useState } from "react";
-// import { useRouter } from "next/navigation";
-// const Hero = () => {
-//      const [isHovered, setIsHovered] = useState(false);
-//      const router = useRouter();
-//       const getTrasformStyles = (isHovered) => ({
-//         transform: `translateY(${isHovered ? "-100%" : "0"})`,
-//       });
-//   return (
-//     <div className="relative w-full h-[600px] rounded-3xl overflow-hidden">
-//       <Image
-//         src={mask3}
-//         alt="Transformational Leadership"
-//         layout="fill"
-//         objectFit="cover"
-//         className="z-0"
-//         priority
-//       />
-//       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
 //       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-//         <h1 className="text-white text-2xl md:text-5xl font-semibold mb-4 tracking-wider">
-//           Executive Coaching for Senior Leaders
+//         <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
+//           OUR EXECUTIVE COACHING INTEGRATES:
 //         </h1>
-//         <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
-//           Gain the knowledge, strategies, and confidence to elevate your
-//           business with expert guidance. Unlock new opportunities and achieve
-//           success with proven coaching methods.'
+//         <p className="text-white text-lg md:text-xl max-w-4xl mb-6">
+//           Multi-Touchpoint Learning for Sustainable Impact
 //         </p>
 //         <button
 //           style={{
@@ -95,7 +76,11 @@
 //             outline: "none",
 //             border: "none",
 //           }}
-//           onClick={() => router.push("/contact-us")}
+//           onClick={() =>
+//             router.push(
+//               "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+//             )
+//           }
 //           onMouseEnter={() => {
 //             setIsHovered(true);
 //           }}
@@ -114,11 +99,9 @@
 // };
 
 // export default Hero;
-
 "use client";
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import { Volume2, VolumeX } from "lucide-react"; // You can use any icon library
+import { Volume2, VolumeX } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const Hero = () => {
@@ -126,9 +109,12 @@ const Hero = () => {
   const [isMuted, setIsMuted] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const router = useRouter();
-  const getTrasformStyles = (isHovered) => ({
-    transform: `translateY(${isHovered ? "-100%" : "0"})`,
+
+  const getTransformStyles = (hover) => ({
+    transform: `translateY(${hover ? "-100%" : "0"})`,
+    transition: "transform 0.3s ease-in-out",
   });
+
   const toggleMute = () => {
     const video = videoRef.current;
     if (video) {
@@ -148,36 +134,36 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[screen]">
-      <div className="w-full relative">
+    <div className="relative w-full h-screen">
+      {/* Background Video */}
+      <div className="absolute inset-0">
         <video
           ref={videoRef}
-          width="100%"
-          height="100%"
+          className="w-full h-full object-cover"
           autoPlay
           loop
           muted
           playsInline
           controls={false}
-          style={{ objectFit: "cover" }}
         >
           <source src="/Ser.mp4" type="video/mp4" />
         </video>
 
-        {/* Sound Toggle Button */}
+        {/* Sound Toggle */}
         <button
           onClick={toggleMute}
-          className="absolute bottom-5 right-5 z-100 bg-black bg-opacity-50 p-2 rounded-full text-white"
+          className="absolute bottom-5 right-5 z-30 bg-black bg-opacity-50 p-2 rounded-full text-white"
         >
           {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
         </button>
       </div>
 
-      <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
-          OUR EXECUTIVE COACHING INTEGRATES:
+      {/* Content Layer */}
+      <div className="relative z-20 flex flex-col justify-end items-center text-center px-4 sm:px-6 md:px-8 h-full pb-10">
+        <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
+          Our Executive Coaching Integrates:
         </h1>
-        <p className="text-white text-lg md:text-xl max-w-4xl mb-6">
+        <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl mb-6">
           Multi-Touchpoint Learning for Sustainable Impact
         </p>
         <button
@@ -205,8 +191,8 @@ const Hero = () => {
           }}
         >
           <span className="fancy-button-text-container">
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
-            <span style={getTrasformStyles(isHovered)}>Book a Session</span>
+            <span style={getTransformStyles(isHovered)}>Book a Session</span>
+            <span style={getTransformStyles(isHovered)}>Book a Session</span>
           </span>
         </button>
       </div>

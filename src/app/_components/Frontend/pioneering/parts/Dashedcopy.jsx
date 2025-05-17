@@ -2,7 +2,7 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
 
-export default function ScrollTimeline() {
+export default function ScrollTimelinecopy() {
   const containerRef = useRef(null);
   const [fillHeight, setFillHeight] = useState(0);
 
@@ -25,14 +25,14 @@ export default function ScrollTimeline() {
   }, []);
 
   const totalCircles = 12;
-  const height = 4000;
+  const height = 6000;
   const gap = height / totalCircles;
 
   return (
-    <div className="h-[200vh] flex items-start justify-center pt-40">
+    <div className="h-[500vh] flex items-start justify-center pt-40 w-[10%]">
       <div
         ref={containerRef}
-        className="relative h-[4000px] w-10 flex flex-col items-center"
+        className="relative h-[6000px] w-10 flex flex-col items-center"
       >
         {/* Dashed Line */}
         <div className="absolute top-0 w-1 h-full z-0">

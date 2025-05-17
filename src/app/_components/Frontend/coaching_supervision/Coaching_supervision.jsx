@@ -10,7 +10,7 @@ const Coaching_supervision = () => {
   return (
     <>
       <Hero />
-      <div className="p-14">
+      <div className="md:p-14">
         <LeadershipProwess />
         <Coaching />
         <Benifits />

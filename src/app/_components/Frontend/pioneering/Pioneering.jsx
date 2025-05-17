@@ -5,21 +5,27 @@ import Leftside from "./parts/Leftside";
 import Rightside from "./parts/Rightside";
 import Contact_us from "../about/parts/Contact_us";
 import git from "../publications/assets/git.png";
+import BothSide from "./parts/BothSide";
+import ScrollTimelinecopy from "./parts/Dashedcopy";
 
 const Pioneering = () => {
   return (
     <div className="bg-[#FCFCFF]">
       <Hero />
-      <h1 className="text-[2.5rem] text-[#E53935] font-medium text-center">
+      <h1 className="md:text-[2.5rem] text-[2rem] text-[#E53935] font-medium text-center">
         SHRUTI SONTHALIA
       </h1>
       <p className="text-[#151583] text-[1.5rem] mt-1 mb-6 text-center">
         A Two-Decade Journey in Coaching, Advocacy, and Social Impact
       </p>
-      <div className="flex flex-row justify-between">
+      <div className="md:flex hidden flex-row justify-between">
         <Leftside />
         <ScrollTimeline />
         <Rightside />
+      </div>
+      <div className="md:hidden flex flex-row justify-between p-[10px] gap-[10px]">
+        <ScrollTimelinecopy />
+        <BothSide />
       </div>
       <div className="px-6">
         <Contact_us

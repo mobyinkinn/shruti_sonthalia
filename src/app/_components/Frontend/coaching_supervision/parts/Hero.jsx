@@ -114,12 +114,10 @@
 // };
 
 // export default Hero;
-
-
+"use client";
 
 import { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import { Volume2, VolumeX } from "lucide-react"; // You can use any icon library
+import { Volume2, VolumeX } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 const Hero = () => {
@@ -127,9 +125,7 @@ const Hero = () => {
   const [isMuted, setIsMuted] = useState(true);
   const [isHovered, setIsHovered] = useState(false);
   const router = useRouter();
-  const getTrasformStyles = (isHovered) => ({
-    transform: `translateY(${isHovered ? "-100%" : "0"})`,
-  });
+
   const toggleMute = () => {
     const video = videoRef.current;
     if (video) {
@@ -137,7 +133,9 @@ const Hero = () => {
       setIsMuted(video.muted);
     }
   };
-
+      const getTrasformStyles = (isHovered) => ({
+        transform: `translateY(${isHovered ? "-100%" : "0"})`,
+      });
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
@@ -149,36 +147,36 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[screen]">
-      <div className="w-full relative">
+    <div className="relative w-full h-screen">
+      {/* Background Video */}
+      <div className="absolute inset-0">
         <video
           ref={videoRef}
-          width="100%"
-          height="100%"
+          className="w-full h-full object-cover"
           autoPlay
           loop
           muted
           playsInline
           controls={false}
-          style={{ objectFit: "cover" }}
         >
           <source src="/super.mp4" type="video/mp4" />
         </video>
 
-        {/* Sound Toggle Button */}
+        {/* Sound Toggle */}
         <button
           onClick={toggleMute}
-          className="absolute bottom-5 right-5 z-100 bg-black bg-opacity-50 p-2 rounded-full text-white"
+          className="absolute bottom-5 right-5 z-30 bg-black bg-opacity-50 p-2 rounded-full text-white"
         >
           {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
         </button>
       </div>
 
-      <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
-        <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
-          COACHING SUPERVISION FOR ASPIRING COACHES
+      {/* Content */}
+      <div className="relative z-20 flex flex-col justify-end items-center text-center px-4 sm:px-6 md:px-8 h-full pb-10">
+        <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
+          Coaching Supervision for Aspiring Coaches
         </h1>
-        <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
+        <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl mb-6">
           Enhance your coaching skills with expert guidance, constructive
           feedback, and practical insights. Build confidence, refine your
           approach, and elevate your coaching impact.

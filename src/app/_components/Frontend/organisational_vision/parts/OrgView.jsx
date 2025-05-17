@@ -12,7 +12,7 @@ const OrgView = ({ bg_image }) => {
     });
   return (
     <div
-      className="mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center relative"
+      className="md:mx-5 p-16 flex flex-col items-center justify-between mt-12 bg-cover bg-center relative"
       style={{
         backgroundImage: `url(${bg_image?.src})`,
         backgroundColor: "#151583",

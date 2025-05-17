@@ -12,7 +12,7 @@ const Services = () => {
   return (
     <>
       <Hero />
-      <div className="p-14 bg-[#FCFCFF]">
+      <div className="md:p-14 bg-[#FCFCFF]">
         <LeadershipProwess />
         <Coaching />
         <Executive />

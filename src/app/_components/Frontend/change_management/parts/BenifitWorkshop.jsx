@@ -3,7 +3,7 @@ import workshopImage from "../assets/1.gif"; // Replace with your image path
 
 const WorkshopBenefits = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center bg-white p-8">
+    <section className="flex flex-col md:flex-row items-center bg-white md:p-8">
       {/* Left side: Image */}
       <div className="w-full md:w-1/2 mb-6 md:mb-0">
         <Image

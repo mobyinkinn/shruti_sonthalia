@@ -232,7 +232,7 @@ const caseStudies = [
 const CaseStudyCards = () => {
   const router = useRouter();
   return (
-    <div className="py-16 px-6 md:px-12 bg-[#F8F8F8]">
+    <div className="md:py-16 py-8 px-6 md:px-12 bg-[#F8F8F8]">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-normal text-[#E53935] capitalize  ">
           Real-World Impact
