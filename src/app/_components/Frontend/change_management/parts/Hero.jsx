@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import mask3 from "../assets/1.png";
-import bannermob from "../assets/Bannermob.png";
+import bannermob from "../assets/Bannermob.jpg";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";

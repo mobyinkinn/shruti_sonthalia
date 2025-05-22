@@ -66,7 +66,7 @@
 
 import Image from "next/image";
 import mask3 from "../assets/Mask3.png";
-import mobmask3 from "../assets/getmob.png";
+import mobmask3 from "../assets/getmob.jpg";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
