@@ -3,6 +3,8 @@ import Hero from "./parts/Hero";
 import Cards from "./parts/Cards";
 import Contact_us from "../about/parts/Contact_us";
 import git from "./assets/1.png";
+import mobget from "./assets/mobget.jpg";
+
 import Carausal from "./parts/Carausel";
 import NewsCard from "./parts/PatientCard";
 
@@ -11,15 +13,17 @@ const CaseStudies = () => {
     <div>
       <Hero />
       <Cards />
-      <Carausal/>
-      <NewsCard/>
+      <Carausal />
+      <NewsCard />
       <div className="md:px-6">
         <Contact_us
           heading="We are the answer you’ve been looking for"
           line1="Reach out to us at support@ruhco.org to learn more"
           line2=""
           button_Name="Get In Touch"
-            bg_image={git}
+          bg_image={git}
+          mob_bg_image={mobget}
+          
         />
       </div>
     </div>

@@ -195,7 +195,7 @@ const Hero = () => {
           }}
           onClick={() =>
             router.push(
-              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+              "https://calendly.com/shrutisonthalia"
             )
           }
           onMouseEnter={() => {

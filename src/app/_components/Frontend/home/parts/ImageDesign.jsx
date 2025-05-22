@@ -143,20 +143,13 @@ const HoverEffectText = () => {
         </p>
       </div>
       <div
-        className="relative w-[100%] h-[631px] bg-cover bg-right flex justify-end items-start  pt-6"
+        className="relative w-[100%] h-[631px] bg-cover bg-right md:flex hidden justify-end items-start  pt-6"
         style={{ backgroundImage: `url('/tempBanner.png')` }}
-      >
-        {/* <div className="bg-white bg-opacity-50 p-6 rounded-[20px] w-[38%] text-end leading-14">
-          {textItems.map((item, index) => (
-            <p
-              key={index}
-              className="text-black text-[1.5rem] font-semibold transition-colors duration-300 cursor-pointer hover:text-[#D24324]"
-            >
-              {item}
-            </p>
-          ))}
-        </div> */}
-      </div>
+      ></div>
+      <div
+        className="relative w-[100%] h-[631px] bg-cover bg-right md:hidden flex justify-end items-start  pt-6"
+        style={{ backgroundImage: `url('/intro.jpg')` }}
+      ></div>
       <p className="absolute w-[89%] pb-4 text-white text-lg md:text-xl max-w-4xl bottom-0 text-center">
         Shruti Sonthalia, a highly accomplished Master Certified Coach
         recognized by the International Coaching Federation (ICF), conveys a

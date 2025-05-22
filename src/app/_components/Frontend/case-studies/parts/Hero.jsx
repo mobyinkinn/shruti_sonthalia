@@ -38,7 +38,7 @@
 //             }}
 //             onClick={() =>
 //               router.push(
-//                 "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+//                 "https://calendly.com/shrutisonthalia"
 //               )
 //             }
 //             onMouseEnter={() => {
@@ -65,6 +65,9 @@
 
 import Image from "next/image";
 import blog from "../assets/blog.jpg";
+
+import mobBanner from "../assets/Bannermob.jpg";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -83,7 +86,15 @@ const Hero = () => {
         alt="Transformational Leadership"
         layout="fill"
         objectFit="cover"
-        className="z-0"
+        className="z-0 md:block hidden"
+        priority
+      />
+      <Image
+        src={mobBanner}
+        alt="Transformational Leadership"
+        layout="fill"
+        objectFit="cover"
+        className="z-0 md:hidden block"
         priority
       />
 
@@ -100,11 +111,7 @@ const Hero = () => {
               outline: "none",
               border: "none",
             }}
-            onClick={() =>
-              router.push(
-                "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
-              )
-            }
+            onClick={() => router.push("https://calendly.com/shrutisonthalia")}
             onMouseEnter={() => {
               setIsHovered(true);
             }}

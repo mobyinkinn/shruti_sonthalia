@@ -49,7 +49,7 @@
 //           }}
 //           onClick={() =>
 //             router.push(
-//               "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+//               "https://calendly.com/shrutisonthalia"
 //             )
 //           }
 //           onMouseEnter={() => {
@@ -115,7 +115,7 @@ const Hero = () => {
           className="mt-6 bg-[#151583] text-white font-bold py-2 px-6 rounded-full"
           onClick={() =>
             router.push(
-              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+              "https://calendly.com/shrutisonthalia"
             )
           }
           onMouseEnter={() => setIsHovered(true)}

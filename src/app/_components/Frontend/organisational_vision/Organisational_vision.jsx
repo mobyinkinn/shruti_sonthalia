@@ -10,6 +10,7 @@ import WhyWeStandApart from "./parts/Stand.jsx";
 import HowWillThisHelp from "./parts/Willhelp.jsx";
 import CaseStudy from "./parts/CaseStudy.jsx";
 import cont from "./assets/cont.jpg";
+import contmob from "./assets/getin.jpg";
 import org from "./assets/org.png";
 import OrgView from "./parts/OrgView.jsx";
 
@@ -25,9 +26,7 @@ const Oraganisational_vision = () => {
         <Benifit />
         <WhyWeStandApart />
         <ExecutiveCoaching />
-        <OrgView
-          bg_image={org}
-        />
+        <OrgView bg_image={org} />
         <HowWillThisHelp />
         {/* <CaseStudy /> */}
 
@@ -36,6 +35,7 @@ const Oraganisational_vision = () => {
           line1="Don’t let misalignment hold your organization back. Join top-performing companies turning vision into action—and driving real results."
           button_Name="Get In Touch"
           bg_image={cont}
+          mob_bg_image={contmob}
         />
       </div>
     </>

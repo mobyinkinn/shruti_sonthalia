@@ -1,25 +1,25 @@
-// import Organsiational_culture from "@/app/_components/Frontend/organisational_culture/Organsiational_culture";
+// import Publications from "../_components/Frontend/publications/Publications.jsx";
 
-import Organsiational_culture from "@/app/_components/Frontend/organisational_culture/Organsiational_culture";
-
-// export default function organsiational_culture() {
+// export default function publications() {
 //   return (
 //     <h2 className="w-full h-full bg-white text-[#282927] ">
-//       <Organsiational_culture />
+//       <Publications />
 //     </h2>
 //   );
 // }
 
 
 
+
+import Publications from "../_components/Frontend/publications/Publications.jsx";
+
 export const dynamic = "force-dynamic";
 
 export async function generateMetadata() {
   return {
-    title:
-      "RuhCo Services | Executive Coaching, Culture, Change & Vision Alignment",
+    title: " Publications | Leadership Research & Strategy Insights by Shruti",
     description:
-      " From executive coaching to coaching skills, vision alignment to change leadership—RuhCo builds bold, values-led leaders and cultures that scale with integrity.",
+      "Access powerful insights and research by Shruti Sonthalia on leadership, systems change, business agility, and coaching for real-world, inclusive impact.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
   };
@@ -28,7 +28,7 @@ export async function generateMetadata() {
 export default async function Homepage() {
   return (
     <>
-      <Organsiational_culture />
+      <Publications />
     </>
   );
 }

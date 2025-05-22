@@ -8,6 +8,8 @@ import Hero from "./parts/Hero.jsx";
 import LeadershipProwess from "./parts/BannerwithImage.jsx";
 import Testimonials from "./parts/Testimonials.jsx";
 import bgimage from "../services/assets/2.jpg"
+import bgimagemob from "../services/assets/mob.jpg";
+
 const Services = () => {
   return (
     <>
@@ -24,6 +26,7 @@ const Services = () => {
           line1="Join the growing community of leaders investing in their leadership journey."
           line2="Get in touch today to explore coaching can drive measurable impact or you and your organization."
           bg_image={bgimage}
+          mob_bg_image={bgimagemob}
         />
       </div>
     </>

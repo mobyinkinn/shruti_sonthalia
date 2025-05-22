@@ -3,6 +3,7 @@ import Hero from "./parts/Hero.jsx";
 import Publication from "./parts/Publication.jsx";
 import Contact_us from "../about/parts/Contact_us";
 import git from "./assets/git.png";
+import contmob from "./assets/hero/mobilepib.jpg";
 import RotatingImage from "@/app/utils/Rotating.jsx";
 
 const Publications = () => {
@@ -23,6 +24,7 @@ const Publications = () => {
           line2="Sign up for Our Change Management Programs Now"
           button_Name="Get In Touch"
           bg_image={git}
+          mob_bg_image={contmob}
         />
         {/* <RotatingImage /> */}
       </div>

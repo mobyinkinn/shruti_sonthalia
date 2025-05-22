@@ -8,6 +8,8 @@ import ExecutiveCoaching from './parts/Executive';
 import Sliders from './parts/Slider';
 import Contact_us from '../about/parts/Contact_us';
 import cont from "./assets/1.jpg"
+import mob from "./assets/getmob.jpg"
+
 const Change = () => {
   return (
     <>
@@ -25,6 +27,7 @@ const Change = () => {
           line2="Discover how our Change Management Workshop helps you lead with clarity and confidence."
           button_Name="Get In Touch"
           bg_image={cont}
+          mob_bg_image={mob}
         />
       </div>
     </>

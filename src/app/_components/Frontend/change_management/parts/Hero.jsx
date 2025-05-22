@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 import mask3 from "../assets/1.png";
+import bannermob from "../assets/Bannermob.png";
+
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 const Hero = () => {
@@ -17,10 +19,17 @@ const Hero = () => {
         alt="Transformational Leadership"
         layout="fill"
         objectFit="cover"
-        className="z-0"
+        className="z-0 md:block hidden"
         priority
       />
-
+      <Image
+        src={bannermob}
+        alt="Transformational Leadership"
+        layout="fill"
+        objectFit="cover"
+        className="z-0 md:hidden block"
+        priority
+      />
       <div className="absolute inset-0 bg-black opacity-10 z-10"></div>
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
@@ -42,11 +51,7 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() =>
-            router.push(
-              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
-            )
-          }
+          onClick={() => router.push("https://calendly.com/shrutisonthalia")}
           onMouseEnter={() => {
             setIsHovered(true);
           }}

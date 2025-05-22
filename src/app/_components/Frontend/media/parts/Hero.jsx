@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import press from "../assets/press.png";
+import mobpress from "../assets/mobpress.jpg";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Header from "@/app/_components/Header";
@@ -18,7 +19,15 @@ const Hero = () => {
         alt="Transformational Leadership"
         layout="fill"
         objectFit="cover"
-        className="z-0"
+        className="z-0 md:block hidden"
+        priority
+      />
+      <Image
+        src={mobpress}
+        alt="Transformational Leadership"
+        layout="fill"
+        objectFit="cover"
+        className="z-0 md:hidden block"
         priority
       />
 
@@ -44,11 +53,7 @@ const Hero = () => {
               outline: "none",
               border: "none",
             }}
-            onClick={() =>
-              router.push(
-                "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
-              )
-            }
+            onClick={() => router.push("https://calendly.com/shrutisonthalia")}
             onMouseEnter={() => {
               setIsHovered(true);
             }}

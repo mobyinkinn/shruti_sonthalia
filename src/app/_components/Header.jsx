@@ -34,7 +34,7 @@
 //       },
 //     ],
 //   },
-//   { id: 4, name: "Publications", link: "/publication-and-media" },
+//   { id: 4, name: "publicationss", link: "/publications" },
 //   {
 //     id: 5,
 //     name: "Community First",
@@ -143,7 +143,7 @@ const navLinks = [
       },
     ],
   },
-  { id: 4, name: "Publications", link: "/publication-and-media" },
+  { id: 4, name: "publicationss", link: "/publications" },
   { id: 5, name: "Community First", link: "/community-first" },
   { id: 6, name: "Case Studies", link: "/Case-studies" },
   { id: 7, name: "Media", link: "/media-and-events" },

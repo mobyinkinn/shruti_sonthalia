@@ -47,7 +47,7 @@
 //             }}
 //             onClick={() =>
 //               router.push(
-//                 "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+//                 "https://calendly.com/shrutisonthalia"
 //               )
 //             }
 //             onMouseEnter={() => {
@@ -118,7 +118,7 @@ const Hero = () => {
             }}
             onClick={() =>
               router.push(
-                "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+                "https://calendly.com/shrutisonthalia"
               )
             }
             onMouseEnter={() => {
@@ -150,7 +150,7 @@ const Hero = () => {
           className="bg-[#151583] px-6 py-3 rounded-full text-white font-medium hover:bg-white hover:text-black transition cursor-pointer"
           onClick={() =>
             router.push(
-              "https://calendly.com/shrutisonthalia/new-meeting?month=2025-05"
+              "https://calendly.com/shrutisonthalia"
             )
           }
           onMouseEnter={() => setIsHovered(true)}

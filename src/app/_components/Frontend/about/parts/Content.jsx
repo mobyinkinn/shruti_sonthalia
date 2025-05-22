@@ -22,7 +22,7 @@ import React from "react";
 
 const Content = () => {
   return (
-    <div className="flex flex-col md:flex-row items-center px-4 md:px-8 py-8">
+    <div className="flex flex-col md:flex-row items-center px-0 md:px-8 py-8">
       <p className="text-[#E53935] text-[2rem] font-bold w-full md:w-[32%] text-center md:text-left mb-4 md:mb-0">
         Unlocking Potential, Delivering Results
       </p>

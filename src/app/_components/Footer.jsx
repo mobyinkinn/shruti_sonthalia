@@ -51,14 +51,14 @@
 // const quickLinks = [
 //   { id: 1, name: "About Us", link: "/about_me" },
 //   { id: 2, name: "Case Studies", link: "/Case-studies" },
-//   { id: 3, name: "Media", link: "/publication-and-media" },
+//   { id: 3, name: "Media", link: "/publication" },
 //   { id: 4, name: "Publications", link: "/media-and-events" },
 //   { id: 5, name: "Contact Us", link: "/contact-us" },
 // ];
 
 // export default function Footer() {
 //   const pathname = usePathname();
-//   const isPinkBackground = pathname === "/publication-and-media";
+//   const isPinkBackground = pathname === "/publication";
 
 //   return (
 //     <div
@@ -142,23 +142,23 @@ import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa6";
 import { RiFacebookFill } from "react-icons/ri";
 
 const socialMediaLinks = [
+  // {
+  //   id: 1,
+  //   icon: <FaInstagram color="white" size={"25px"} />,
+  //   link: "https://www.instagram.com/",
+  // },
+  // {
+  //   id: 2,
+  //   icon: <RiFacebookFill color="white" size={"25px"} />,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: 1,
-    icon: <FaInstagram color="white" size={"25px"} />,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: 2,
-    icon: <RiFacebookFill color="white" size={"25px"} />,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: 3,
     icon: <FaLinkedinIn color="white" size={"25px"} />,
     link: "https://www.linkedin.com/in/shruti-sonthalia/",
   },
   {
-    id: 4,
+    id: 2,
     icon: <FaYoutube color="white" size={"25px"} />,
     link: "https://www.youtube.com/@RuhcoSupport",
   },
@@ -188,14 +188,14 @@ const services = [
 const quickLinks = [
   { id: 1, name: "About Us", link: "/about_me" },
   { id: 2, name: "Case Studies", link: "/Case-studies" },
-  { id: 3, name: "Media", link: "/publication-and-media" },
-  { id: 4, name: "Publications", link: "/media-and-events" },
+  { id: 3, name: "Media", link: "/media-and-events" },
+  { id: 4, name: "Publications", link: "/publication" },
   { id: 5, name: "Contact Us", link: "/contact-us" },
 ];
 
 export default function Footer() {
   const pathname = usePathname();
-  const isPinkBackground = pathname === "/publication-and-media";
+  const isPinkBackground = pathname === "/publication";
 
   return (
     <div

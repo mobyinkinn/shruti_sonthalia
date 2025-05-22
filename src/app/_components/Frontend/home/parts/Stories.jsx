@@ -26,7 +26,7 @@
 //         img: three,
 //         title: "Beyond the Sessions",
 //         desc: "Webinars, podcasts, and press moments that deepen the story",
-//         link:"/publication-and-media"
+//         link:"/publication"
 //       },
 //     ];
 //   return (
@@ -130,7 +130,7 @@ const ResearchCard = () => {
       img: three,
       title: "Beyond the Sessions",
       desc: "Webinars, podcasts, and press moments that deepen the story",
-      link: "/publication-and-media",
+      link: "/publication",
     },
   ];
 
