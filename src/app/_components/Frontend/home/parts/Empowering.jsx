@@ -29,20 +29,32 @@ const router = useRouter();
     {
       title: "Organisations",
       content: `We’re here to help — let’s explore the right solution for you.`,
+      content2: `Are you grappling with digital transformation, adaptability, maintaining relevance, defining your identity and direction in the current global scenario, or achieving cultural alignment? Are shifting customer expectations and market demands outpacing your adaptability, slowing decision-making, and creating inefficiencies?
+`,
       image: empowering1, // Replace with actual image path
       button: "Start Your Journey",
+      link: "/services/organisational_vision",
     },
     {
       title: "Business Leaders",
       content: `Let’s turn these challenges into opportunities`,
+      content2: `Are you a senior executive, a promoter director of an intergenerational family
+business, or a startup founder dealing with high-stakes decisions, organizational
+transformation, or complex stakeholder dynamics? Is balancing vision with daily operations overwhelming you? Does navigating uncertainty feel isolating?`,
       image: empowering2, // Replace with actual image path
       button: "Talk to us Today",
+      link: "/services/executive_coaching",
     },
     {
       title: "Coaches",
       content: `Let’s co-create your path forward`,
+      content2: `Great coaching starts with great presence.
+We support coaches growing their practice, deepening their impact, and navigating client complexity with confidence.
+Through supervision, reflective practice, and ethical grounding, we help you lead with clarity—and sustain your growth.
+Less noise. More alignment. Real momentum.`,
       image: empowering3, // Replace with actual image path
       button: "Get in Touch",
+      link: "/services/coaching_supervision",
     },
   ];
 
@@ -91,12 +103,14 @@ const router = useRouter();
         <p className="text-black text-lg font-bold text-center max-w-5xl mx-auto leading-relaxed mb-6">
           {sections[selectedOption].content}
         </p>
-
+        <p className="text-black text-md text-center max-w-5xl mx-auto leading-relaxed mb-6">
+          {sections[selectedOption].content2}
+        </p>
         {/* CTA Button */}
         <div className="flex justify-center">
           <button
             className="flex items-center gap-2 px-6 py-2 bg-[#151583] text-white rounded-full hover:bg-white hover:text-black border  transition cursor-pointer"
-            onClick={() => router.push("/contact-us")}
+            onClick={() => router.push(`${sections[selectedOption].link}`)}
           >
             {sections[selectedOption].button}
           </button>

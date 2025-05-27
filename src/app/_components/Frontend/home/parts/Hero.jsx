@@ -92,16 +92,56 @@ import Image from "next/image";
 
 // Corrected image paths
 const bannerImages = [
-  { src: "/new/1.jpg", alt: "First Image" },
-  { src: "/new/2.jpg", alt: "Second Image" },
-  { src: "/new/3.jpg", alt: "Third Image" },
-  { src: "/new/4.jpg", alt: "Fourth Image" },
+  {
+    src: "/new/1.jpg",
+    alt: "First Image",
+    title: "Organizational Change",
+    des: "We work with market leaders to stay relevant and retain their position in a constantly changing and unpredictable market by empowering their leadership teams to develop agility and resilience with our bespoke programs.",
+  },
+  {
+    src: "/new/2.jpg",
+    alt: "Second Image",
+    title: "Organizational Vision and Culture",
+    des: "We work with organizations striving to keep pace with their explosive growth. We help bring stability and structure through turbulent times with our bespoke programs.",
+  },
+  {
+    src: "/new/3.jpg",
+    alt: "Third Image",
+    title: "Executive Coaching",
+    des: "We create safe spaces for C-suite leaders to be strategic, agile, and relevant, and to lead organizations in a constantly changing global marketplace.",
+  },
+  {
+    src: "/new/4.jpg",
+    alt: "Fourth Image",
+    title: "Coaching Skills",
+    des: "We help leaders deepen their conversational intelligence to engage a constantly changing workforce, provide clear and impactful feedback, and support their teams to be agile and resourceful in unprecedented times.",
+  },
 ];
 const mobileImages = [
-  { src: "/new/11.jpg", alt: "First Image" },
-  { src: "/new/22.jpg", alt: "Second Image" },
-  { src: "/new/33.jpg", alt: "Third Image" },
-  { src: "/new/44.jpg", alt: "Fourth Image" },
+  {
+    src: "/new/11.jpg",
+    alt: "First Image",
+    title: "Organizational Change",
+    des: "We work with market leaders to stay relevant and retain their position in a constantly changing and unpredictable market by empowering their leadership teams to develop agility and resilience with our bespoke programs.",
+  },
+  {
+    src: "/new/22.jpg",
+    alt: "Second Image",
+    title: "Organizational Vision and Culture",
+    des: "We work with organizations striving to keep pace with their explosive growth. We help bring stability and structure through turbulent times with our bespoke programs.",
+  },
+  {
+    src: "/new/33.jpg",
+    alt: "Third Image",
+    title: "Executive Coaching",
+    des: "We create safe spaces for C-suite leaders to be strategic, agile, and relevant, and to lead organizations in a constantly changing global marketplace.",
+  },
+  {
+    src: "/new/44.jpg",
+    alt: "Fourth Image",
+    title: "Coaching Skills",
+    des: "We help leaders deepen their conversational intelligence to engage a constantly changing workforce, provide clear and impactful feedback, and support their teams to be agile and resourceful in unprecedented times.",
+  },
 ];
 
 const normalStyle = {
@@ -149,15 +189,14 @@ const Hero = () => {
                   objectFit="cover"
                   className="absolute inset-0"
                 />
+                <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
                 {/* Black Overlay */}
-                <div className="absolute inset-0 justify-end flex flex-col w-full pb-20 items-center text-white text-center space-y-4">
+                <div className="absolute z-20 inset-0 justify-end flex flex-col w-full pb-20 items-center text-white text-center space-y-4">
                   <div className="text-2xl md:text-4xl font-bold px-4">
-                    Build a culture that’s felt—not just framed
+                    {img.title}
                   </div>
                   <div className="text-sm md:text-lg max-w-4xl mb-6 px-4">
-                    Bespoke leadership and organizational solutions built for a
-                    world that is continuously evolving. Turn uncertainty into
-                    your strategic advantage.
+                    {img.des}
                   </div>
                 </div>
               </div>
@@ -178,15 +217,14 @@ const Hero = () => {
                   objectFit="cover"
                   className="absolute inset-0"
                 />
+                <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
                 {/* Black Overlay */}
-                <div className="absolute inset-0 justify-end flex flex-col w-full pb-20 items-center text-white text-center space-y-4">
+                <div className="absolute z-20 inset-0 justify-end flex flex-col w-full pb-20 items-center text-white text-center space-y-4">
                   <div className="text-2xl md:text-4xl font-bold px-4">
-                    Build a culture that’s felt—not just framed
+                    {img.title}
                   </div>
                   <div className="text-sm md:text-lg max-w-4xl mb-6 px-4">
-                    Bespoke leadership and organizational solutions built for a
-                    world that is continuously evolving. Turn uncertainty into
-                    your strategic advantage.
+                    {img.des}
                   </div>
                 </div>
               </div>

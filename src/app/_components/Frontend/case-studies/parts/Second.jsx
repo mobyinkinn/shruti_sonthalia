@@ -2,6 +2,8 @@ import React from 'react'
 import HeroCopy from './HeroCopy'
 import One from './One'
 import hero_banner from "../assets/2.jpg";
+import i14 from "../assets/i14.jpg";
+
 const Second = () => {
   const data = `<section>
   <h2>Scaling with Structure – A Leading Ethnic Wear Brand’s Growth Journey</h2>
@@ -45,7 +47,7 @@ const Second = () => {
 `;
   return (
    <>
-   <HeroCopy image={hero_banner}/>
+   <HeroCopy image={hero_banner} mobile={i14} />
    <One data={data}/>
    </>
   )

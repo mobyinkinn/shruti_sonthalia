@@ -189,6 +189,7 @@ const quickLinks = [
   { id: 1, name: "About Us", link: "/about_me" },
   { id: 2, name: "Case Studies", link: "/Case-studies" },
   { id: 3, name: "Media", link: "/media-and-events" },
+  { id: 6, name: "Community First", link: "/community-first" },
   { id: 4, name: "Publications", link: "/publication" },
   { id: 5, name: "Contact Us", link: "/contact-us" },
 ];

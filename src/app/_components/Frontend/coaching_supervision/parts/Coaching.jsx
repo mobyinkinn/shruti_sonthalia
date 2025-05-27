@@ -52,38 +52,37 @@ import React from "react";
 
 const coachingData = [
   {
-    heading: "Support and Resilience",
-    item: "70% of Indian organisations require leaders to adapt to new technologies (McKinsey). Leaders that have cultivated coaching skills embrace innovation and ambiguity, they adapt to new methods of working in today’s rapidly changing work environments.",
+    heading: "Enhanced self-awareness",
+    item: "Identify biases, blind spots, and personal influences on your coaching approach.",
   },
   {
-    heading: "Enhanced Self-Awareness",
-    item: "65% of Indian leaders lack critical skills such as emotional intelligence and strategic thinking. Coaching skills enable leaders to develop open communication and foster better team culture which ultimately leads to better results for the organisation.",
+    heading: "Ethical guidance",
+    item: "Navigate complex client situations with professional integrity.",
   },
   {
-    heading: "Enhanced Self-Awareness",
-    item: "60% of all Indian leaders suffer from stress and burnout (The Economic Times, 2023). Coaching skills help leaders delegate tasks better, create a culture of trust at work and increase employee engagement.",
+    heading: "Expanded skill set",
+    item: "Explore alternative coaching interventions and approaches.",
   },
   {
-    heading: "Expanded Skill Set",
-    item: "40% of senior leaders in Indian organisations quit due to a lack of leadership development (KPMG, 2022). Coach skills address the need for active career development of senior leaders.",
+    heading: "Support and resilience",
+    item: "Manage emotional demands and maintain your well-being.",
   },
 ];
 
 const Coaching = () => {
   return (
-    <div className="flex flex-col mt-12 items-center px-4 sm:px-6">
+    <div className="flex flex-col md:mt-12 mt-0 items-center px-4 sm:px-6">
       {/* Header Section */}
       <div className="text-center max-w-4xl">
         <span className="text-xl sm:text-2xl md:text-3xl font-normal text-[#E53935] underline-offset-4 capitalize">
-          Why Coaching Skills Matter?
+          Why Coaching Supervision Matters ?
         </span>
 
         <p className="text-gray-800 text-sm sm:text-base md:text-lg mt-6 leading-relaxed">
-          Studies have proved that cultivating coaching skills shift the
-          leaders’ comprehension of power and leadership. Additionally,
-          coach-trained leaders avoid instructing or solving problems and start
-          facilitating their teams to achieve their goals. They also perceive
-          their employees as independent and whole.
+          Coaching is an enriching yet demanding profession. Without a
+          reflective space to discuss complex client interactions, ethical
+          dilemmas, and personal challenges, coaches risk burnout and
+          stagnation. Supervision provides:
         </p>
       </div>
 
@@ -100,7 +99,7 @@ const Coaching = () => {
           return (
             <div
               key={index}
-              className="bg-white border border-[lightgrey] rounded-[20px] p-5 sm:p-6 w-full sm:w-[450px] min-h-[8rem] text-center hover:bg-[#E53935] hover:text-white transition-colors"
+              className="bg-white border border-[lightgrey] rounded-[20px] p-5 sm:p-6 w-full sm:w-[450px] text-center hover:bg-[#E53935] hover:text-white transition-colors"
               dangerouslySetInnerHTML={{ __html: updatedItem }}
             />
           );

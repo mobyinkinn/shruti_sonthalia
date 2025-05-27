@@ -2,6 +2,7 @@ import React from 'react'
 import HeroCopy from './HeroCopy'
 import One from './One'
 import hero_banner from "../assets/5.jpg";
+import i20 from "../assets/i20.jpeg";
 
 const Eight = () => {
   const data = `<section>
@@ -46,7 +47,7 @@ const Eight = () => {
 `;
   return (
     <>
-      <HeroCopy image={hero_banner} />
+      <HeroCopy image={hero_banner} mobile={i20}/>
       <One data={data} />
     </>
   );

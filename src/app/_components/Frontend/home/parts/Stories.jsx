@@ -105,6 +105,7 @@ const sliderSettings = {
   dots: true,
   infinite: true,
   speed: 500,
+  autoplay:true,
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -124,13 +125,13 @@ const ResearchCard = () => {
       img: two,
       title: "Explore Our Research & Insights",
       desc: "Thought leadership that inspires reflection, action, and change",
-      link: "/media-and-events",
+      link: "/publications",
     },
     {
       img: three,
       title: "Beyond the Sessions",
       desc: "Webinars, podcasts, and press moments that deepen the story",
-      link: "/publication",
+      link: "/media-and-events",
     },
   ];
 

@@ -2,7 +2,7 @@ import React from 'react'
 import HeroCopy from './HeroCopy';
 import One from './One';
 import hero_banner from "../assets/10.jpg";
-
+import i24 from "../assets/i24.jpg";
 const Twelve = () => {
     const data = `<section>
   <h2>From Burnout to Vitality</h2>
@@ -34,7 +34,7 @@ const Twelve = () => {
 `;
   return (
     <>
-      <HeroCopy image={hero_banner} />
+      <HeroCopy image={hero_banner} mobile={i24}/>
       <One data={data} />
     </>
   );

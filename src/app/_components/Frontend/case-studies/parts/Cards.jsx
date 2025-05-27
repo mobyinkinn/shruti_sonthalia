@@ -216,6 +216,7 @@ import i9 from "../assets/i9.png";
 import i10 from "../assets/i10.png";
 import i11 from "../assets/i11.png";
 import i12 from "../assets/i12.png";
+
 import { useRouter } from "next/navigation";
 
 const Cards = () => {
@@ -315,6 +316,7 @@ const Cards = () => {
                   className="rounded-t-2xl"
                 />
               </div>
+              
               <div className="bg-white px-4 py-5">
                 <p className="text-gray-900 font-medium text-base mb-4">
                   {d.title}

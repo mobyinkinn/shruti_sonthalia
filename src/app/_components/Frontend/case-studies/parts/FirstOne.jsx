@@ -2,6 +2,7 @@ import React from 'react'
 import HeroCopy from './HeroCopy'
 import One from './One'
 import hero_banner from "../assets/1.jpg";
+import i13 from "../assets/i13.jpg";
 const FirstOne = () => {
   const data = `<section>
         <h2>How a Virtual Coaching Initiative Transformed Leadership</h2>
@@ -159,7 +160,7 @@ const FirstOne = () => {
       </section>`;
   return (
     <>
-      <HeroCopy image={hero_banner} />
+      <HeroCopy image={hero_banner} mobile={i13} />
       <One data={data} />
     </>
   );

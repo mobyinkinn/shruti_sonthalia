@@ -116,7 +116,7 @@ const navLinks = [
   { id: 2, name: "About Us", link: "/about_me" },
   {
     id: 3,
-    name: "Services",
+    name: "Solutions",
     link: "#",
     dropdown: [
       {
@@ -143,8 +143,8 @@ const navLinks = [
       },
     ],
   },
-  { id: 4, name: "publicationss", link: "/publications" },
-  { id: 5, name: "Community First", link: "/community-first" },
+  { id: 4, name: "Publications", link: "/publications" },
+  // { id: 5, name: "Community First", link: "/community-first" },
   { id: 6, name: "Case Studies", link: "/Case-studies" },
   { id: 7, name: "Media", link: "/media-and-events" },
   { id: 8, name: "Contact us", link: "/contact-us" },
