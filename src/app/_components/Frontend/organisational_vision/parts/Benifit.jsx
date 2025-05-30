@@ -1,13 +1,13 @@
 import Image from "next/image";
-import benifit1 from "../assets/benifits/1.jpg";
-import benifit2 from "../assets/benifits/2.jpg";
+import benifit1 from "../assets/benifits/11.jpg";
+import benifit2 from "../assets/benifits/22.jpg";
 export default function Benifit() {
   return (
     <section className="flex flex-col gap-[75px] lg:flex-row items-center justify-between mt-12">
       {/* Right Image Section */}
-      <div className="w-[40%] flex items-center justify-center mt-10 lg:mt-0 relative">
+      <div className="md:w-[40%] flex items-center justify-center mt-5 lg:mt-0 relative">
         <div className="relative w-full max-w-lg">
-          <div className="absolute bg-[#151583] opacity-40 rounded-full w-60 h-60 bottom-8 right-30 z-111 animate-pulse"></div>
+          <div className="absolute bg-[#151583] opacity-40 rounded-full w-45 h-45 bottom-8 right-20 z-111 animate-pulse"></div>
 
           <div className="relative z-10 flex space-x-4">
             <div className="w-1/2 float-animation">
