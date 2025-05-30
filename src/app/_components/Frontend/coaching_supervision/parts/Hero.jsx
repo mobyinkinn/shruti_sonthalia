@@ -178,7 +178,7 @@ const Hero = () => {
             Coaching Supervision for Aspiring Coaches
           </h1>
           <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl mb-6">
-            Enhance your coaching skills with expert guidance, constructive
+            Enhance your coaching supervision with expert guidance, constructive
             feedback, and practical insights. Build confidence, refine your
             approach, and elevate your coaching impact.
           </p>
@@ -215,7 +215,7 @@ const Hero = () => {
         <div className="absolute inset-0">
           <video
             ref={videoRef}
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover"
             autoPlay
             loop
             muted

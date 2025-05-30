@@ -12,6 +12,8 @@ import CaseStudy from "./parts/CaseStudy.jsx";
 import cont from "./assets/cont.jpg";
 import contmob from "./assets/getin.jpg";
 import org from "./assets/org.png";
+import mobileorg from "./assets/mobileorg.jpg";
+
 import OrgView from "./parts/OrgView.jsx";
 
 
@@ -26,7 +28,7 @@ const Oraganisational_vision = () => {
         <Benifit />
         <WhyWeStandApart />
         <ExecutiveCoaching />
-        <OrgView bg_image={org} />
+        <OrgView bg_image={org} mobile_bg={mobileorg} />
         <HowWillThisHelp />
         {/* <CaseStudy /> */}
 

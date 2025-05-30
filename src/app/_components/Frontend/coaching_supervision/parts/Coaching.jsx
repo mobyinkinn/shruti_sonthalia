@@ -107,7 +107,7 @@ const Coaching = () => {
       </div>
 
       {/* Highlight Block */}
-      <div className="bg-[#E53935] text-white flex mt-10 rounded-[20px] p-5 sm:p-6 w-full sm:w-[90%]">
+      {/* <div className="bg-[#E53935] text-white flex mt-10 rounded-[20px] p-5 sm:p-6 w-full sm:w-[90%]">
         <p className="text-sm sm:text-base md:text-lg leading-relaxed text-white">
           Our 2-day coach skills program transforms the leadership styles of
           organisations. It helps them in fostering a coaching mindset. It also
@@ -117,13 +117,13 @@ const Coaching = () => {
           on technique alone, our method rewires leadership behaviors from the
           inside out.
         </p>
-      </div>
+      </div> */}
 
       {/* Closing Statement */}
-      <span className="text-xl sm:text-2xl md:text-3xl max-w-4xl mt-10 leading-snug tracking-wide font-medium text-center text-[#151583] px-2">
+      {/* <span className="text-xl sm:text-2xl md:text-3xl max-w-4xl mt-10 leading-snug tracking-wide font-medium text-center text-[#151583] px-2">
         We don’t just teach coaching skills, we help you embody a coaching
         mindset.
-      </span>
+      </span> */}
     </div>
   );
 };

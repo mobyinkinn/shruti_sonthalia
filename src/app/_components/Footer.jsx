@@ -190,7 +190,7 @@ const quickLinks = [
   { id: 2, name: "Case Studies", link: "/Case-studies" },
   { id: 3, name: "Media", link: "/media-and-events" },
   { id: 6, name: "Community First", link: "/community-first" },
-  { id: 4, name: "Publications", link: "/publication" },
+  { id: 4, name: "Publications", link: "/publications" },
   { id: 5, name: "Contact Us", link: "/contact-us" },
 ];
 
@@ -238,7 +238,7 @@ export default function Footer() {
 
       {/* Services Section */}
       <div className="flex flex-col pt-11 gap-4 w-full md:w-1/4">
-        <span className="font-bold text-[1.4rem] leading-6 mb-4">Services</span>
+        <span className="font-bold text-[1.4rem] leading-6 mb-4">Solutions</span>
         <ul className="flex flex-col space-y-4">
           {services.map((service) => (
             <li key={service.id} className="text-[1rem] leading-6 font-medium">

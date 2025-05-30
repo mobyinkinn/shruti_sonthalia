@@ -66,7 +66,7 @@
 
 import Image from "next/image";
 import mask3 from "../assets/Mask3.png";
-import mobmask3 from "../assets/getmob.jpg";
+import mobmask3 from "../assets/bannerMob.jpg";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -77,6 +77,7 @@ const Hero = () => {
     transform: `translateY(${isHovered ? "-100%" : "0"})`,
   });
   return (
+    <>
     <div className="relative w-full h-[700px]">
       <Image
         src={mask3}
@@ -132,6 +133,8 @@ const Hero = () => {
         </button>
       </div>
     </div>
+    
+    </>
   );
 };
 

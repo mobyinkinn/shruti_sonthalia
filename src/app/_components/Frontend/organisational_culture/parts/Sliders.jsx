@@ -256,7 +256,7 @@ const Sliders = () => {
                   </h2>
                   <p>{card.description}</p>
                 </div>
-                <div className="w-full h-[180px]">
+                <div className="w-full">
                   <Image
                     src={card.img}
                     alt="Workshop Image"

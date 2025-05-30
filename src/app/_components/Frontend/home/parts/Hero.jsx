@@ -167,7 +167,7 @@ const Hero = () => {
     dots: false,
     infinite: true,
     speed: 1500,
-    autoplaySpeed: 1500,
+    autoplaySpeed: 4000,
     autoplay: true,
     arrows: false,
     slidesToShow: 1,
