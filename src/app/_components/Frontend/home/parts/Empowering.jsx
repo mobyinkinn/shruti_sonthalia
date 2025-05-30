@@ -103,7 +103,7 @@ Less noise. More alignment. Real momentum.`,
         <p className="text-black text-lg font-bold text-center max-w-5xl mx-auto leading-relaxed mb-6">
           {sections[selectedOption].content}
         </p>
-        <p className="text-black text-md text-center max-w-5xl mx-auto leading-relaxed mb-6">
+        <p className="text-black text-md text-center mx-auto leading-relaxed text-sm md:text-lg max-w-4xl mb-6">
           {sections[selectedOption].content2}
         </p>
         {/* CTA Button */}
