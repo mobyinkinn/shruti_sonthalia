@@ -220,7 +220,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative w-full md:h-screen">
+      <div className="relative w-full md:h-screen md:block hidden">
         <div className="w-full relative">
           <video
             ref={videoRef}
@@ -267,11 +267,7 @@ const Hero = () => {
               outline: "none",
               border: "none",
             }}
-            onClick={() =>
-              router.push(
-                "https://calendly.com/shrutisonthalia"
-              )
-            }
+            onClick={() => router.push("https://calendly.com/shrutisonthalia")}
             onMouseEnter={() => {
               setIsHovered(true);
             }}
@@ -290,7 +286,29 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="flex md:hidden z-20  flex-col md:justify-end justify-center top-20 items-center text-center px-4 md:px-8 py-5">
+      {/* <div className="flex md:hidden z-20  flex-col md:justify-end justify-center top-20 items-center text-center px-4 md:px-8 py-5">
+        <div className="w-full relative">
+          <video
+            ref={videoRef}
+            width="100%"
+            height="100%"
+            autoPlay
+            loop
+            muted
+            playsInline
+            controls={false}
+            style={{ objectFit: "cover" }}
+          >
+            <source src="/Publications.mp4" type="video/mp4" />
+          </video>
+
+          <button
+            onClick={toggleMute}
+            className="absolute bottom-5 right-5 z-10 bg-black bg-opacity-50 p-2 rounded-full text-white"
+          >
+            {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
+          </button>
+        </div>
         <h1 className="text-white text-2xl md:text-4xl font-bold mb-4 tracking-wider uppercase">
           CURATED RESEARCH. PRACTICAL WISDOM. REAL IMPACT
         </h1>
@@ -312,11 +330,7 @@ const Hero = () => {
             outline: "none",
             border: "none",
           }}
-          onClick={() =>
-            router.push(
-              "https://calendly.com/shrutisonthalia"
-            )
-          }
+          onClick={() => router.push("https://calendly.com/shrutisonthalia")}
           onMouseEnter={() => {
             setIsHovered(true);
           }}
@@ -333,6 +347,68 @@ const Hero = () => {
             </span>
           </span>
         </button>
+      </div> */}
+      <div className="relative w-full h-[67vh] md:hidden block">
+        {/* Background Video */}
+        <div className="absolute inset-0">
+          <video
+            ref={videoRef}
+            className="w-full h-full object-cover"
+            autoPlay
+            loop
+            muted
+            playsInline
+            controls={false}
+          >
+            <source src="/PublicationsMobile.mp4" type="video/mp4" />
+          </video>
+
+          {/* Sound Toggle */}
+          <button
+            onClick={toggleMute}
+            className="absolute bottom-5 right-5 z-30 bg-black bg-opacity-50 p-2 rounded-full text-white"
+          >
+            {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
+          </button>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-20 flex flex-col justify-end items-center text-center px-4 sm:px-6 md:px-8 h-full md:pb-10 pb-3">
+          <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
+            CURATED RESEARCH. PRACTICAL WISDOM. REAL IMPACT
+          </h1>
+          <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl md:mb-6 mb-0">
+            Explore insightful research by Shruti Sonthalia, covering
+            leadership, business strategy, and market trends. These publications
+            offer practical wisdom to help professionals navigate and thrive in
+            today’s dynamic business world.
+          </p>
+          <button
+            style={{
+              marginTop: "20px",
+              color: "white",
+              backgroundColor: "#151583",
+              padding: "10px 25px",
+              borderRadius: "20px",
+              fontWeight: "bold",
+              cursor: "pointer",
+              outline: "none",
+              border: "none",
+            }}
+            onClick={() => router.push("https://calendly.com/shrutisonthalia")}
+            onMouseEnter={() => {
+              setIsHovered(true);
+            }}
+            onMouseLeave={() => {
+              setIsHovered(false);
+            }}
+          >
+            <span className="fancy-button-text-container">
+              <span style={getTrasformStyles(isHovered)}>Book a Session</span>
+              <span style={getTrasformStyles(isHovered)}>Book a Session</span>
+            </span>
+          </button>
+        </div>
       </div>
     </>
   );
